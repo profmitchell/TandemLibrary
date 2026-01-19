@@ -241,8 +241,8 @@ main {
 
 .card-grid {
   display: grid;
-  gap: 24px;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
 }
 
 .gallery-list {
@@ -254,14 +254,14 @@ main {
 .card {
   background: color-mix(in srgb, var(--surface-elevated) 85%, transparent);
   border: 1px solid var(--glass-border);
-  border-radius: 18px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   display: flex;
   flex-direction: column;
-  min-height: 280px;
+  min-height: 240px;
   animation: floatIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both;
   animation-delay: calc(var(--card-index, 0) * 0.06s);
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease, background 0.3s ease;
@@ -340,15 +340,15 @@ main {
 }
 
 .card__body {
-  padding: 22px 22px 18px;
+  padding: 16px 16px 12px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 10px;
   flex: 1;
 }
 
 .card__title {
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.3;
@@ -356,9 +356,9 @@ main {
 }
 
 .card__desc {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--text-secondary);
-  line-height: 1.5;
+  line-height: 1.4;
   flex: 1;
   font-weight: 400;
 }
@@ -371,11 +371,11 @@ main {
 
 .tag {
   display: inline-block;
-  padding: 6px 12px;
+  padding: 4px 10px;
   background: color-mix(in srgb, var(--accent) 15%, transparent);
   color: var(--accent);
   border-radius: 999px;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
   border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
   backdrop-filter: blur(8px);
@@ -383,9 +383,9 @@ main {
 }
 
 .card__footer {
-  padding: 0 22px 22px;
+  padding: 0 16px 16px;
   display: flex;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -394,10 +394,10 @@ main {
   align-items: center;
   justify-content: center;
   gap: 6px;
-  padding: 10px 18px;
+  padding: 8px 14px;
   border-radius: 999px;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease, background 0.3s ease;
   border: 1px solid transparent;
