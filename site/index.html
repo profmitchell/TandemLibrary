@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tandem Library</title>
+    <meta
+      name="description"
+      content="Curated Tandem themes and canvases with previews and one-click downloads."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true">
+      <div class="orb orb--one"></div>
+      <div class="orb orb--two"></div>
+      <div class="grid-glow"></div>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top">
+        <span class="brand__mark">TL</span>
+        <span>
+          <span class="brand__title">Tandem Library</span>
+          <span class="brand__sub">Curated themes + canvases</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#themes">Themes</a>
+        <a href="#configs">Configs</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__content">
+          <span class="eyebrow">Gallery</span>
+          <h1>Polished Tandem themes and canvases, ready to import.</h1>
+          <p class="lead">
+            Drop a file + preview into the repo and the gallery updates
+            automatically. No catalog files, no manual edits.
+          </p>
+          <div class="hero__actions">
+            <a class="button primary" href="#themes">Browse themes</a>
+            <a class="button ghost" href="#about">How it works</a>
+          </div>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <span class="stat__label">Themes</span>
+            <span class="stat__value" id="themes-count">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Configs</span>
+            <span class="stat__value" id="configs-count">0</span>
+          </div>
+          <div class="stat">
+            <span class="stat__label">Updated</span>
+            <span class="stat__value" id="last-updated">—</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="themes" class="section">
+        <div class="section__header">
+          <div>
+            <h2>Themes</h2>
+            <p>
+              Visual styles ready for Tandem. Tags are pulled from theme metadata
+              when available.
+            </p>
+          </div>
+        </div>
+        <div class="card-grid" id="themes-grid"></div>
+      </section>
+
+      <section id="configs" class="section">
+        <div class="section__header">
+          <div>
+            <h2>Canvases &amp; Configs</h2>
+            <p>Workspace layouts and configuration presets for workflows.</p>
+          </div>
+        </div>
+        <div class="card-grid" id="configs-grid"></div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section__header">
+          <div>
+            <h2>About the library</h2>
+            <p>
+              Curated only. Add files to the repo and GitHub Pages rebuilds the
+              gallery automatically.
+            </p>
+          </div>
+        </div>
+        <div class="about__grid">
+          <div class="about__card">
+            <h3>How items are discovered</h3>
+            <p>
+              The build script scans <code>/themes</code> and
+              <code>/configs</code>, pairs each file with a preview image
+              (matching slug), and reads optional metadata.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Metadata support</h3>
+            <p>
+              Themes can include <code>metadata.title</code>,
+              <code>metadata.description</code>, and
+              <code>metadata.tags</code>. Configs can include
+              <code>metadata.title</code> and
+              <code>metadata.description</code>.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Download + source</h3>
+            <p>
+              Download buttons use GitHub raw file URLs, and View Source links
+              point to the file in the repo.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made for Tandem. Curated library — submissions disabled for now.</p>
+    </footer>
+
+    <noscript>
+      <div class="status show">
+        Enable JavaScript to load the gallery cards.
+      </div>
+    </noscript>
+
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
