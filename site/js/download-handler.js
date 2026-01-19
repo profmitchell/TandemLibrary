@@ -8,7 +8,8 @@ export const createDownloadHandler = (url, filename) => {
         throw new Error(`Failed to fetch: ${response.status}`);
       }
 
-      const blob = await response.blob();
+      const buffer = await response.arrayBuffer();
+      const blob = new Blob([buffer], { type: "application/octet-stream" });
       const blobUrl = window.URL.createObjectURL(blob);
 
       const link = document.createElement("a");
