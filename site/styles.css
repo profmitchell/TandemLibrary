@@ -265,7 +265,8 @@ main {
   max-width: 620px;
 }
 
-.card-grid {
+.card-grid,
+.gallery-grid {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
