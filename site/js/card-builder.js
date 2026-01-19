@@ -1,4 +1,5 @@
 import { createGradient } from "./gradient-generator.js";
+import { createDownloadHandler } from "./download-handler.js";
 
 const createPlaceholder = (colors) => {
   const placeholder = document.createElement("div");
@@ -66,11 +67,11 @@ export const createCard = (item) => {
   const footer = document.createElement("div");
   footer.className = "card__footer";
 
-  const download = document.createElement("a");
+  const download = document.createElement("button");
   download.className = "button primary";
-  download.href = item.downloadUrl;
-  download.download = "";
   download.textContent = "Download";
+  const filename = `${item.slug}.${item.downloadUrl.endsWith('.tandemc') ? 'tandemc' : 'tandemt'}`;
+  download.addEventListener("click", createDownloadHandler(item.downloadUrl, filename));
 
   const source = document.createElement("a");
   source.className = "button ghost";
