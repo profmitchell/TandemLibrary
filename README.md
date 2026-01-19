@@ -3,7 +3,7 @@
 Tandem Library is a curated collection of Tandem themes (`.tandemt`) and canvases/configs (`.tandemc`) with preview images and one-click downloads.
 
 ## Gallery
-Visit the GitHub Pages gallery: **https://YOUR_GITHUB_USERNAME.github.io/TandemLibrary/**
+Visit the GitHub Pages gallery: **https://profmitchell.github.io/TandemLibrary/**
 
 ## How to download + open in Tandem
 1. Open the gallery and pick a theme or config.

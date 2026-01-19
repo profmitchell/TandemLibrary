@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-19T14:19:40.963Z",
-  "repo": "YOUR_GITHUB_USERNAME/TandemLibrary",
+  "generatedAt": "2026-01-19T14:21:28.485Z",
+  "repo": "profmitchell/TandemLibrary",
   "branch": "main",
   "themes": [
     {
@@ -12,7 +12,14 @@
         "theme-builder",
         "minimal"
       ],
-      "colors": [],
+      "colors": [
+        "#686878",
+        "#687878",
+        "#282838",
+        "#0C0D0D",
+        "#181B1B",
+        "#232929"
+      ],
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/dark-grey-1.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/dark-grey-1.tandemt",
@@ -27,7 +34,14 @@
         "theme-builder",
         "minimal"
       ],
-      "colors": [],
+      "colors": [
+        "#C5CED3",
+        "#394756",
+        "#E6E6E6",
+        "#0C0D0E",
+        "#17191C",
+        "#22262B"
+      ],
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/dark-grey-2.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/dark-grey-2.tandemt",
@@ -44,7 +58,14 @@
         "sophisticated",
         "professional"
       ],
-      "colors": [],
+      "colors": [
+        "#FFD700",
+        "#FFFF00",
+        "#FFA500",
+        "#1A1A00",
+        "#2F2F00",
+        "#4A4A00"
+      ],
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/golden-citrus-pack.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/golden-citrus-pack.tandemt",
@@ -59,7 +80,14 @@
         "theme-builder",
         "minimal"
       ],
-      "colors": [],
+      "colors": [
+        "#888898",
+        "#C8C8D8",
+        "#C0C0C0",
+        "#FAFAFA",
+        "#F2F3F3",
+        "#E4E7E7"
+      ],
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/grey-1.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/grey-1.tandemt",
@@ -74,7 +102,14 @@
         "theme-builder",
         "minimal"
       ],
-      "colors": [],
+      "colors": [
+        "#95A5BB",
+        "#222B39",
+        "#D3DAEA",
+        "#F9FAFA",
+        "#F0F1F4",
+        "#E1E3EA"
+      ],
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/light-grey-2.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/light-grey-2.tandemt",
@@ -90,7 +125,14 @@
         "japan",
         "professional"
       ],
-      "colors": [],
+      "colors": [
+        "#FF80AB",
+        "#FF6090",
+        "#F50057",
+        "#FFF8F9",
+        "#FFF0F3",
+        "#FFE8ED"
+      ],
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/sakura-petals-pack.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/sakura-petals-pack.tandemt",
