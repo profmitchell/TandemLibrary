@@ -200,7 +200,7 @@ const buildItem = ({
     (type === "theme" ? "Tandem theme." : "Tandem canvas/config.");
   const tags = type === "theme" ? normalizeTags(metadata.tags) : [];
   const colors = dslData?.colors || [];
-  const themeCount = dslData?.themeCount || 1;
+  const themeCount = dslData?.themeCount || jsonData?.themes?.length || 1;
   const isPack = themeCount > 1;
   const colorCategory = detectColorCategory(colors);
   const previewUrl = findPreview(slug, previewDir, previewRel);

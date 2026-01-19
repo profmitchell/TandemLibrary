@@ -21,44 +21,44 @@ export class FilterControls {
   render(container) {
     container.innerHTML = `
       <div class="filter-bar">
-        <div class="filter-group">
+        <div class="filter-section">
           <label class="filter-label">Color</label>
-          <select id="filter-color" class="filter-select">
-            <option value="all">All Colors</option>
-            <option value="red">Red</option>
-            <option value="orange">Orange</option>
-            <option value="yellow">Yellow</option>
-            <option value="green">Green</option>
-            <option value="cyan">Cyan</option>
-            <option value="blue">Blue</option>
-            <option value="purple">Purple</option>
-            <option value="pink">Pink</option>
-            <option value="neutral">Neutral</option>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-          </select>
+          <div class="filter-pills" id="color-pills">
+            <button class="pill active" data-value="all">All</button>
+            <button class="pill" data-value="red">Red</button>
+            <button class="pill" data-value="orange">Orange</button>
+            <button class="pill" data-value="yellow">Yellow</button>
+            <button class="pill" data-value="green">Green</button>
+            <button class="pill" data-value="cyan">Cyan</button>
+            <button class="pill" data-value="blue">Blue</button>
+            <button class="pill" data-value="purple">Purple</button>
+            <button class="pill" data-value="pink">Pink</button>
+            <button class="pill" data-value="neutral">Neutral</button>
+            <button class="pill" data-value="light">Light</button>
+            <button class="pill" data-value="dark">Dark</button>
+          </div>
         </div>
 
-        <div class="filter-group">
+        <div class="filter-section">
           <label class="filter-label">Type</label>
-          <select id="filter-type" class="filter-select">
-            <option value="all">All Types</option>
-            <option value="pack">Packs (Multi-theme)</option>
-            <option value="single">Singles</option>
-          </select>
+          <div class="filter-pills" id="type-pills">
+            <button class="pill active" data-value="all">All</button>
+            <button class="pill" data-value="pack">Packs</button>
+            <button class="pill" data-value="single">Singles</button>
+          </div>
         </div>
 
-        <div class="filter-group">
+        <div class="filter-section">
           <label class="filter-label">Sort</label>
-          <select id="filter-sort" class="filter-select">
-            <option value="title">Title (A-Z)</option>
-            <option value="title-desc">Title (Z-A)</option>
-            <option value="updated">Recently Updated</option>
-            <option value="updated-asc">Oldest First</option>
-          </select>
+          <div class="filter-pills" id="sort-pills">
+            <button class="pill active" data-value="title">A-Z</button>
+            <button class="pill" data-value="title-desc">Z-A</button>
+            <button class="pill" data-value="updated">Recent</button>
+            <button class="pill" data-value="updated-asc">Oldest</button>
+          </div>
         </div>
 
-        <div class="filter-group view-toggle">
+        <div class="filter-section view-toggle">
           <label class="filter-label">View</label>
           <div class="view-buttons">
             <button id="view-cards" class="view-btn active" aria-label="Card view">
@@ -88,23 +88,25 @@ export class FilterControls {
   }
 
   attachListeners(container) {
-    const colorSelect = container.querySelector("#filter-color");
-    const typeSelect = container.querySelector("#filter-type");
-    const sortSelect = container.querySelector("#filter-sort");
+    const colorPills = container.querySelector("#color-pills");
+    const typePills = container.querySelector("#type-pills");
+    const sortPills = container.querySelector("#sort-pills");
     const cardsBtn = container.querySelector("#view-cards");
     const listBtn = container.querySelector("#view-list");
 
-    colorSelect.addEventListener("change", (e) => {
-      this.setState({ colorCategory: e.target.value });
-    });
+    const handlePillClick = (pillContainer, stateKey) => {
+      pillContainer.addEventListener("click", (e) => {
+        if (e.target.classList.contains("pill")) {
+          pillContainer.querySelectorAll(".pill").forEach((p) => p.classList.remove("active"));
+          e.target.classList.add("active");
+          this.setState({ [stateKey]: e.target.dataset.value });
+        }
+      });
+    };
 
-    typeSelect.addEventListener("change", (e) => {
-      this.setState({ type: e.target.value });
-    });
-
-    sortSelect.addEventListener("change", (e) => {
-      this.setState({ sortBy: e.target.value });
-    });
+    handlePillClick(colorPills, "colorCategory");
+    handlePillClick(typePills, "type");
+    handlePillClick(sortPills, "sortBy");
 
     cardsBtn.addEventListener("click", () => {
       this.setState({ viewMode: "cards" });

@@ -226,8 +226,8 @@ main {
 
 .card-grid {
   display: grid;
-  gap: 32px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
 }
 
 .gallery-list {
@@ -239,12 +239,12 @@ main {
 .card {
   background: var(--panel-strong);
   border: 1px solid var(--border);
-  border-radius: 24px;
+  border-radius: 16px;
   overflow: hidden;
   box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
-  min-height: 360px;
+  min-height: 280px;
   animation: floatIn 0.6s ease both;
   animation-delay: calc(var(--card-index, 0) * 0.06s);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -461,56 +461,63 @@ main {
 
 .filter-bar {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 20px 24px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
   background: var(--panel);
   border: 1px solid var(--border);
   border-radius: 16px;
   margin-bottom: 32px;
-  align-items: flex-end;
 }
 
-.filter-group {
+.filter-section {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  min-width: 160px;
+  gap: 10px;
 }
 
-.filter-group.view-toggle {
-  margin-left: auto;
-  min-width: auto;
+.filter-section.view-toggle {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .filter-label {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
-.filter-select {
-  padding: 10px 14px;
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pill {
+  padding: 8px 16px;
   background: var(--panel-strong);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 999px;
   color: var(--text);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-family: inherit;
+  font-weight: 500;
   cursor: pointer;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  transition: all 0.2s ease;
 }
 
-.filter-select:hover {
-  border-color: var(--accent);
-}
-
-.filter-select:focus {
-  outline: none;
+.pill:hover {
   border-color: var(--accent);
   background: var(--bg);
+}
+
+.pill.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
 }
 
 .view-buttons {
@@ -546,17 +553,9 @@ main {
 }
 
 @media (max-width: 768px) {
-  .filter-bar {
+  .filter-section.view-toggle {
     flex-direction: column;
-    align-items: stretch;
-  }
-
-  .filter-group {
-    width: 100%;
-  }
-
-  .filter-group.view-toggle {
-    margin-left: 0;
+    align-items: flex-start;
   }
 
   .card--list {
@@ -571,6 +570,11 @@ main {
   .card--list .card__footer {
     flex-direction: row;
     min-width: auto;
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
   }
 }
 
