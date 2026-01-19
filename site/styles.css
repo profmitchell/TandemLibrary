@@ -129,6 +129,7 @@ body {
 .nav {
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;
 }
 
 .nav a {
@@ -175,6 +176,31 @@ main {
   font-size: 1.05rem;
   color: var(--text-secondary);
   max-width: 560px;
+}
+
+.hero__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.chip {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--surface-elevated) 70%, transparent);
+  border: 1px solid color-mix(in srgb, var(--glass-border) 25%, transparent);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.chip--accent {
+  background: var(--accent);
+  color: var(--bg-primary);
+  border-color: color-mix(in srgb, var(--accent) 60%, transparent);
 }
 
 .hero__actions {
@@ -436,10 +462,16 @@ main {
   transform: translateY(-1px);
 }
 
-.about__grid {
+.button.small {
+  padding: 8px 14px;
+  font-size: 0.78rem;
+}
+
+.about__grid,
+.info-grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .about__card {
@@ -460,6 +492,13 @@ main {
 .about__card p {
   color: var(--text-secondary);
   font-size: 0.95rem;
+}
+
+.card-actions {
+  margin-top: 14px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 .site-footer {
@@ -666,6 +705,11 @@ main {
   .hero__stats {
     order: -1;
   }
+
+  .about__grid,
+  .info-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 600px) {
@@ -680,5 +724,10 @@ main {
 
   .card {
     min-height: unset;
+  }
+
+  .about__grid,
+  .info-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -29,8 +29,12 @@
         </span>
       </a>
       <nav class="nav">
+        <a href="#app">App</a>
+        <a href="#getting-started">Start</a>
         <a href="#themes">Themes</a>
         <a href="#configs">Configs</a>
+        <a href="#presets">Presets</a>
+        <a href="#creator">Creator</a>
         <a href="#about">About</a>
       </nav>
     </header>
@@ -44,6 +48,12 @@
             Drop a file + preview into the repo and the gallery updates
             automatically. No catalog files, no manual edits.
           </p>
+          <div class="hero__chips">
+            <span class="chip">Focus Mode</span>
+            <span class="chip">Canvas Builder</span>
+            <span class="chip">Live Collab</span>
+            <span class="chip chip--accent">Theme Studio</span>
+          </div>
           <div class="hero__actions">
             <a class="button primary" href="#themes">Browse themes</a>
             <a class="button ghost" href="#about">How it works</a>
@@ -61,6 +71,83 @@
           <div class="stat">
             <span class="stat__label">Updated</span>
             <span class="stat__value" id="last-updated">—</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="app" class="section">
+        <div class="section__header">
+          <div>
+            <h2>About Tandem</h2>
+            <p>
+              Tandem is a collaborative MIDI canvas for building custom control
+              surfaces, sharing presets, and syncing multiple performers.
+            </p>
+          </div>
+        </div>
+        <div class="info-grid">
+          <div class="about__card">
+            <h3>Focus Mode</h3>
+            <p>
+              Precision control for a single component. Ideal for automation,
+              MIDI learn, and quick tweaks while recording.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Canvas Mode</h3>
+            <p>
+              Drag, drop, and build full control surfaces with knobs, sliders,
+              pads, and XY controls. Save layouts as presets for reuse.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Real-Time Collaboration</h3>
+            <p>
+              Sync multiple devices for shared control sessions. Great for live
+              sets, band rehearsals, and studio workflows.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Theme Studio</h3>
+            <p>
+              Swap visuals instantly, import community themes, and export your
+              own palettes for collaborators or clients.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="getting-started" class="section">
+        <div class="section__header">
+          <div>
+            <h2>Getting started</h2>
+            <p>
+              Import-ready files with a clean handoff from the Tandem app to the
+              library and back.
+            </p>
+          </div>
+        </div>
+        <div class="info-grid">
+          <div class="about__card">
+            <h3>1. Download a file</h3>
+            <p>
+              Grab a theme (.tandemt) or config (.tandemc) and keep the preview
+              image for reference.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>2. Open in Tandem</h3>
+            <p>
+              Use Files, AirDrop, or share sheet. Tandem can auto-import or ask
+              for approval depending on your settings.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>3. Find it fast</h3>
+            <p>
+              Imported themes surface in Theme Manager, and configs appear in
+              the preset manager and settings.
+            </p>
           </div>
         </div>
       </section>
@@ -90,6 +177,95 @@
         <div class="card-grid" id="configs-grid"></div>
       </section>
 
+      <section id="presets" class="section">
+        <div class="section__header">
+          <div>
+            <h2>Presets &amp; Imports</h2>
+            <p>
+              Everything in the library is designed to import cleanly into the
+              Tandem app with validation and clear metadata.
+            </p>
+          </div>
+        </div>
+        <div class="info-grid">
+          <div class="about__card">
+            <h3>.tandemc configs</h3>
+            <p>
+              Complete workspace layouts, MIDI mappings, and defaults packaged
+              as human-readable YAML/JSON. Great for sharing full rigs.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>.tandemt themes</h3>
+            <p>
+              Color palettes and UI look/feel packages. Import a single theme
+              or a full pack to match a show or studio vibe.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Import flow</h3>
+            <p>
+              Open a file from Files, AirDrop, or a share sheet and Tandem will
+              import it in the background. You can disable auto-import in
+              Settings for manual approvals.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Compatibility checks</h3>
+            <p>
+              Imports are validated on-device with warnings surfaced when data
+              needs attention, keeping your library safe to use.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="creator" class="section">
+        <div class="section__header">
+          <div>
+            <h2>About the creator</h2>
+            <p>
+              Tandem is designed and built by Mitchell Cohen at Cohen Concepts.
+            </p>
+          </div>
+        </div>
+        <div class="info-grid">
+          <div class="about__card">
+            <h3>Product vision</h3>
+            <p>
+              Build tactile, expressive MIDI control surfaces that feel great
+              on iPhone and iPad without sacrificing professional depth.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Community first</h3>
+            <p>
+              The Tandem Library curates the best themes and presets so users
+              can share workflows without friction.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Collaboration</h3>
+            <p>
+              Want to contribute? Send a preview + file and we’ll review it for
+              inclusion once it’s tested.
+            </p>
+          </div>
+          <div class="about__card">
+            <h3>Contact + feedback</h3>
+            <p>
+              Open a GitHub issue with ideas, bug reports, or potential
+              submissions.
+            </p>
+            <div class="card-actions">
+              <a class="button ghost small" href="https://github.com/profmitchell/TandemLibrary" target="_blank" rel="noreferrer">
+                Open GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="about" class="section about">
         <div class="section__header">
           <div>
@@ -100,7 +276,15 @@
             </p>
           </div>
         </div>
-        <div class="about__grid">
+        <div class="info-grid">
+          <div class="about__card">
+            <h3>Created by Cohen Concepts</h3>
+            <p>
+              Tandem is built by Cohen Concepts (Mitchell Cohen) for musicians,
+              producers, and live performers who want hands-on control without
+              limits.
+            </p>
+          </div>
           <div class="about__card">
             <h3>How items are discovered</h3>
             <p>
@@ -126,12 +310,22 @@
               point to the file in the repo.
             </p>
           </div>
+          <div class="about__card">
+            <h3>Submission guidelines</h3>
+            <p>
+              This library is curated. Reach out with a preview + file and we
+              can add it to the catalog once it’s tested.
+            </p>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Made for Tandem. Curated library — submissions disabled for now.</p>
+      <p>
+        Made for Tandem by Cohen Concepts. Curated library — submissions
+        disabled for now.
+      </p>
     </footer>
 
     <noscript>
