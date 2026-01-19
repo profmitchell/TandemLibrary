@@ -1,58 +1,1091 @@
 {
-  "generatedAt": "2026-01-19T14:47:30.383Z",
+  "generatedAt": "2026-01-19T14:49:44.136Z",
   "repo": "YOUR_GITHUB_USERNAME/TandemLibrary",
   "branch": "main",
   "themes": [
     {
-      "slug": "dark-grey-1",
-      "title": "Dark grey 1",
-      "description": "Tandem theme.",
+      "slug": "amethyst_dream_pack",
+      "title": "Amethyst Dream Pack",
+      "description": "Purple gemstone themes with amethyst depths and mystical highlights",
       "tags": [
-        "user-generated",
-        "theme-builder",
-        "minimal"
+        "amethyst",
+        "purple",
+        "gemstone",
+        "mystical",
+        "dream",
+        "crystal"
       ],
       "colors": [
-        "#686878",
-        "#687878",
-        "#282838",
-        "#0C0D0D",
-        "#181B1B",
-        "#232929"
+        "#FFD700",
+        "#9932CC",
+        "#663399",
+        "#0F0A14",
+        "#1E142F",
+        "#2F1E4F"
+      ],
+      "colorCategory": "blue",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/amethyst_dream_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/amethyst_dream_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.571Z"
+    },
+    {
+      "slug": "ancient_empires_pack",
+      "title": "Ancient Empires Pack",
+      "description": "Themes inspired by the grandeur of ancient civilizations",
+      "tags": [
+        "ancient",
+        "empire",
+        "historical",
+        "grand",
+        "professional"
+      ],
+      "colors": [
+        "#FFC107",
+        "#FFD54F",
+        "#FFE082",
+        "#FDF5E6",
+        "#FAF0E6",
+        "#F5DEB3"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/ancient_empires_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/ancient_empires_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "ancient_forest_pack",
+      "title": "Ancient Forest Pack",
+      "description": "Sophisticated forest themes with earth tones and gold accents",
+      "tags": [
+        "forest",
+        "green",
+        "earth",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#DAA520",
+        "#228B22",
+        "#8B4513",
+        "#0A1A0A",
+        "#1B2F1B",
+        "#2D4A2D"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/ancient_forest_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/ancient_forest_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.560Z"
+    },
+    {
+      "slug": "aquatic_depths_pack",
+      "title": "Aquatic Depths Pack",
+      "description": "Deep ocean blues, bioluminescent glows, and vibrant coral ecosystems",
+      "tags": [
+        "aquatic",
+        "ocean",
+        "deep sea",
+        "bioluminescent",
+        "professional"
+      ],
+      "colors": [
+        "#00BFFF",
+        "#009ACD",
+        "#007C9E",
+        "#00050A",
+        "#000F1A",
+        "#011928"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/aquatic_depths_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/aquatic_depths_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.558Z"
+    },
+    {
+      "slug": "aquatic_depths_pack",
+      "title": "Aquatic Depths Pack",
+      "description": "Deep ocean blues, bioluminescent glows, and vibrant coral ecosystems",
+      "tags": [
+        "aquatic",
+        "ocean",
+        "deep sea",
+        "bioluminescent",
+        "professional"
+      ],
+      "colors": [
+        "#00BFFF",
+        "#009ACD",
+        "#007C9E",
+        "#00050A",
+        "#000F1A",
+        "#011928"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/aquatic_depths_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/aquatic_depths_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "arctic_aurora_pack",
+      "title": "Arctic Aurora Pack",
+      "description": "Northern lights inspired themes with aurora borealis colors and ice crystal clarity",
+      "tags": [
+        "arctic",
+        "aurora",
+        "northern",
+        "lights",
+        "ice",
+        "crystal"
+      ],
+      "colors": [
+        "#00FF7F",
+        "#32CD32",
+        "#008B8B",
+        "#0A1414",
+        "#142828",
+        "#1E3F3F"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/arctic_aurora_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/arctic_aurora_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "arctic_cyan_pack",
+      "title": "Arctic Cyan Pack",
+      "description": "Sophisticated cyan and turquoise themes with platinum accents",
+      "tags": [
+        "cyan",
+        "turquoise",
+        "arctic",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#E5E4E2",
+        "#00FFFF",
+        "#40E0D0",
+        "#001A1A",
+        "#002F2F",
+        "#004A4A"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/arctic_cyan_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/arctic_cyan_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.558Z"
+    },
+    {
+      "slug": "arctic_expedition_pack",
+      "title": "Arctic Expedition Pack",
+      "description": "Cold polar themes with glacial blues, aurora greens, and stark whites",
+      "tags": [
+        "arctic",
+        "polar",
+        "ice",
+        "expedition",
+        "professional"
+      ],
+      "colors": [
+        "#B3E5FC",
+        "#81D4FA",
+        "#4FC3F7",
+        "#E3F2FD",
+        "#BBDEFB",
+        "#90CAF9"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/arctic_expedition_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/arctic_expedition_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.558Z"
+    },
+    {
+      "slug": "arctic_tundra_pack",
+      "title": "Arctic Tundra Pack",
+      "description": "Crisp icy palettes, frosted blues, and polar night shadows",
+      "tags": [
+        "arctic",
+        "ice",
+        "blue",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#9BE8FF",
+        "#5DC1FF",
+        "#2598F0",
+        "#030A12",
+        "#071625",
+        "#0C2237"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/arctic_tundra_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/arctic_tundra_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.558Z"
+    },
+    {
+      "slug": "aurora_borealis_pack",
+      "title": "Aurora Borealis Pack",
+      "description": "Vibrant northern lights themes with glowing greens, purples, and icy blues",
+      "tags": [
+        "aurora",
+        "northern lights",
+        "vibrant",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#6FFFE9",
+        "#40E0D0",
+        "#2ED9FF",
+        "#010A18",
+        "#021425",
+        "#04213A"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/aurora_borealis_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/aurora_borealis_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "autumn_harvest_pack",
+      "title": "Autumn Harvest Pack",
+      "description": "Warm autumn colors with harvest gold, burnt orange, and deep crimson",
+      "tags": [
+        "autumn",
+        "harvest",
+        "warm",
+        "gold",
+        "orange",
+        "crimson"
+      ],
+      "colors": [
+        "#DAA520",
+        "#B8860B",
+        "#8B4513",
+        "#1A1405",
+        "#2F2A0F",
+        "#4F3F1A"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/autumn_harvest_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/autumn_harvest_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.568Z"
+    },
+    {
+      "slug": "botanical_bloom_pack",
+      "title": "Botanical Bloom Pack",
+      "description": "Floral themes inspired by gardens, wildflowers, and tropical blooms",
+      "tags": [
+        "botanical",
+        "floral",
+        "garden",
+        "nature",
+        "professional"
+      ],
+      "colors": [
+        "#E91E63",
+        "#C2185B",
+        "#AD1457",
+        "#1A0A0F",
+        "#2D141D",
+        "#401E2C"
+      ],
+      "colorCategory": "pink",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/botanical_bloom_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/botanical_bloom_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.560Z"
+    },
+    {
+      "slug": "bronze_patina_pack",
+      "title": "Bronze Patina Pack",
+      "description": "Aged bronze metals, green patina oxidation, and antique copper tones",
+      "tags": [
+        "bronze",
+        "patina",
+        "antique",
+        "copper",
+        "professional"
+      ],
+      "colors": [
+        "#CD7F32",
+        "#B8860B",
+        "#A0522D",
+        "#2E1F0C",
+        "#3E2F1C",
+        "#4E3F2C"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/bronze_patina_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/bronze_patina_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.568Z"
+    },
+    {
+      "slug": "burgundy_elegance_pack",
+      "title": "Burgundy Elegance Pack",
+      "description": "Sophisticated burgundy and wine themes with gold accents",
+      "tags": [
+        "burgundy",
+        "wine",
+        "elegant",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#D2B48C",
+        "#8B0000",
+        "#800020",
+        "#1A0A0A",
+        "#2F1B14",
+        "#4A2C1A"
+      ],
+      "colorCategory": "yellow",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/burgundy_elegance_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/burgundy_elegance_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.569Z"
+    },
+    {
+      "slug": "candy_carnival_pack",
+      "title": "Candy Carnival Pack",
+      "description": "Sugary cotton candy, bubblegum blues, and sour apple greens for a playful vibe",
+      "tags": [
+        "candy",
+        "carnival",
+        "playful",
+        "professional"
+      ],
+      "colors": [
+        "#FF77FF",
+        "#FF55FF",
+        "#DB3FDB",
+        "#FFF9FD",
+        "#FFF1FA",
+        "#FFE8F7"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/candy_carnival_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/candy_carnival_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "Carbon_Black 2",
+      "title": "Carbon Black",
+      "description": "\"Black and white",
+      "tags": [],
+      "colors": [],
+      "colorCategory": "neutral",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/Carbon_Black 2.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/Carbon_Black 2.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.562Z"
+    },
+    {
+      "slug": "celestial_bodies_pack",
+      "title": "Celestial Bodies Pack",
+      "description": "Themes inspired by the vastness of space, from shimmering nebulae to distant galaxies",
+      "tags": [
+        "celestial",
+        "space",
+        "galaxy",
+        "nebula",
+        "professional"
+      ],
+      "colors": [
+        "#FF4500",
+        "#FFD700",
+        "#FF69B4",
+        "#000000",
+        "#1C1C1C",
+        "#282828"
+      ],
+      "colorCategory": "yellow",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/celestial_bodies_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/celestial_bodies_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.571Z"
+    },
+    {
+      "slug": "celestial_horizon_pack",
+      "title": "Celestial Horizon Pack",
+      "description": "Aurora greens, cosmic magentas, and dawn sky blues at the edge of atmosphere",
+      "tags": [
+        "celestial",
+        "horizon",
+        "space",
+        "professional"
+      ],
+      "colors": [
+        "#76FF03",
+        "#64DD17",
+        "#4CAF50",
+        "#030813",
+        "#061026",
+        "#0A1839"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/celestial_horizon_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/celestial_horizon_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "charcoal_embers_pack",
+      "title": "Charcoal Embers Pack",
+      "description": "Deep charcoal blacks, glowing ember oranges, and smoky greys",
+      "tags": [
+        "charcoal",
+        "embers",
+        "fire",
+        "smoke",
+        "professional"
+      ],
+      "colors": [
+        "#FF4500",
+        "#FF6347",
+        "#FF7F50",
+        "#1C1C1C",
+        "#2A2A2A",
+        "#383838"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/charcoal_embers_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/charcoal_embers_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.562Z"
+    },
+    {
+      "slug": "cloudburst_monsoon_pack",
+      "title": "Cloudburst Monsoon Pack",
+      "description": "Thunderstorm indigos, lightning yellows, and rain-slick asphalt greys",
+      "tags": [
+        "monsoon",
+        "storm",
+        "rain",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#FFD600",
+        "#E6C000",
+        "#C0A000",
+        "#03060A",
+        "#081018",
+        "#0E1A24"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/cloudburst_monsoon_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/cloudburst_monsoon_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.558Z"
+    },
+    {
+      "slug": "coffee_espresso_pack",
+      "title": "Coffee Espresso Pack",
+      "description": "Sophisticated coffee and espresso themes with cream accents",
+      "tags": [
+        "coffee",
+        "espresso",
+        "brown",
+        "cream",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#F5DEB3",
+        "#8B4513",
+        "#A0522D",
+        "#0A0505",
+        "#140A0A",
+        "#1E0F0F"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/coffee_espresso_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/coffee_espresso_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.562Z"
+    },
+    {
+      "slug": "copper_bronze_pack",
+      "title": "Copper Bronze Pack",
+      "description": "Sophisticated copper and bronze themes with warm metallic accents",
+      "tags": [
+        "copper",
+        "bronze",
+        "metallic",
+        "warm",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#FFD700",
+        "#B87333",
+        "#CD853F",
+        "#1A0F05",
+        "#2F1E0A",
+        "#4A2D0F"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/copper_bronze_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/copper_bronze_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.568Z"
+    },
+    {
+      "slug": "copper_canyon_pack",
+      "title": "Copper Canyon Pack",
+      "description": "Rich copper patina, canyon terracotta, and desert bronze tones",
+      "tags": [
+        "copper",
+        "canyon",
+        "terracotta",
+        "bronze",
+        "professional"
+      ],
+      "colors": [
+        "#B87333",
+        "#CD7F32",
+        "#A0522D",
+        "#2E4E33",
+        "#3E5E43",
+        "#4E6E53"
+      ],
+      "colorCategory": "yellow",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/copper_canyon_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/copper_canyon_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.568Z"
+    },
+    {
+      "slug": "coral_reef_pack",
+      "title": "Coral Reef Pack",
+      "description": "Sophisticated coral themes: vibrant coral with pearl accents, soft peach with rose gold highlights, and salmon with copper details",
+      "tags": [
+        "coral",
+        "peach",
+        "warm",
+        "sophisticated",
+        "natural"
+      ],
+      "colors": [
+        "#F5F5DC",
+        "#FF7F50",
+        "#FF6347",
+        "#1A0A0A",
+        "#2F1414",
+        "#4A1E1E"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/coral_reef_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/coral_reef_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.569Z"
+    },
+    {
+      "slug": "cosmic_dreamstate_pack",
+      "title": "Cosmic Dreamstate Pack",
+      "description": "Ethereal space themes with dreamy nebulae and distant starfields",
+      "tags": [
+        "cosmic",
+        "ethereal",
+        "space",
+        "dreamy",
+        "professional"
+      ],
+      "colors": [
+        "#DDA0DD",
+        "#DA70D6",
+        "#BA55D3",
+        "#1A0D1A",
+        "#2D1B2D",
+        "#402940"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/cosmic_dreamstate_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/cosmic_dreamstate_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.571Z"
+    },
+    {
+      "slug": "cosmic_nebula_pack",
+      "title": "Cosmic Nebula Pack",
+      "description": "Sophisticated cosmic and nebula themes with stellar accents",
+      "tags": [
+        "cosmic",
+        "nebula",
+        "space",
+        "stellar",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#E6E6FA",
+        "#9370DB",
+        "#6A5ACD",
+        "#050514",
+        "#0A0A28",
+        "#0F0F3C"
+      ],
+      "colorCategory": "blue",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/cosmic_nebula_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/cosmic_nebula_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.571Z"
+    },
+    {
+      "slug": "crimson_fire_pack",
+      "title": "Crimson Fire Pack",
+      "description": "Sophisticated red and crimson themes with gold accents",
+      "tags": [
+        "red",
+        "crimson",
+        "fire",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#FFD700",
+        "#DC143C",
+        "#B22222",
+        "#1A0505",
+        "#2F0F0F",
+        "#4A1515"
+      ],
+      "colorCategory": "yellow",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/crimson_fire_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/crimson_fire_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.569Z"
+    },
+    {
+      "slug": "crimson_flame_pack",
+      "title": "Crimson Flame Pack",
+      "description": "Blazing crimson fires, molten lava reds, and ember orange glows",
+      "tags": [
+        "crimson",
+        "flame",
+        "fire",
+        "molten",
+        "professional"
+      ],
+      "colors": [
+        "#DC143C",
+        "#B22222",
+        "#8B0000",
+        "#1A0000",
+        "#330000",
+        "#4D0000"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/crimson_flame_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/crimson_flame_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.570Z"
+    },
+    {
+      "slug": "crystal_cavern_pack",
+      "title": "Crystal Cavern Pack",
+      "description": "Iridescent quartz blues, amethyst purples, and moonlit stone greys",
+      "tags": [
+        "crystal",
+        "cavern",
+        "iridescent",
+        "professional"
+      ],
+      "colors": [
+        "#40C4FF",
+        "#00B0FF",
+        "#0091EA",
+        "#051018",
+        "#0A1F31",
+        "#0F2E49"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/crystal_cavern_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/crystal_cavern_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.558Z"
+    },
+    {
+      "slug": "culinary_delights_pack",
+      "title": "Culinary Delights Pack",
+      "description": "Delicious themes inspired by desserts, fruits, and savory spices",
+      "tags": [
+        "food",
+        "culinary",
+        "sweet",
+        "savory",
+        "professional"
+      ],
+      "colors": [
+        "#D81B60",
+        "#C2185B",
+        "#AD1457",
+        "#FDF8E1",
+        "#FAEBCD",
+        "#F5DEB3"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/culinary_delights_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/culinary_delights_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.565Z"
+    },
+    {
+      "slug": "cyber_samurai_pack",
+      "title": "Cyber Samurai Pack",
+      "description": "Neo-Tokyo neon blades, midnight rain, and holo-screens",
+      "tags": [
+        "cyber",
+        "samurai",
+        "neon",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#FF2DCB",
+        "#D400AB",
+        "#AA0087",
+        "#02000A",
+        "#0A0020",
+        "#110031"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/cyber_samurai_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/cyber_samurai_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.565Z"
+    },
+    {
+      "slug": "deep_ocean_pack",
+      "title": "Deep Ocean Pack",
+      "description": "Sophisticated navy and teal themes with metallic accents",
+      "tags": [
+        "ocean",
+        "navy",
+        "teal",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#B0C4DE",
+        "#4682B4",
+        "#2F4F4F",
+        "#0A1628",
+        "#162A47",
+        "#1E3A5F"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/deep_ocean_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/deep_ocean_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.559Z"
+    },
+    {
+      "slug": "desert_mirage_pack",
+      "title": "Desert Mirage Pack",
+      "description": "Sun-baked sands, oasis teals, and blazing sunset golds",
+      "tags": [
+        "desert",
+        "sand",
+        "sunset",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#F4A460",
+        "#D2B48C",
+        "#C19A6B",
+        "#1B1208",
+        "#2A1E0C",
+        "#3A2A12"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/desert_mirage_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/desert_mirage_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.565Z"
+    },
+    {
+      "slug": "desert_mirage_pack",
+      "title": "Desert Mirage Pack",
+      "description": "Sandy desert themes with mirage shimmer and oasis blues",
+      "tags": [
+        "desert",
+        "mirage",
+        "sand",
+        "oasis",
+        "warm",
+        "earth"
+      ],
+      "colors": [
+        "#DEB887",
+        "#D2691E",
+        "#A0522D",
+        "#1A1405",
+        "#2F280F",
+        "#4F421A"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/desert_mirage_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/desert_mirage_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.568Z"
+    },
+    {
+      "slug": "digital_circuit_pack",
+      "title": "Digital Circuit Pack",
+      "description": "Neon trace lines, motherboard greens, and carbon fiber blacks for a high-tech vibe",
+      "tags": [
+        "digital",
+        "circuit",
+        "tech",
+        "professional"
+      ],
+      "colors": [
+        "#00E676",
+        "#00C853",
+        "#009624",
+        "#020905",
+        "#04130A",
+        "#06200F"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/digital_circuit_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/digital_circuit_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.560Z"
+    },
+    {
+      "slug": "digital_dreamscape_pack",
+      "title": "Digital Dreamscape Pack",
+      "description": "Futuristic tech themes with holographic displays and neural networks",
+      "tags": [
+        "digital",
+        "tech",
+        "futuristic",
+        "AI",
+        "professional"
+      ],
+      "colors": [
+        "#00D4FF",
+        "#00B8E6",
+        "#009BCC",
+        "#001122",
+        "#002244",
+        "#003366"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/digital_dreamscape_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/digital_dreamscape_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.565Z"
+    },
+    {
+      "slug": "electric_blue_pack",
+      "title": "Electric Blue Pack",
+      "description": "Sophisticated electric blue themes with chrome accents",
+      "tags": [
+        "blue",
+        "electric",
+        "cobalt",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#C0C0C0",
+        "#0080FF",
+        "#4169E1",
+        "#000A1A",
+        "#00142F",
+        "#001E4A"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/electric_blue_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/electric_blue_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.559Z"
+    },
+    {
+      "slug": "emerald_cavern_pack",
+      "title": "Emerald Cavern Pack",
+      "description": "Deep emerald crystal caves, glowing gem formations, and underground springs",
+      "tags": [
+        "emerald",
+        "cavern",
+        "crystal",
+        "underground",
+        "professional"
+      ],
+      "colors": [
+        "#50C878",
+        "#00FF7F",
+        "#32CD32",
+        "#013220",
+        "#024A30",
+        "#036240"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/emerald_cavern_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/emerald_cavern_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.560Z"
+    },
+    {
+      "slug": "enchanted_forest_pack",
+      "title": "Enchanted Forest Pack",
+      "description": "Mystical woods with ancient trees, glowing moss, and hidden groves",
+      "tags": [
+        "forest",
+        "enchanted",
+        "mystical",
+        "nature",
+        "professional"
+      ],
+      "colors": [
+        "#556B2F",
+        "#4A5D2A",
+        "#3E4F24",
+        "#050A05",
+        "#0A140A",
+        "#101E10"
+      ],
+      "colorCategory": "dark",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/enchanted_forest_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/enchanted_forest_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.561Z"
+    },
+    {
+      "slug": "film_noir_pack",
+      "title": "Film Noir Pack",
+      "description": "Cinematic themes with high-contrast black and white, smoky grays, and dramatic shadows",
+      "tags": [
+        "film noir",
+        "cinematic",
+        "monochrome",
+        "dramatic",
+        "professional"
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#E0E0E0",
+        "#C0C0C0",
+        "#0A0A0A",
+        "#1A1A1A",
+        "#2A2A2A"
       ],
       "colorCategory": "neutral",
       "isPack": false,
       "previewUrl": null,
-      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/dark-grey-1.tandemt",
-      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/dark-grey-1.tandemt",
-      "updatedAt": "2026-01-19T14:17:37.438Z"
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/film_noir_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/film_noir_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.562Z"
     },
     {
-      "slug": "dark-grey-2",
-      "title": "Dark Grey 2",
-      "description": "Tandem theme.",
+      "slug": "galactic_nebula_pack",
+      "title": "Galactic Nebula Pack",
+      "description": "Ethereal nebula clouds with cosmic purples, pinks, and blues",
       "tags": [
-        "user-generated",
-        "theme-builder",
-        "minimal"
+        "galactic",
+        "nebula",
+        "space",
+        "professional"
       ],
       "colors": [
-        "#C5CED3",
-        "#394756",
-        "#E6E6E6",
-        "#0C0D0E",
-        "#17191C",
-        "#22262B"
+        "#AA00FF",
+        "#9C27B0",
+        "#7B1FA2",
+        "#0A0612",
+        "#120D24",
+        "#1B1436"
       ],
-      "colorCategory": "neutral",
+      "colorCategory": "blue",
       "isPack": false,
       "previewUrl": null,
-      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/dark-grey-2.tandemt",
-      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/dark-grey-2.tandemt",
-      "updatedAt": "2026-01-19T14:17:37.451Z"
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/galactic_nebula_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/galactic_nebula_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.571Z"
     },
     {
-      "slug": "golden-citrus-pack",
+      "slug": "gemstone_collection_pack",
+      "title": "Gemstone Collection Pack",
+      "description": "Luxurious themes inspired by precious gemstones and their brilliant colors",
+      "tags": [
+        "gemstone",
+        "jewel",
+        "luxury",
+        "precious",
+        "professional"
+      ],
+      "colors": [
+        "#B22222",
+        "#DC143C",
+        "#CD5C5C",
+        "#2F0000",
+        "#4D0000",
+        "#660000"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/gemstone_collection_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/gemstone_collection_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.565Z"
+    },
+    {
+      "slug": "golden_citrus_pack",
       "title": "Golden Citrus Pack",
       "description": "Sophisticated yellow and gold themes with amber accents",
       "tags": [
@@ -73,60 +1106,872 @@
       "colorCategory": "orange",
       "isPack": false,
       "previewUrl": null,
-      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/golden-citrus-pack.tandemt",
-      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/golden-citrus-pack.tandemt",
-      "updatedAt": "2026-01-19T14:08:12.806Z"
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Yellow/golden_citrus_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Yellow/golden_citrus_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.572Z"
     },
     {
-      "slug": "grey-1",
-      "title": "Grey 1",
-      "description": "Tandem theme.",
+      "slug": "golden_desert_pack",
+      "title": "Golden Desert Pack",
+      "description": "Sun-baked golden sands, desert sunrise oranges, and oasis greens",
       "tags": [
-        "user-generated",
-        "theme-builder",
-        "minimal"
+        "golden",
+        "desert",
+        "sand",
+        "sunrise",
+        "professional"
       ],
       "colors": [
-        "#888898",
-        "#C8C8D8",
-        "#C0C0C0",
+        "#F4A460",
+        "#DEB887",
+        "#D2B48C",
+        "#FFF8DC",
+        "#FFFACD",
+        "#FFEFD5"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Yellow/golden_desert_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Yellow/golden_desert_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.572Z"
+    },
+    {
+      "slug": "golden_savanna_pack",
+      "title": "Golden Savanna Pack",
+      "description": "Sun-bleached grasses, acacia greens, and terracotta soils",
+      "tags": [
+        "savanna",
+        "golden",
+        "earthy",
+        "professional"
+      ],
+      "colors": [
+        "#FFC107",
+        "#FFA000",
+        "#CC8000",
+        "#120C04",
+        "#23180A",
+        "#35240F"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Yellow/golden_savanna_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Yellow/golden_savanna_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.573Z"
+    },
+    {
+      "slug": "haunted_mansion_pack",
+      "title": "Haunted Mansion Pack",
+      "description": "Spooky, gothic themes with eerie glows and spectral colors",
+      "tags": [
+        "haunted",
+        "gothic",
+        "spooky",
+        "dark",
+        "professional"
+      ],
+      "colors": [
+        "#7FFF00",
+        "#76EE00",
+        "#66CD00",
+        "#120E1A",
+        "#241C33",
+        "#362A4D"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/haunted_mansion_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/haunted_mansion_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.571Z"
+    },
+    {
+      "slug": "honey_amber_pack",
+      "title": "Honey Amber Pack",
+      "description": "Golden honey hues, warm amber glows, and rich caramel tones",
+      "tags": [
+        "honey",
+        "amber",
+        "golden",
+        "caramel",
+        "professional"
+      ],
+      "colors": [
+        "#FFD700",
+        "#FFC107",
+        "#FFB300",
+        "#FFF8DC",
+        "#FFFACD",
+        "#FFEFD5"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/honey_amber_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/honey_amber_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.568Z"
+    },
+    {
+      "slug": "industrial_metal_pack",
+      "title": "Industrial Metal Pack",
+      "description": "Sophisticated industrial metal themes with metallic accents",
+      "tags": [
+        "industrial",
+        "metal",
+        "steel",
+        "titanium",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#87CEEB",
+        "#708090",
+        "#696969",
+        "#0A0A0F",
+        "#14141E",
+        "#1E1E2D"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/industrial_metal_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/industrial_metal_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.562Z"
+    },
+    {
+      "slug": "ivory_tower_pack",
+      "title": "Ivory Tower Pack",
+      "description": "Pure ivory whites, tower stone greys, and classical marble tones",
+      "tags": [
+        "ivory",
+        "tower",
+        "marble",
+        "classical",
+        "professional"
+      ],
+      "colors": [
+        "#FFFFF0",
+        "#FFF8DC",
+        "#FAEBD7",
+        "#FFFFFE",
         "#FAFAFA",
-        "#F2F3F3",
-        "#E4E7E7"
+        "#F5F5F5"
+      ],
+      "colorCategory": "light",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/ivory_tower_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/ivory_tower_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
+    },
+    {
+      "slug": "jade_emerald_pack",
+      "title": "Jade & Emerald Pack",
+      "description": "Sophisticated green gemstone themes with natural elegance",
+      "tags": [
+        "jade",
+        "emerald",
+        "green",
+        "gemstone",
+        "natural",
+        "sophisticated"
+      ],
+      "colors": [
+        "#FFD700",
+        "#00A86B",
+        "#228B22",
+        "#0A1A0A",
+        "#1A2F1A",
+        "#2F4A2F"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/jade_emerald_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/jade_emerald_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.561Z"
+    },
+    {
+      "slug": "jade_temple_pack",
+      "title": "Jade Temple Pack",
+      "description": "Sacred jade greens, temple gold accents, and zen stone textures",
+      "tags": [
+        "jade",
+        "temple",
+        "zen",
+        "sacred",
+        "professional"
+      ],
+      "colors": [
+        "#00A86B",
+        "#2E8B57",
+        "#3CB371",
+        "#0F2B0F",
+        "#1A3D1A",
+        "#254F25"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/jade_temple_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/jade_temple_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.561Z"
+    },
+    {
+      "slug": "lavender_fields_pack",
+      "title": "Lavender Fields Pack",
+      "description": "Sophisticated lavender themes: soft lavender with silver accents, lilac mist with pearl highlights, and periwinkle with platinum details",
+      "tags": [
+        "lavender",
+        "lilac",
+        "soft",
+        "sophisticated",
+        "natural"
+      ],
+      "colors": [
+        "#E6E6FA",
+        "#C8A2C8",
+        "#DDA0DD",
+        "#0A0514",
+        "#140A28",
+        "#1E0F3C"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/lavender_fields_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/lavender_fields_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.572Z"
+    },
+    {
+      "slug": "marble_palace_pack",
+      "title": "Marble Palace Pack",
+      "description": "Opulent alabaster whites, veined greys, and gilded golds",
+      "tags": [
+        "marble",
+        "palace",
+        "luxury",
+        "professional"
+      ],
+      "colors": [
+        "#BDBDBD",
+        "#9E9E9E",
+        "#757575",
+        "#FFFFFF",
+        "#F2F2F2",
+        "#E5E5E5"
       ],
       "colorCategory": "neutral",
       "isPack": false,
       "previewUrl": null,
-      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/grey-1.tandemt",
-      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/grey-1.tandemt",
-      "updatedAt": "2026-01-19T14:17:37.452Z"
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/marble_palace_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/marble_palace_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
     },
     {
-      "slug": "light-grey-2",
-      "title": "Light Grey 2",
-      "description": "Tandem theme.",
+      "slug": "medieval_tapestry_pack",
+      "title": "Medieval Tapestry Pack",
+      "description": "Rich royal colors inspired by ancient tapestries and heraldic banners",
       "tags": [
-        "user-generated",
-        "theme-builder",
-        "minimal"
+        "medieval",
+        "royal",
+        "tapestry",
+        "heraldic",
+        "professional"
       ],
       "colors": [
-        "#95A5BB",
-        "#222B39",
-        "#D3DAEA",
-        "#F9FAFA",
-        "#F0F1F4",
-        "#E1E3EA"
+        "#DC143C",
+        "#B91C1C",
+        "#991B1B",
+        "#1F0A0A",
+        "#3C1414",
+        "#581C1C"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/medieval_tapestry_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/medieval_tapestry_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.565Z"
+    },
+    {
+      "slug": "midnight_jazz_pack",
+      "title": "Midnight Jazz Pack",
+      "description": "Smoky blues, brass highlights, and velvet purples of a late-night club",
+      "tags": [
+        "jazz",
+        "midnight",
+        "smoky",
+        "professional"
+      ],
+      "colors": [
+        "#FFB300",
+        "#FFA000",
+        "#FF8F00",
+        "#0D0A05",
+        "#1A140A",
+        "#261E0F"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/midnight_jazz_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/midnight_jazz_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.559Z"
+    },
+    {
+      "slug": "midnight_plum_pack",
+      "title": "Midnight Plum Pack",
+      "description": "Deep plum purples, midnight blues, and rich aubergine tones",
+      "tags": [
+        "midnight",
+        "plum",
+        "purple",
+        "aubergine",
+        "professional"
+      ],
+      "colors": [
+        "#663399",
+        "#8A2BE2",
+        "#9932CC",
+        "#1A0D1A",
+        "#2D1A2D",
+        "#402740"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/midnight_plum_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/midnight_plum_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.572Z"
+    },
+    {
+      "slug": "mint_seafoam_pack",
+      "title": "Mint Seafoam Pack",
+      "description": "Sophisticated cool green themes: fresh mint with pearl accents, seafoam mist with silver highlights, and eucalyptus with platinum details",
+      "tags": [
+        "mint",
+        "seafoam",
+        "cool",
+        "sophisticated",
+        "fresh"
+      ],
+      "colors": [
+        "#F0FFF0",
+        "#98FB98",
+        "#90EE90",
+        "#051A10",
+        "#0A2F20",
+        "#0F4A30"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/mint_seafoam_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/mint_seafoam_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.561Z"
+    },
+    {
+      "slug": "monochrome_elegance_pack",
+      "title": "Monochrome Elegance Pack",
+      "description": "Sophisticated black, white, and gray themes for timeless elegance",
+      "tags": [
+        "monochrome",
+        "elegant",
+        "formal",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#E0E0E0",
+        "#BDBDBD",
+        "#9E9E9E",
+        "#000000",
+        "#121212",
+        "#1E1E1E"
+      ],
+      "colorCategory": "neutral",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/monochrome_elegance_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/monochrome_elegance_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
+    },
+    {
+      "slug": "monochrome_elite_pack",
+      "title": "Monochrome Elite Pack",
+      "description": "Sophisticated monochrome and grayscale themes with metallic accents",
+      "tags": [
+        "monochrome",
+        "grayscale",
+        "black",
+        "white",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#E0E0E0",
+        "#A9A9A9",
+        "#808080",
+        "#0A0A0A",
+        "#1A1A1A",
+        "#2A2A2A"
+      ],
+      "colorCategory": "neutral",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/monochrome_elite_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/monochrome_elite_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
+    },
+    {
+      "slug": "moonstone_cascade_pack",
+      "title": "Moonstone Cascade Pack",
+      "description": "Ethereal moonstone whites, cascading water blues, and silver mist",
+      "tags": [
+        "moonstone",
+        "cascade",
+        "ethereal",
+        "silver",
+        "professional"
+      ],
+      "colors": [
+        "#C0C0C0",
+        "#D3D3D3",
+        "#DCDCDC",
+        "#F8F8FF",
+        "#F0F8FF",
+        "#E6E6FA"
+      ],
+      "colorCategory": "light",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/moonstone_cascade_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/moonstone_cascade_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.559Z"
+    },
+    {
+      "slug": "moonstone_silver_pack",
+      "title": "Moonstone Silver Pack",
+      "description": "Iridescent silver themes with moonstone elegance and celestial highlights",
+      "tags": [
+        "moonstone",
+        "silver",
+        "iridescent",
+        "celestial",
+        "elegant",
+        "premium"
+      ],
+      "colors": [
+        "#C0C0C0",
+        "#4682B4",
+        "#708090",
+        "#0A0A0F",
+        "#1A1A2E",
+        "#2F2F4F"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/moonstone_silver_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/moonstone_silver_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
+    },
+    {
+      "slug": "mountain_highlands_pack",
+      "title": "Mountain Highlands Pack",
+      "description": "Crisp alpine air, granite greys, and evergreen vistas",
+      "tags": [
+        "mountain",
+        "highland",
+        "alpine",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#B0BEC5",
+        "#90A4AE",
+        "#78909C",
+        "#0A0C0E",
+        "#14171A",
+        "#1E2226"
+      ],
+      "colorCategory": "neutral",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/mountain_highlands_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/mountain_highlands_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
+    },
+    {
+      "slug": "musical_genres_pack",
+      "title": "Musical Genres Pack",
+      "description": "Themes inspired by the colors and moods of different musical genres",
+      "tags": [
+        "music",
+        "genre",
+        "rhythm",
+        "harmony",
+        "professional"
+      ],
+      "colors": [
+        "#D2691E",
+        "#CD853F",
+        "#A0522D",
+        "#2F1B14",
+        "#3E2723",
+        "#5D4037"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/musical_genres_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/musical_genres_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
+    },
+    {
+      "slug": "mythical_creatures_pack",
+      "title": "Mythical Creatures Pack",
+      "description": "Themes inspired by legendary beasts of myth and folklore",
+      "tags": [
+        "mythical",
+        "fantasy",
+        "creatures",
+        "legendary",
+        "professional"
+      ],
+      "colors": [
+        "#FF4500",
+        "#FF6347",
+        "#DC143C",
+        "#1C1C1C",
+        "#2A2A2A",
+        "#383838"
+      ],
+      "colorCategory": "yellow",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/mythical_creatures_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/mythical_creatures_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
+    },
+    {
+      "slug": "neon_festival_pack",
+      "title": "Neon Festival Pack",
+      "description": "Electric city lights, vibrant synthwave hues, and nightlife energy",
+      "tags": [
+        "neon",
+        "city",
+        "synthwave",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#00FFFF",
+        "#00BFFF",
+        "#0099FF",
+        "#050510",
+        "#0A0A1E",
+        "#0F0F2D"
       ],
       "colorCategory": "blue",
       "isPack": false,
       "previewUrl": null,
-      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/light-grey-2.tandemt",
-      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/light-grey-2.tandemt",
-      "updatedAt": "2026-01-19T14:17:37.445Z"
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/neon_festival_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/neon_festival_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
     },
     {
-      "slug": "sakura-petals-pack",
+      "slug": "neon_lime_pack",
+      "title": "Neon Lime Pack",
+      "description": "Sophisticated neon lime and electric green themes with silver accents",
+      "tags": [
+        "lime",
+        "green",
+        "neon",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#C0C0C0",
+        "#32FF32",
+        "#00FF00",
+        "#0A1A00",
+        "#142F00",
+        "#1E4A00"
+      ],
+      "colorCategory": "yellow",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/neon_lime_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/neon_lime_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.561Z"
+    },
+    {
+      "slug": "obsidian_crystal_pack",
+      "title": "Obsidian Crystal Pack",
+      "description": "Dark volcanic glass themes with crystal formations and mysterious depths",
+      "tags": [
+        "obsidian",
+        "crystal",
+        "volcanic",
+        "dark",
+        "mysterious",
+        "glass"
+      ],
+      "colors": [
+        "#8B0000",
+        "#2F2F2F",
+        "#1C1C1C",
+        "#0A0A0A",
+        "#141414",
+        "#1F1F1F"
+      ],
+      "colorCategory": "dark",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/obsidian_crystal_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/obsidian_crystal_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
+    },
+    {
+      "slug": "obsidian_eclipse_pack",
+      "title": "Obsidian Eclipse Pack",
+      "description": "Deep obsidian blacks, eclipse shadows, and volcanic glass textures",
+      "tags": [
+        "obsidian",
+        "eclipse",
+        "black",
+        "volcanic",
+        "professional"
+      ],
+      "colors": [
+        "#1C1C1C",
+        "#2A2A2A",
+        "#383838",
+        "#0A0A0A",
+        "#141414",
+        "#1E1E1E"
+      ],
+      "colorCategory": "neutral",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/obsidian_eclipse_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/obsidian_eclipse_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.563Z"
+    },
+    {
+      "slug": "ocean_waves_pack",
+      "title": "Ocean Waves Pack",
+      "description": "Fluid themes inspired by the rhythm and colors of ocean waves",
+      "tags": [
+        "ocean",
+        "waves",
+        "fluid",
+        "serene",
+        "professional"
+      ],
+      "colors": [
+        "#87CEEB",
+        "#87CEFA",
+        "#ADD8E6",
+        "#F0F8FF",
+        "#E6F3FF",
+        "#CCE7FF"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/ocean_waves_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/ocean_waves_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.559Z"
+    },
+    {
+      "slug": "platinum_silver_pack",
+      "title": "Platinum Silver Pack",
+      "description": "Sophisticated platinum and silver themes with pearl accents",
+      "tags": [
+        "silver",
+        "platinum",
+        "pearl",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#F5F5F5",
+        "#E5E4E2",
+        "#C0C0C0",
+        "#0A0A0A",
+        "#1A1A1A",
+        "#2A2A2A"
+      ],
+      "colorCategory": "neutral",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/platinum_silver_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/platinum_silver_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "prismatic_spectrum_pack",
+      "title": "Prismatic Spectrum Pack",
+      "description": "Sophisticated rainbow and prismatic themes with metallic accents",
+      "tags": [
+        "rainbow",
+        "spectrum",
+        "prismatic",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#FFD700",
+        "#FF6B9D",
+        "#6B9DFF",
+        "#0A0A14",
+        "#14141E",
+        "#1E1E28"
+      ],
+      "colorCategory": "blue",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/prismatic_spectrum_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/prismatic_spectrum_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
+    },
+    {
+      "slug": "rainforest_canopy_pack",
+      "title": "Rainforest Canopy Pack",
+      "description": "Lush emerald greens, vibrant flora pinks, and misty blues from dense jungles",
+      "tags": [
+        "rainforest",
+        "jungle",
+        "green",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#7CFFB2",
+        "#44D68F",
+        "#2AA86F",
+        "#05140A",
+        "#0B2413",
+        "#11341C"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/rainforest_canopy_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/rainforest_canopy_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.561Z"
+    },
+    {
+      "slug": "retro_arcade_pack",
+      "title": "Retro Arcade Pack",
+      "description": "Classic arcade game themes with bright neons and pixel-perfect colors",
+      "tags": [
+        "retro",
+        "arcade",
+        "gaming",
+        "pixel",
+        "professional"
+      ],
+      "colors": [
+        "#FFFF00",
+        "#FFD700",
+        "#FFA500",
+        "#000080",
+        "#0000CD",
+        "#1E90FF"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/retro_arcade_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/retro_arcade_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
+    },
+    {
+      "slug": "rose_gold_luxury_pack",
+      "title": "Rose Gold Luxury Pack",
+      "description": "Warm rose gold themes with champagne highlights and luxury finishes",
+      "tags": [
+        "rose gold",
+        "luxury",
+        "champagne",
+        "warm",
+        "elegant",
+        "premium"
+      ],
+      "colors": [
+        "#E8B4B8",
+        "#B76E79",
+        "#8B4A5B",
+        "#1A0F10",
+        "#2F1E20",
+        "#4A2F32"
+      ],
+      "colorCategory": "pink",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/rose_gold_luxury_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/rose_gold_luxury_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.570Z"
+    },
+    {
+      "slug": "royal_violet_pack",
+      "title": "Royal Violet Pack",
+      "description": "Sophisticated violet and purple themes with silver accents",
+      "tags": [
+        "violet",
+        "purple",
+        "royal",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#DDA0DD",
+        "#9370DB",
+        "#663399",
+        "#0A0514",
+        "#140A28",
+        "#1E143C"
+      ],
+      "colorCategory": "blue",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/royal_violet_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/royal_violet_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.572Z"
+    },
+    {
+      "slug": "rustic_vineyard_pack",
+      "title": "Rustic Vineyard Pack",
+      "description": "Aged oak barrels, deep merlots, and sun-lit olive groves",
+      "tags": [
+        "vineyard",
+        "rustic",
+        "wine",
+        "professional"
+      ],
+      "colors": [
+        "#8D6E63",
+        "#795548",
+        "#5D4037",
+        "#FAF5F2",
+        "#F0E7E2",
+        "#E5DAD3"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/rustic_vineyard_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/rustic_vineyard_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.570Z"
+    },
+    {
+      "slug": "sakura_petals_pack",
       "title": "Sakura Petals Pack",
       "description": "Gentle cherry blossoms, festival lanterns, and serene spring skies",
       "tags": [
@@ -146,9 +1991,683 @@
       "colorCategory": "pink",
       "isPack": false,
       "previewUrl": null,
-      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/sakura-petals-pack.tandemt",
-      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/sakura-petals-pack.tandemt",
-      "updatedAt": "2026-01-19T14:08:04.833Z"
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/sakura_petals_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/sakura_petals_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.570Z"
+    },
+    {
+      "slug": "sakura_pink_pack",
+      "title": "Sakura Pink Pack",
+      "description": "Sophisticated pink and magenta themes with rose gold accents",
+      "tags": [
+        "pink",
+        "magenta",
+        "sakura",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#E6B8AF",
+        "#FF1493",
+        "#C71585",
+        "#1A0A14",
+        "#2F1428",
+        "#4A1E3C"
+      ],
+      "colorCategory": "blue",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/sakura_pink_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/sakura_pink_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.570Z"
+    },
+    {
+      "slug": "sandstone_mesa_pack",
+      "title": "Sandstone Mesa Pack",
+      "description": "Layered sandstone formations, mesa red rocks, and desert canyon colors",
+      "tags": [
+        "sandstone",
+        "mesa",
+        "desert",
+        "canyon",
+        "professional"
+      ],
+      "colors": [
+        "#A0522D",
+        "#CD853F",
+        "#D2B48C",
+        "#2F1B0C",
+        "#3E2F1C",
+        "#4D3F2C"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/sandstone_mesa_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/sandstone_mesa_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.568Z"
+    },
+    {
+      "slug": "sapphire_azure_pack",
+      "title": "Sapphire Azure Pack",
+      "description": "Deep blue gemstone themes with azure highlights and royal sophistication",
+      "tags": [
+        "sapphire",
+        "azure",
+        "blue",
+        "gemstone",
+        "royal",
+        "sophisticated"
+      ],
+      "colors": [
+        "#E5E4E2",
+        "#0F52BA",
+        "#003366",
+        "#050A14",
+        "#0F1A2E",
+        "#1A2F4F"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/sapphire_azure_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/sapphire_azure_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.560Z"
+    },
+    {
+      "slug": "seasons_of_the_forest_pack",
+      "title": "Seasons of the Forest Pack",
+      "description": "Themes inspired by the changing colors of the forest through the seasons",
+      "tags": [
+        "seasons",
+        "forest",
+        "nature",
+        "colorful",
+        "professional"
+      ],
+      "colors": [
+        "#90EE90",
+        "#98FB98",
+        "#8FBC8F",
+        "#F0FFF0",
+        "#E0EEE0",
+        "#D0E0D0"
+      ],
+      "colorCategory": "green",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/seasons_of_the_forest_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/seasons_of_the_forest_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
+    },
+    {
+      "slug": "slate_storm_pack",
+      "title": "Slate Storm Pack",
+      "description": "Cool slate greys, storm cloud blues, and silver lightning accents",
+      "tags": [
+        "slate",
+        "storm",
+        "grey",
+        "lightning",
+        "professional"
+      ],
+      "colors": [
+        "#708090",
+        "#778899",
+        "#696969",
+        "#2F4F4F",
+        "#36454F",
+        "#3C5A5C"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Monochrome/slate_storm_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Monochrome/slate_storm_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.564Z"
+    },
+    {
+      "slug": "space_station_pack",
+      "title": "Space Station Pack",
+      "description": "Orbital steel, vacuum blacks, and neon control lights",
+      "tags": [
+        "space",
+        "station",
+        "sci-fi",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#00E5FF",
+        "#00B8D4",
+        "#0091A6",
+        "#02070A",
+        "#041016",
+        "#061A22"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/space_station_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/space_station_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
+    },
+    {
+      "slug": "spring_blossom_pack",
+      "title": "Spring Blossom Pack",
+      "description": "Soft sakura pinks, pastel mints, and morning sky blues",
+      "tags": [
+        "spring",
+        "blossom",
+        "pastel",
+        "professional"
+      ],
+      "colors": [
+        "#FF8CB0",
+        "#FF6394",
+        "#E84A7C",
+        "#10080B",
+        "#1E1117",
+        "#2A1921"
+      ],
+      "colorCategory": "pink",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/spring_blossom_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/spring_blossom_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.566Z"
+    },
+    {
+      "slug": "starlight_metro_pack",
+      "title": "Starlight Metro Pack",
+      "description": "Neon signage, asphalt greys, and midnight skies of a sleepless city",
+      "tags": [
+        "starlight",
+        "metro",
+        "neon",
+        "city",
+        "professional"
+      ],
+      "colors": [
+        "#FF00E5",
+        "#D600C8",
+        "#AD00A4",
+        "#070713",
+        "#101024",
+        "#18183A"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/starlight_metro_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/starlight_metro_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.567Z"
+    },
+    {
+      "slug": "steampunk_factory_pack",
+      "title": "Steampunk Factory Pack",
+      "description": "Oxidized coppers, brass gears, and coal-fired embers from a Victorian workshop",
+      "tags": [
+        "steampunk",
+        "factory",
+        "industrial",
+        "professional"
+      ],
+      "colors": [
+        "#D4AF37",
+        "#C79B2F",
+        "#A88426",
+        "#120E08",
+        "#231C10",
+        "#352918"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/steampunk_factory_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/steampunk_factory_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.569Z"
+    },
+    {
+      "slug": "steampunk_inventors_pack",
+      "title": "Steampunk Inventors Pack",
+      "description": "Victorian futurism with brass gears, copper pipes, and polished wood",
+      "tags": [
+        "steampunk",
+        "victorian",
+        "industrial",
+        "retro",
+        "professional"
+      ],
+      "colors": [
+        "#B87333",
+        "#CD7F32",
+        "#A1662F",
+        "#3D2B1F",
+        "#5C3D2E",
+        "#6D4C3A"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/steampunk_inventors_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/steampunk_inventors_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.569Z"
+    },
+    {
+      "slug": "sunset_amber_pack",
+      "title": "Sunset Amber Pack",
+      "description": "Sophisticated sunset and amber themes with copper accents",
+      "tags": [
+        "sunset",
+        "amber",
+        "warm",
+        "sophisticated",
+        "professional"
+      ],
+      "colors": [
+        "#DAA520",
+        "#B8860B",
+        "#CD853F",
+        "#1A1000",
+        "#2F1E00",
+        "#4A3000"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/sunset_amber_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/sunset_amber_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.569Z"
+    },
+    {
+      "slug": "sunset_boulevard_pack",
+      "title": "Sunset Boulevard Pack",
+      "description": "Vibrant magentas, blazing oranges, and twilight purples",
+      "tags": [
+        "sunset",
+        "boulevard",
+        "city",
+        "vibrant",
+        "professional"
+      ],
+      "colors": [
+        "#FF5252",
+        "#FF3D3D",
+        "#E62828",
+        "#14060C",
+        "#291218",
+        "#3D1C24"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/sunset_boulevard_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/sunset_boulevard_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.570Z"
+    },
+    {
+      "slug": "synthwave_neon_pack",
+      "title": "Synthwave Neon Pack",
+      "description": "Sophisticated synthwave themes: electric neon with chrome accents, cyber pink with silver highlights, and retro wave with platinum details",
+      "tags": [
+        "synthwave",
+        "neon",
+        "cyber",
+        "sophisticated",
+        "futuristic"
+      ],
+      "colors": [
+        "#C0C0C0",
+        "#00FFFF",
+        "#FF00FF",
+        "#0A001A",
+        "#140033",
+        "#1E004D"
+      ],
+      "colorCategory": "blue",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/synthwave_neon_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/synthwave_neon_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.567Z"
+    },
+    {
+      "slug": "synthwave_sunset_pack",
+      "title": "Synthwave Sunset Pack",
+      "description": "Retro-futuristic themes with neon grids, chrome reflections, and pastel horizons",
+      "tags": [
+        "synthwave",
+        "vaporwave",
+        "retro",
+        "80s",
+        "professional"
+      ],
+      "colors": [
+        "#FF00FF",
+        "#E000E0",
+        "#C000C0",
+        "#1A001A",
+        "#330033",
+        "#4C004C"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/synthwave_sunset_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/synthwave_sunset_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.567Z"
+    },
+    {
+      "slug": "teal_turquoise_pack",
+      "title": "Teal & Turquoise Pack",
+      "description": "Ocean-inspired teal and turquoise themes with aquatic elegance",
+      "tags": [
+        "teal",
+        "turquoise",
+        "ocean",
+        "aquatic",
+        "blue-green",
+        "marine"
+      ],
+      "colors": [
+        "#F0FFFF",
+        "#008B8B",
+        "#2F4F4F",
+        "#0A1414",
+        "#142828",
+        "#284242"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/teal_turquoise_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/teal_turquoise_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.561Z"
+    },
+    {
+      "slug": "terra_cotta_pack",
+      "title": "Terra Cotta Pack",
+      "description": "Sophisticated earth themes: warm terra cotta with bronze accents, desert clay with copper highlights, and sandstone with gold details",
+      "tags": [
+        "terra",
+        "clay",
+        "earth",
+        "sophisticated",
+        "warm"
+      ],
+      "colors": [
+        "#DEB887",
+        "#CD853F",
+        "#A0522D",
+        "#1A0F0A",
+        "#2F1E14",
+        "#4A2D1E"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Orange/terra_cotta_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Orange/terra_cotta_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.569Z"
+    },
+    {
+      "slug": "tidal_wave_pack",
+      "title": "Tidal Wave Pack",
+      "description": "Rolling indigos, foamy cyans, and sunlit surf creams",
+      "tags": [
+        "tidal",
+        "wave",
+        "ocean",
+        "professional"
+      ],
+      "colors": [
+        "#00E5FF",
+        "#00B8D4",
+        "#0091A6",
+        "#02141A",
+        "#042B34",
+        "#063E4A"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/tidal_wave_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/tidal_wave_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.560Z"
+    },
+    {
+      "slug": "tropical_lagoon_pack",
+      "title": "Tropical Lagoon Pack",
+      "description": "Turquoise waters, lush lime palms, and vibrant coral reefs",
+      "tags": [
+        "tropical",
+        "lagoon",
+        "coral",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#00D8FF",
+        "#00B5D4",
+        "#0091A6",
+        "#021215",
+        "#04282D",
+        "#063C44"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/tropical_lagoon_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/tropical_lagoon_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.567Z"
+    },
+    {
+      "slug": "urban_jungle_pack",
+      "title": "Urban Jungle Pack",
+      "description": "A fusion of cityscape concrete and vibrant rooftop gardens",
+      "tags": [
+        "urban",
+        "jungle",
+        "city",
+        "nature",
+        "professional"
+      ],
+      "colors": [
+        "#2ECC71",
+        "#27AE60",
+        "#1E8449",
+        "#ECF0F1",
+        "#BDC3C7",
+        "#95A5A6"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/urban_jungle_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/urban_jungle_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.562Z"
+    },
+    {
+      "slug": "vintage_sepia_pack",
+      "title": "Vintage Sepia Pack",
+      "description": "Antique parchment tans, aged mahogany, and burnished brass",
+      "tags": [
+        "vintage",
+        "sepia",
+        "antique",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#D7B980",
+        "#C6A56E",
+        "#B3935D",
+        "#120D07",
+        "#241A10",
+        "#362818"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Yellow/vintage_sepia_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Yellow/vintage_sepia_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.573Z"
+    },
+    {
+      "slug": "violet_storm_pack",
+      "title": "Violet Storm Pack",
+      "description": "Electric violet lightning, purple storm clouds, and indigo rain",
+      "tags": [
+        "violet",
+        "storm",
+        "lightning",
+        "purple",
+        "professional"
+      ],
+      "colors": [
+        "#8A2BE2",
+        "#9932CC",
+        "#BA55D3",
+        "#1A0D33",
+        "#2D1A4D",
+        "#402766"
+      ],
+      "colorCategory": "purple",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Violet/violet_storm_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Violet/violet_storm_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.572Z"
+    },
+    {
+      "slug": "volcanic_fire_pack",
+      "title": "Volcanic Fire Pack",
+      "description": "Sophisticated volcanic themes: molten lava with gold accents, ember glow with copper highlights, and obsidian with platinum details",
+      "tags": [
+        "volcanic",
+        "fire",
+        "molten",
+        "sophisticated",
+        "dramatic"
+      ],
+      "colors": [
+        "#FFD700",
+        "#FF4500",
+        "#FF6347",
+        "#1A0500",
+        "#330A00",
+        "#4D0F00"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/volcanic_fire_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/volcanic_fire_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.570Z"
+    },
+    {
+      "slug": "volcanic_inferno_pack",
+      "title": "Volcanic Inferno Pack",
+      "description": "Molten lavas, glowing embers, and obsidian shadows",
+      "tags": [
+        "volcano",
+        "inferno",
+        "fiery",
+        "professional"
+      ],
+      "colors": [
+        "#FF5722",
+        "#E64A19",
+        "#BF360C",
+        "#140701",
+        "#2A0E03",
+        "#3F1505"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Red/volcanic_inferno_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Red/volcanic_inferno_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.571Z"
+    },
+    {
+      "slug": "wild_safari_pack",
+      "title": "Wild Safari Pack",
+      "description": "Earth tones and natural colors inspired by African wildlife and landscapes",
+      "tags": [
+        "safari",
+        "nature",
+        "earth",
+        "wildlife",
+        "professional"
+      ],
+      "colors": [
+        "#F4A460",
+        "#DEB887",
+        "#CD853F",
+        "#2F1B0C",
+        "#3E2723",
+        "#5D4037"
+      ],
+      "colorCategory": "red",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Multi-Color/wild_safari_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Multi-Color/wild_safari_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.567Z"
+    },
+    {
+      "slug": "winter_solstice_pack",
+      "title": "Winter Solstice Pack",
+      "description": "Icy ceruleans, frosted silvers, and candlelit golds",
+      "tags": [
+        "winter",
+        "solstice",
+        "ice",
+        "minimal",
+        "professional"
+      ],
+      "colors": [
+        "#AEEFFF",
+        "#7FD4F0",
+        "#5AB9DB",
+        "#0A0F14",
+        "#16222B",
+        "#21303E"
+      ],
+      "colorCategory": "cyan",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Blue/winter_solstice_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Blue/winter_solstice_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.560Z"
+    },
+    {
+      "slug": "zen_garden_pack",
+      "title": "Zen Garden Pack",
+      "description": "Minimalist themes inspired by sand, stone, and water",
+      "tags": [
+        "zen",
+        "garden",
+        "minimalist",
+        "calm",
+        "professional"
+      ],
+      "colors": [
+        "#D2B48C",
+        "#BC987E",
+        "#A68A70",
+        "#F5F5DC",
+        "#EEE8AA",
+        "#E0D8A7"
+      ],
+      "colorCategory": "orange",
+      "isPack": false,
+      "previewUrl": null,
+      "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/Green/zen_garden_pack.tandemt",
+      "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/Green/zen_garden_pack.tandemt",
+      "updatedAt": "2026-01-19T14:49:09.562Z"
     }
   ],
   "configs": []

@@ -26,10 +26,23 @@ const ensureDir = (dir) => {
 
 const listFiles = (dir, extension) => {
   if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((entry) => entry.toLowerCase().endsWith(extension))
-    .sort((a, b) => a.localeCompare(b));
+  
+  const results = [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    
+    if (entry.isDirectory()) {
+      // Recursively scan subdirectories
+      const subFiles = listFiles(fullPath, extension);
+      results.push(...subFiles.map(f => path.join(entry.name, f)));
+    } else if (entry.name.toLowerCase().endsWith(extension)) {
+      results.push(entry.name);
+    }
+  }
+  
+  return results.sort((a, b) => a.localeCompare(b));
 };
 
 const slugFromFilename = (filename, extension) =>
