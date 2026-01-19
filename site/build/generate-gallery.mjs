@@ -201,7 +201,8 @@ const buildItem = ({
   const tags = type === "theme" ? normalizeTags(metadata.tags) : [];
   const colors = dslData?.colors || [];
   const themeCount = dslData?.themeCount || jsonData?.themes?.length || 1;
-  const isPack = themeCount > 1;
+  const filenameIsPack = /\bpack\b/i.test(slug.replace(/[_-]/g, " "));
+  const isPack = themeCount > 1 || filenameIsPack;
   const colorCategory = detectColorCategory(colors);
   const previewUrl = findPreview(slug, previewDir, previewRel);
   const downloadUrl = `${rawBase}/${directoryRel}/${filename}`;
