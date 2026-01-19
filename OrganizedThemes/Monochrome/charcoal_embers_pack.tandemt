@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Charcoal Embers Pack"
+  author: "Mitchell Cohen"
+  description: "Deep charcoal blacks, glowing ember oranges, and smoky greys"
+  tags: ["charcoal", "embers", "fire", "smoke", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Glowing Coals"
+    description: "Hot orange embers glowing in deep charcoal"
+    author: "Mitchell Cohen"
+    feel: intense
+    tags: ["glowing", "coals", "imported"]
+
+    colors:
+      accent: "#FF4500" # OrangeRed
+      accentSecondary: "#FF6347" # Tomato
+      accentTertiary: "#FF7F50" # Coral
+      backgroundPrimary: "#1C1C1C" # Dark Charcoal
+      backgroundSecondary: "#2A2A2A"
+      backgroundTertiary: "#383838"
+      brandPrimary: "#FFA500" # Orange
+      brandSecondary: "#FF8C00" # DarkOrange
+      brandTertiary: "#FFD700" # Gold
+      brandQuaternary: "#FF4500"
+      brandQuinary: "#FFEFD5" # PapayaWhip
+      buttonPrimary: "#FFA500"
+      buttonSecondary: "#FF4500"
+      controlBackground: "#2A2A2A"
+      glassBackground: "#1C1C1C08"
+      glassBorder: "#FFA50066"
+      glassOverlay: "#FF450020"
+      glowAccent: "#FF4500B3"
+      glowPrimary: "#FFA500E6"
+      glowSecondary: "#FF6347CC"
+      interactiveActive: "#FFA500"
+      interactiveDisabled: "#FF7F50"
+      interactiveFocus: "#FF7F50"
+      interactiveHover: "#FF4500"
+      interactiveIdle: "#FF4500CC"
+      interactivePressed: "#FF6347"
+      knobPrimary: "#FF7F50"
+      knobSecondary: "#FF4500"
+      neutralBorder: "#FF7F50"
+      neutralDivider: "#383838"
+      neutralHighlight: "#FF4500CC"
+      padActive: "#FF4500"
+      padInactive: "#383838"
+      paleGreenAccent: "#FFA50080"
+      panelBackground: "#1C1C1C"
+      shadowDark: "#FFA50080"
+      shadowDeep: "#FFA500A0"
+      shadowLight: "#FF450033"
+      shadowMedium: "#FFA50050"
+      sliderThumb: "#FF4500"
+      sliderTrack: "#383838"
+      stateError: "#8B0000"
+      stateInfo: "#FF6347"
+      stateLink: "#FF4500"
+      stateSpecial: "#FFA500"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFD700"
+      subtleAccent: "#383838"
+      surface: "#2A2A2A"
+      surfaceDeep: "#FF7F50"
+      surfaceElevated: "#1C1C1C"
+      surfacePressed: "#383838"
+      surfacePrimary: "#2A2A2A"
+      surfaceRaised: "#383838"
+      surfaceSecondary: "#383838"
+      surfaceTertiary: "#383838"
+      textAccent: "#FFA500"
+      textDisabled: "#FF6347"
+      textHighlight: "#FFFACD"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFEFD5"
+      textTertiary: "#FFDAB9"
+
+  # ===================================================
+  - name: "Smoke Drift"
+    description: "Wispy grey smoke with silver highlights"
+    author: "Mitchell Cohen"
+    feel: ethereal
+    tags: ["smoke", "drift", "imported"]
+
+    colors:
+      accent: "#778899" # LightSlateGray
+      accentSecondary: "#708090" # SlateGray
+      accentTertiary: "#696969" # DimGray
+      backgroundPrimary: "#2F2F2F" # DarkGray
+      backgroundSecondary: "#3C3C3C"
+      backgroundTertiary: "#4A4A4A"
+      brandPrimary: "#C0C0C0" # Silver
+      brandSecondary: "#D3D3D3" # LightGray
+      brandTertiary: "#DCDCDC" # Gainsboro
+      brandQuaternary: "#778899"
+      brandQuinary: "#F5F5F5" # WhiteSmoke
+      buttonPrimary: "#C0C0C0"
+      buttonSecondary: "#778899"
+      controlBackground: "#3C3C3C"
+      glassBackground: "#2F2F2F08"
+      glassBorder: "#C0C0C066"
+      glassOverlay: "#77889920"
+      glowAccent: "#778899B3"
+      glowPrimary: "#C0C0C0E6"
+      glowSecondary: "#708090CC"
+      interactiveActive: "#C0C0C0"
+      interactiveDisabled: "#696969"
+      interactiveFocus: "#696969"
+      interactiveHover: "#778899"
+      interactiveIdle: "#778899CC"
+      interactivePressed: "#708090"
+      knobPrimary: "#696969"
+      knobSecondary: "#778899"
+      neutralBorder: "#696969"
+      neutralDivider: "#4A4A4A"
+      neutralHighlight: "#778899CC"
+      padActive: "#778899"
+      padInactive: "#4A4A4A"
+      paleGreenAccent: "#C0C0C080"
+      panelBackground: "#2F2F2F"
+      shadowDark: "#C0C0C080"
+      shadowDeep: "#C0C0C0A0"
+      shadowLight: "#77889933"
+      shadowMedium: "#C0C0C050"
+      sliderThumb: "#778899"
+      sliderTrack: "#4A4A4A"
+      stateError: "#B22222"
+      stateInfo: "#708090"
+      stateLink: "#778899"
+      stateSpecial: "#C0C0C0"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#4A4A4A"
+      surface: "#3C3C3C"
+      surfaceDeep: "#696969"
+      surfaceElevated: "#2F2F2F"
+      surfacePressed: "#4A4A4A"
+      surfacePrimary: "#3C3C3C"
+      surfaceRaised: "#4A4A4A"
+      surfaceSecondary: "#4A4A4A"
+      surfaceTertiary: "#4A4A4A"
+      textAccent: "#C0C0C0"
+      textDisabled: "#708090"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#F5F5F5"
+      textSecondary: "#E0E0E0"
+      textTertiary: "#D3D3D3"
+
+  # ===================================================
+  - name: "Forge Fire"
+    description: "Intense forge flames with molten metal highlights"
+    author: "Mitchell Cohen"
+    feel: powerful
+    tags: ["forge", "fire", "imported"]
+
+    colors:
+      accent: "#DC143C" # Crimson
+      accentSecondary: "#B22222" # FireBrick
+      accentTertiary: "#8B0000" # DarkRed
+      backgroundPrimary: "#0F0F0F" # Near Black
+      backgroundSecondary: "#1F1F1F"
+      backgroundTertiary: "#2F2F2F"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFA500" # Orange
+      brandTertiary: "#FF8C00" # DarkOrange
+      brandQuaternary: "#DC143C"
+      brandQuinary: "#FFFF99" # Light Yellow
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#DC143C"
+      controlBackground: "#1F1F1F"
+      glassBackground: "#0F0F0F08"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#DC143C20"
+      glowAccent: "#DC143CB3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#B22222CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#8B0000"
+      interactiveFocus: "#8B0000"
+      interactiveHover: "#DC143C"
+      interactiveIdle: "#DC143CCC"
+      interactivePressed: "#B22222"
+      knobPrimary: "#8B0000"
+      knobSecondary: "#DC143C"
+      neutralBorder: "#8B0000"
+      neutralDivider: "#2F2F2F"
+      neutralHighlight: "#DC143CCC"
+      padActive: "#DC143C"
+      padInactive: "#2F2F2F"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#0F0F0F"
+      shadowDark: "#FFD70080"
+      shadowDeep: "#FFD700A0"
+      shadowLight: "#DC143C33"
+      shadowMedium: "#FFD70050"
+      sliderThumb: "#DC143C"
+      sliderTrack: "#2F2F2F"
+      stateError: "#800000"
+      stateInfo: "#B22222"
+      stateLink: "#DC143C"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#2F2F2F"
+      surface: "#1F1F1F"
+      surfaceDeep: "#8B0000"
+      surfaceElevated: "#0F0F0F"
+      surfacePressed: "#2F2F2F"
+      surfacePrimary: "#1F1F1F"
+      surfaceRaised: "#2F2F2F"
+      surfaceSecondary: "#2F2F2F"
+      surfaceTertiary: "#2F2F2F"
+      textAccent: "#FFD700"
+      textDisabled: "#B22222"
+      textHighlight: "#FFFACD"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFFF99"
+      textTertiary: "#FFEFD5"

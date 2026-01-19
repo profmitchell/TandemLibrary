@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Gemstone Collection Pack"
+  author: "Mitchell Cohen"
+  description: "Luxurious themes inspired by precious gemstones and their brilliant colors"
+  tags: ["gemstone", "jewel", "luxury", "precious", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Ruby Fire"
+    description: "Deep crimson reds and sparkling facets of a precious ruby"
+    author: "Mitchell Cohen"
+    feel: luxurious
+    tags: ["ruby", "red", "imported"]
+
+    colors:
+      accent: "#B22222" # FireBrick
+      accentSecondary: "#DC143C" # Crimson
+      accentTertiary: "#CD5C5C" # IndianRed
+      backgroundPrimary: "#2F0000" # Dark Red
+      backgroundSecondary: "#4D0000"
+      backgroundTertiary: "#660000"
+      brandPrimary: "#FF69B4" # HotPink
+      brandSecondary: "#FF1493" # DeepPink
+      brandTertiary: "#C71585" # MediumVioletRed
+      brandQuaternary: "#B22222"
+      brandQuinary: "#FFB6C1" # LightPink
+      buttonPrimary: "#FF69B4"
+      buttonSecondary: "#B22222"
+      controlBackground: "#4D0000"
+      glassBackground: "#2F000008"
+      glassBorder: "#FF69B466"
+      glassOverlay: "#B2222220"
+      glowAccent: "#B22222B3"
+      glowPrimary: "#FF69B4E6"
+      glowSecondary: "#DC143CCC"
+      interactiveActive: "#FF69B4"
+      interactiveDisabled: "#CD5C5C"
+      interactiveFocus: "#CD5C5C"
+      interactiveHover: "#B22222"
+      interactiveIdle: "#B22222CC"
+      interactivePressed: "#DC143C"
+      knobPrimary: "#CD5C5C"
+      knobSecondary: "#B22222"
+      neutralBorder: "#CD5C5C"
+      neutralDivider: "#660000"
+      neutralHighlight: "#B22222CC"
+      padActive: "#B22222"
+      padInactive: "#660000"
+      paleGreenAccent: "#FF69B480"
+      panelBackground: "#2F0000"
+      shadowDark: "#FF69B480"
+      shadowDeep: "#FF69B4A0"
+      shadowLight: "#B2222233"
+      shadowMedium: "#FF69B450"
+      sliderThumb: "#B22222"
+      sliderTrack: "#660000"
+      stateError: "#8B0000"
+      stateInfo: "#DC143C"
+      stateLink: "#B22222"
+      stateSpecial: "#FF69B4"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#660000"
+      surface: "#4D0000"
+      surfaceDeep: "#CD5C5C"
+      surfaceElevated: "#2F0000"
+      surfacePressed: "#660000"
+      surfacePrimary: "#4D0000"
+      surfaceRaised: "#660000"
+      surfaceSecondary: "#660000"
+      surfaceTertiary: "#660000"
+      textAccent: "#FF69B4"
+      textDisabled: "#DC143C"
+      textHighlight: "#FFE4E6"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFB6C1"
+      textTertiary: "#FFC0CB"
+
+  # ===================================================
+  - name: "Emerald Garden"
+    description: "Rich greens and golden highlights of a flawless emerald"
+    author: "Mitchell Cohen"
+    feel: regal
+    tags: ["emerald", "green", "imported"]
+
+    colors:
+      accent: "#50C878" # Emerald
+      accentSecondary: "#00A86B" # Jade
+      accentTertiary: "#228B22" # ForestGreen
+      backgroundPrimary: "#002200" # Dark Green
+      backgroundSecondary: "#004400"
+      backgroundTertiary: "#006600"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#DAA520" # GoldenRod
+      brandTertiary: "#B8860B" # DarkGoldenRod
+      brandQuaternary: "#50C878"
+      brandQuinary: "#F0FFF0" # Honeydew
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#50C878"
+      controlBackground: "#004400"
+      glassBackground: "#00220008"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#50C87820"
+      glowAccent: "#50C878B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#00A86BCC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#228B22"
+      interactiveFocus: "#228B22"
+      interactiveHover: "#50C878"
+      interactiveIdle: "#50C878CC"
+      interactivePressed: "#00A86B"
+      knobPrimary: "#228B22"
+      knobSecondary: "#50C878"
+      neutralBorder: "#228B22"
+      neutralDivider: "#006600"
+      neutralHighlight: "#50C878CC"
+      padActive: "#50C878"
+      padInactive: "#006600"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#002200"
+      shadowDark: "#FFD70080"
+      shadowDeep: "#FFD700A0"
+      shadowLight: "#50C87833"
+      shadowMedium: "#FFD70050"
+      sliderThumb: "#50C878"
+      sliderTrack: "#006600"
+      stateError: "#8B0000"
+      stateInfo: "#00A86B"
+      stateLink: "#50C878"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#32CD32"
+      stateWarning: "#DAA520"
+      subtleAccent: "#006600"
+      surface: "#004400"
+      surfaceDeep: "#228B22"
+      surfaceElevated: "#002200"
+      surfacePressed: "#006600"
+      surfacePrimary: "#004400"
+      surfaceRaised: "#006600"
+      surfaceSecondary: "#006600"
+      surfaceTertiary: "#006600"
+      textAccent: "#FFD700"
+      textDisabled: "#00A86B"
+      textHighlight: "#F5FFF5"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F0FFF0"
+      textTertiary: "#C8E6C9"
+
+  # ===================================================
+  - name: "Sapphire Night"
+    description: "Deep blues and silver sparkles of a royal sapphire"
+    author: "Mitchell Cohen"
+    feel: royal
+    tags: ["sapphire", "blue", "imported"]
+
+    colors:
+      accent: "#0F52BA" # Sapphire
+      accentSecondary: "#003366" # Dark Blue
+      accentTertiary: "#191970" # MidnightBlue
+      backgroundPrimary: "#000033" # Navy
+      backgroundSecondary: "#001155"
+      backgroundTertiary: "#002277"
+      brandPrimary: "#C0C0C0" # Silver
+      brandSecondary: "#A9A9A9" # DarkGray
+      brandTertiary: "#808080" # Gray
+      brandQuaternary: "#0F52BA"
+      brandQuinary: "#E6F3FF" # Light Blue
+      buttonPrimary: "#C0C0C0"
+      buttonSecondary: "#0F52BA"
+      controlBackground: "#001155"
+      glassBackground: "#00003308"
+      glassBorder: "#C0C0C066"
+      glassOverlay: "#0F52BA20"
+      glowAccent: "#0F52BAB3"
+      glowPrimary: "#C0C0C0E6"
+      glowSecondary: "#003366CC"
+      interactiveActive: "#C0C0C0"
+      interactiveDisabled: "#191970"
+      interactiveFocus: "#191970"
+      interactiveHover: "#0F52BA"
+      interactiveIdle: "#0F52BACC"
+      interactivePressed: "#003366"
+      knobPrimary: "#191970"
+      knobSecondary: "#0F52BA"
+      neutralBorder: "#191970"
+      neutralDivider: "#002277"
+      neutralHighlight: "#0F52BACC"
+      padActive: "#0F52BA"
+      padInactive: "#002277"
+      paleGreenAccent: "#C0C0C080"
+      panelBackground: "#000033"
+      shadowDark: "#C0C0C080"
+      shadowDeep: "#C0C0C0A0"
+      shadowLight: "#0F52BA33"
+      shadowMedium: "#C0C0C050"
+      sliderThumb: "#0F52BA"
+      sliderTrack: "#002277"
+      stateError: "#8B0000"
+      stateInfo: "#003366"
+      stateLink: "#0F52BA"
+      stateSpecial: "#C0C0C0"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#002277"
+      surface: "#001155"
+      surfaceDeep: "#191970"
+      surfaceElevated: "#000033"
+      surfacePressed: "#002277"
+      surfacePrimary: "#001155"
+      surfaceRaised: "#002277"
+      surfaceSecondary: "#002277"
+      surfaceTertiary: "#002277"
+      textAccent: "#C0C0C0"
+      textDisabled: "#003366"
+      textHighlight: "#F0F8FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E6F3FF"
+      textTertiary: "#B0E0E6"

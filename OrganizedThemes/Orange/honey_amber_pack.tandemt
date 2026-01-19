@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Honey Amber Pack"
+  author: "Mitchell Cohen"
+  description: "Golden honey hues, warm amber glows, and rich caramel tones"
+  tags: ["honey", "amber", "golden", "caramel", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Wildflower Honey"
+    description: "Pure golden honey with floral undertones"
+    author: "Mitchell Cohen"
+    feel: warm
+    tags: ["wildflower", "honey", "imported"]
+
+    colors:
+      accent: "#FFD700" # Gold
+      accentSecondary: "#FFC107" # Amber
+      accentTertiary: "#FFB300" # Orange
+      backgroundPrimary: "#FFF8DC" # Cornsilk
+      backgroundSecondary: "#FFFACD" # LemonChiffon
+      backgroundTertiary: "#FFEFD5" # PapayaWhip
+      brandPrimary: "#DAA520" # GoldenRod
+      brandSecondary: "#B8860B" # DarkGoldenRod
+      brandTertiary: "#CD853F" # Peru
+      brandQuaternary: "#FFD700"
+      brandQuinary: "#FFFFF0" # Ivory
+      buttonPrimary: "#DAA520"
+      buttonSecondary: "#FFD700"
+      controlBackground: "#FFFACD"
+      glassBackground: "#FFF8DC08"
+      glassBorder: "#DAA52066"
+      glassOverlay: "#FFD70020"
+      glowAccent: "#FFD700B3"
+      glowPrimary: "#DAA520E6"
+      glowSecondary: "#FFC107CC"
+      interactiveActive: "#DAA520"
+      interactiveDisabled: "#FFB300"
+      interactiveFocus: "#FFB300"
+      interactiveHover: "#FFD700"
+      interactiveIdle: "#FFD700CC"
+      interactivePressed: "#FFC107"
+      knobPrimary: "#FFB300"
+      knobSecondary: "#FFD700"
+      neutralBorder: "#FFB300"
+      neutralDivider: "#FFEFD5"
+      neutralHighlight: "#FFD700CC"
+      padActive: "#FFD700"
+      padInactive: "#FFEFD5"
+      paleGreenAccent: "#DAA52080"
+      panelBackground: "#FFF8DC"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#FFD70033"
+      shadowMedium: "#00000015"
+      sliderThumb: "#FFD700"
+      sliderTrack: "#FFEFD5"
+      stateError: "#DC143C"
+      stateInfo: "#FFC107"
+      stateLink: "#FFD700"
+      stateSpecial: "#DAA520"
+      stateSuccess: "#228B22"
+      stateWarning: "#FF8C00"
+      subtleAccent: "#FFEFD5"
+      surface: "#FFFACD"
+      surfaceDeep: "#FFB300"
+      surfaceElevated: "#FFF8DC"
+      surfacePressed: "#FFEFD5"
+      surfacePrimary: "#FFFACD"
+      surfaceRaised: "#FFEFD5"
+      surfaceSecondary: "#FFEFD5"
+      surfaceTertiary: "#FFEFD5"
+      textAccent: "#B8860B"
+      textDisabled: "#FFC107"
+      textHighlight: "#FFFACD"
+      textPrimary: "#8B4513"
+      textSecondary: "#A0522D"
+      textTertiary: "#CD853F"
+
+  # ===================================================
+  - name: "Baltic Amber"
+    description: "Deep amber with ancient golden inclusions"
+    author: "Mitchell Cohen"
+    feel: ancient
+    tags: ["baltic", "amber", "imported"]
+
+    colors:
+      accent: "#FFBF00" # Amber
+      accentSecondary: "#FF9500" # Orange
+      accentTertiary: "#E6700A" # Dark Orange
+      backgroundPrimary: "#1A1000" # Dark Amber
+      backgroundSecondary: "#2D1A00"
+      backgroundTertiary: "#402500"
+      brandPrimary: "#FFA500" # Orange
+      brandSecondary: "#FF8C00" # DarkOrange
+      brandTertiary: "#FF7F00" # Orange
+      brandQuaternary: "#FFBF00"
+      brandQuinary: "#FFF5B7" # Light Yellow
+      buttonPrimary: "#FFA500"
+      buttonSecondary: "#FFBF00"
+      controlBackground: "#2D1A00"
+      glassBackground: "#1A100008"
+      glassBorder: "#FFA50066"
+      glassOverlay: "#FFBF0020"
+      glowAccent: "#FFBF00B3"
+      glowPrimary: "#FFA500E6"
+      glowSecondary: "#FF9500CC"
+      interactiveActive: "#FFA500"
+      interactiveDisabled: "#E6700A"
+      interactiveFocus: "#E6700A"
+      interactiveHover: "#FFBF00"
+      interactiveIdle: "#FFBF00CC"
+      interactivePressed: "#FF9500"
+      knobPrimary: "#E6700A"
+      knobSecondary: "#FFBF00"
+      neutralBorder: "#E6700A"
+      neutralDivider: "#402500"
+      neutralHighlight: "#FFBF00CC"
+      padActive: "#FFBF00"
+      padInactive: "#402500"
+      paleGreenAccent: "#FFA50080"
+      panelBackground: "#1A1000"
+      shadowDark: "#FFA50080"
+      shadowDeep: "#FFA500A0"
+      shadowLight: "#FFBF0033"
+      shadowMedium: "#FFA50050"
+      sliderThumb: "#FFBF00"
+      sliderTrack: "#402500"
+      stateError: "#8B0000"
+      stateInfo: "#FF9500"
+      stateLink: "#FFBF00"
+      stateSpecial: "#FFA500"
+      stateSuccess: "#228B22"
+      stateWarning: "#FF8C00"
+      subtleAccent: "#402500"
+      surface: "#2D1A00"
+      surfaceDeep: "#E6700A"
+      surfaceElevated: "#1A1000"
+      surfacePressed: "#402500"
+      surfacePrimary: "#2D1A00"
+      surfaceRaised: "#402500"
+      surfaceSecondary: "#402500"
+      surfaceTertiary: "#402500"
+      textAccent: "#FFA500"
+      textDisabled: "#FF9500"
+      textHighlight: "#FFF8E7"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFF5B7"
+      textTertiary: "#FFEAA7"
+
+  # ===================================================
+  - name: "Caramel Drizzle"
+    description: "Rich caramel swirls with buttery highlights"
+    author: "Mitchell Cohen"
+    feel: indulgent
+    tags: ["caramel", "drizzle", "imported"]
+
+    colors:
+      accent: "#D2691E" # Chocolate
+      accentSecondary: "#CD853F" # Peru
+      accentTertiary: "#DEB887" # BurlyWood
+      backgroundPrimary: "#F5F5DC" # Beige
+      backgroundSecondary: "#F0E68C" # Khaki
+      backgroundTertiary: "#EEE8AA" # PaleGoldenrod
+      brandPrimary: "#DAA520" # GoldenRod
+      brandSecondary: "#B8860B" # DarkGoldenRod
+      brandTertiary: "#9ACD32" # YellowGreen
+      brandQuaternary: "#D2691E"
+      brandQuinary: "#FFFAF0" # FloralWhite
+      buttonPrimary: "#DAA520"
+      buttonSecondary: "#D2691E"
+      controlBackground: "#F0E68C"
+      glassBackground: "#F5F5DC08"
+      glassBorder: "#DAA52066"
+      glassOverlay: "#D2691E20"
+      glowAccent: "#D2691EB3"
+      glowPrimary: "#DAA520E6"
+      glowSecondary: "#CD853FCC"
+      interactiveActive: "#DAA520"
+      interactiveDisabled: "#DEB887"
+      interactiveFocus: "#DEB887"
+      interactiveHover: "#D2691E"
+      interactiveIdle: "#D2691ECC"
+      interactivePressed: "#CD853F"
+      knobPrimary: "#DEB887"
+      knobSecondary: "#D2691E"
+      neutralBorder: "#DEB887"
+      neutralDivider: "#EEE8AA"
+      neutralHighlight: "#D2691ECC"
+      padActive: "#D2691E"
+      padInactive: "#EEE8AA"
+      paleGreenAccent: "#DAA52080"
+      panelBackground: "#F5F5DC"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#D2691E33"
+      shadowMedium: "#00000015"
+      sliderThumb: "#D2691E"
+      sliderTrack: "#EEE8AA"
+      stateError: "#DC143C"
+      stateInfo: "#CD853F"
+      stateLink: "#D2691E"
+      stateSpecial: "#DAA520"
+      stateSuccess: "#228B22"
+      stateWarning: "#FF8C00"
+      subtleAccent: "#EEE8AA"
+      surface: "#F0E68C"
+      surfaceDeep: "#DEB887"
+      surfaceElevated: "#F5F5DC"
+      surfacePressed: "#EEE8AA"
+      surfacePrimary: "#F0E68C"
+      surfaceRaised: "#EEE8AA"
+      surfaceSecondary: "#EEE8AA"
+      surfaceTertiary: "#EEE8AA"
+      textAccent: "#B8860B"
+      textDisabled: "#CD853F"
+      textHighlight: "#FFFAF0"
+      textPrimary: "#654321"
+      textSecondary: "#8B4513"
+      textTertiary: "#A0522D"

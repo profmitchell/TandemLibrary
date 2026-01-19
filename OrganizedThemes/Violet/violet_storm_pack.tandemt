@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Violet Storm Pack"
+  author: "Mitchell Cohen"
+  description: "Electric violet lightning, purple storm clouds, and indigo rain"
+  tags: ["violet", "storm", "lightning", "purple", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Electric Violet"
+    description: "Brilliant electric violet with lightning strikes"
+    author: "Mitchell Cohen"
+    feel: electric
+    tags: ["electric", "violet", "imported"]
+
+    colors:
+      accent: "#8A2BE2" # BlueViolet
+      accentSecondary: "#9932CC" # DarkOrchid
+      accentTertiary: "#BA55D3" # MediumOrchid
+      backgroundPrimary: "#1A0D33" # Dark Violet
+      backgroundSecondary: "#2D1A4D"
+      backgroundTertiary: "#402766"
+      brandPrimary: "#DDA0DD" # Plum
+      brandSecondary: "#EE82EE" # Violet
+      brandTertiary: "#DA70D6" # Orchid
+      brandQuaternary: "#8A2BE2"
+      brandQuinary: "#F0E6FF" # Light Lavender
+      buttonPrimary: "#DDA0DD"
+      buttonSecondary: "#8A2BE2"
+      controlBackground: "#2D1A4D"
+      glassBackground: "#1A0D3308"
+      glassBorder: "#DDA0DD66"
+      glassOverlay: "#8A2BE220"
+      glowAccent: "#8A2BE2B3"
+      glowPrimary: "#DDA0DDE6"
+      glowSecondary: "#9932CCCC"
+      interactiveActive: "#DDA0DD"
+      interactiveDisabled: "#BA55D3"
+      interactiveFocus: "#BA55D3"
+      interactiveHover: "#8A2BE2"
+      interactiveIdle: "#8A2BE2CC"
+      interactivePressed: "#9932CC"
+      knobPrimary: "#BA55D3"
+      knobSecondary: "#8A2BE2"
+      neutralBorder: "#BA55D3"
+      neutralDivider: "#402766"
+      neutralHighlight: "#8A2BE2CC"
+      padActive: "#8A2BE2"
+      padInactive: "#402766"
+      paleGreenAccent: "#DDA0DD80"
+      panelBackground: "#1A0D33"
+      shadowDark: "#DDA0DD80"
+      shadowDeep: "#DDA0DDA0"
+      shadowLight: "#8A2BE233"
+      shadowMedium: "#DDA0DD50"
+      sliderThumb: "#8A2BE2"
+      sliderTrack: "#402766"
+      stateError: "#8B0000"
+      stateInfo: "#9932CC"
+      stateLink: "#8A2BE2"
+      stateSpecial: "#DDA0DD"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#402766"
+      surface: "#2D1A4D"
+      surfaceDeep: "#BA55D3"
+      surfaceElevated: "#1A0D33"
+      surfacePressed: "#402766"
+      surfacePrimary: "#2D1A4D"
+      surfaceRaised: "#402766"
+      surfaceSecondary: "#402766"
+      surfaceTertiary: "#402766"
+      textAccent: "#DDA0DD"
+      textDisabled: "#9932CC"
+      textHighlight: "#F5E6FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F0E6FF"
+      textTertiary: "#E6D5FF"
+
+  # ===================================================
+  - name: "Purple Tempest"
+    description: "Raging purple tempest with swirling winds"
+    author: "Mitchell Cohen"
+    feel: tempestuous
+    tags: ["purple", "tempest", "imported"]
+
+    colors:
+      accent: "#663399" # RebeccaPurple
+      accentSecondary: "#7A4A7A" # Medium Purple
+      accentTertiary: "#8E5E8E" # Light Purple
+      backgroundPrimary: "#2D1B69" # Dark Purple Blue
+      backgroundSecondary: "#3D2B79"
+      backgroundTertiary: "#4D3B89"
+      brandPrimary: "#9370DB" # MediumPurple
+      brandSecondary: "#7B68EE" # MediumSlateBlue
+      brandTertiary: "#6A5ACD" # SlateBlue
+      brandQuaternary: "#663399"
+      brandQuinary: "#E6E6FA" # Lavender
+      buttonPrimary: "#9370DB"
+      buttonSecondary: "#663399"
+      controlBackground: "#3D2B79"
+      glassBackground: "#2D1B6908"
+      glassBorder: "#9370DB66"
+      glassOverlay: "#66339920"
+      glowAccent: "#663399B3"
+      glowPrimary: "#9370DBE6"
+      glowSecondary: "#7A4A7ACC"
+      interactiveActive: "#9370DB"
+      interactiveDisabled: "#8E5E8E"
+      interactiveFocus: "#8E5E8E"
+      interactiveHover: "#663399"
+      interactiveIdle: "#663399CC"
+      interactivePressed: "#7A4A7A"
+      knobPrimary: "#8E5E8E"
+      knobSecondary: "#663399"
+      neutralBorder: "#8E5E8E"
+      neutralDivider: "#4D3B89"
+      neutralHighlight: "#663399CC"
+      padActive: "#663399"
+      padInactive: "#4D3B89"
+      paleGreenAccent: "#9370DB80"
+      panelBackground: "#2D1B69"
+      shadowDark: "#9370DB80"
+      shadowDeep: "#9370DBA0"
+      shadowLight: "#66339933"
+      shadowMedium: "#9370DB50"
+      sliderThumb: "#663399"
+      sliderTrack: "#4D3B89"
+      stateError: "#8B0000"
+      stateInfo: "#7A4A7A"
+      stateLink: "#663399"
+      stateSpecial: "#9370DB"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#4D3B89"
+      surface: "#3D2B79"
+      surfaceDeep: "#8E5E8E"
+      surfaceElevated: "#2D1B69"
+      surfacePressed: "#4D3B89"
+      surfacePrimary: "#3D2B79"
+      surfaceRaised: "#4D3B89"
+      surfaceSecondary: "#4D3B89"
+      surfaceTertiary: "#4D3B89"
+      textAccent: "#9370DB"
+      textDisabled: "#7A4A7A"
+      textHighlight: "#F0F0FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E6E6FA"
+      textTertiary: "#D8BFD8"
+
+  # ===================================================
+  - name: "Indigo Rain"
+    description: "Deep indigo rain clouds with silver droplets"
+    author: "Mitchell Cohen"
+    feel: contemplative
+    tags: ["indigo", "rain", "imported"]
+
+    colors:
+      accent: "#4B0082" # Indigo
+      accentSecondary: "#483D8B" # DarkSlateBlue
+      accentTertiary: "#6A5ACD" # SlateBlue
+      backgroundPrimary: "#191970" # MidnightBlue
+      backgroundSecondary: "#1E1E3F"
+      backgroundTertiary: "#232358"
+      brandPrimary: "#C0C0C0" # Silver
+      brandSecondary: "#D3D3D3" # LightGray
+      brandTertiary: "#DCDCDC" # Gainsboro
+      brandQuaternary: "#4B0082"
+      brandQuinary: "#E6E6FA" # Lavender
+      buttonPrimary: "#C0C0C0"
+      buttonSecondary: "#4B0082"
+      controlBackground: "#1E1E3F"
+      glassBackground: "#19197008"
+      glassBorder: "#C0C0C066"
+      glassOverlay: "#4B008220"
+      glowAccent: "#4B0082B3"
+      glowPrimary: "#C0C0C0E6"
+      glowSecondary: "#483D8BCC"
+      interactiveActive: "#C0C0C0"
+      interactiveDisabled: "#6A5ACD"
+      interactiveFocus: "#6A5ACD"
+      interactiveHover: "#4B0082"
+      interactiveIdle: "#4B0082CC"
+      interactivePressed: "#483D8B"
+      knobPrimary: "#6A5ACD"
+      knobSecondary: "#4B0082"
+      neutralBorder: "#6A5ACD"
+      neutralDivider: "#232358"
+      neutralHighlight: "#4B0082CC"
+      padActive: "#4B0082"
+      padInactive: "#232358"
+      paleGreenAccent: "#C0C0C080"
+      panelBackground: "#191970"
+      shadowDark: "#C0C0C080"
+      shadowDeep: "#C0C0C0A0"
+      shadowLight: "#4B008233"
+      shadowMedium: "#C0C0C050"
+      sliderThumb: "#4B0082"
+      sliderTrack: "#232358"
+      stateError: "#8B0000"
+      stateInfo: "#483D8B"
+      stateLink: "#4B0082"
+      stateSpecial: "#C0C0C0"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#232358"
+      surface: "#1E1E3F"
+      surfaceDeep: "#6A5ACD"
+      surfaceElevated: "#191970"
+      surfacePressed: "#232358"
+      surfacePrimary: "#1E1E3F"
+      surfaceRaised: "#232358"
+      surfaceSecondary: "#232358"
+      surfaceTertiary: "#232358"
+      textAccent: "#C0C0C0"
+      textDisabled: "#483D8B"
+      textHighlight: "#F0F0FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E6E6FA"
+      textTertiary: "#D8BFD8"

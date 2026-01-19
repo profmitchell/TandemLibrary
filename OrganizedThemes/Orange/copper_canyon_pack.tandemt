@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Copper Canyon Pack"
+  author: "Mitchell Cohen"
+  description: "Rich copper patina, canyon terracotta, and desert bronze tones"
+  tags: ["copper", "canyon", "terracotta", "bronze", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Patina Verde"
+    description: "Aged copper with green verdigris patina"
+    author: "Mitchell Cohen"
+    feel: weathered
+    tags: ["patina", "verde", "imported"]
+
+    colors:
+      accent: "#B87333" # Copper
+      accentSecondary: "#CD7F32" # Bronze
+      accentTertiary: "#A0522D" # Sienna
+      backgroundPrimary: "#2E4E33" # Dark Green
+      backgroundSecondary: "#3E5E43"
+      backgroundTertiary: "#4E6E53"
+      brandPrimary: "#40E0D0" # Turquoise
+      brandSecondary: "#48D1CC" # MediumTurquoise
+      brandTertiary: "#20B2AA" # LightSeaGreen
+      brandQuaternary: "#B87333"
+      brandQuinary: "#AFEEEE" # PaleTurquoise
+      buttonPrimary: "#40E0D0"
+      buttonSecondary: "#B87333"
+      controlBackground: "#3E5E43"
+      glassBackground: "#2E4E3308"
+      glassBorder: "#40E0D066"
+      glassOverlay: "#B8733320"
+      glowAccent: "#B87333B3"
+      glowPrimary: "#40E0D0E6"
+      glowSecondary: "#CD7F32CC"
+      interactiveActive: "#40E0D0"
+      interactiveDisabled: "#A0522D"
+      interactiveFocus: "#A0522D"
+      interactiveHover: "#B87333"
+      interactiveIdle: "#B87333CC"
+      interactivePressed: "#CD7F32"
+      knobPrimary: "#A0522D"
+      knobSecondary: "#B87333"
+      neutralBorder: "#A0522D"
+      neutralDivider: "#4E6E53"
+      neutralHighlight: "#B87333CC"
+      padActive: "#B87333"
+      padInactive: "#4E6E53"
+      paleGreenAccent: "#40E0D080"
+      panelBackground: "#2E4E33"
+      shadowDark: "#40E0D080"
+      shadowDeep: "#40E0D0A0"
+      shadowLight: "#B8733333"
+      shadowMedium: "#40E0D050"
+      sliderThumb: "#B87333"
+      sliderTrack: "#4E6E53"
+      stateError: "#8B0000"
+      stateInfo: "#CD7F32"
+      stateLink: "#B87333"
+      stateSpecial: "#40E0D0"
+      stateSuccess: "#2E8B57"
+      stateWarning: "#DAA520"
+      subtleAccent: "#4E6E53"
+      surface: "#3E5E43"
+      surfaceDeep: "#A0522D"
+      surfaceElevated: "#2E4E33"
+      surfacePressed: "#4E6E53"
+      surfacePrimary: "#3E5E43"
+      surfaceRaised: "#4E6E53"
+      surfaceSecondary: "#4E6E53"
+      surfaceTertiary: "#4E6E53"
+      textAccent: "#40E0D0"
+      textDisabled: "#CD7F32"
+      textHighlight: "#E0FFFF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#AFEEEE"
+      textTertiary: "#7FFFD4"
+
+  # ===================================================
+  - name: "Canyon Rust"
+    description: "Deep rust reds with canyon sandstone highlights"
+    author: "Mitchell Cohen"
+    feel: earthy
+    tags: ["canyon", "rust", "imported"]
+
+    colors:
+      accent: "#A0522D" # Sienna
+      accentSecondary: "#8B4513" # SaddleBrown
+      accentTertiary: "#654321" # DarkBrown
+      backgroundPrimary: "#2F1B0C" # Dark Earth
+      backgroundSecondary: "#3E2510"
+      backgroundTertiary: "#4D2F14"
+      brandPrimary: "#CD853F" # Peru
+      brandSecondary: "#D2B48C" # Tan
+      brandTertiary: "#DEB887" # BurlyWood
+      brandQuaternary: "#A0522D"
+      brandQuinary: "#F5DEB3" # Wheat
+      buttonPrimary: "#CD853F"
+      buttonSecondary: "#A0522D"
+      controlBackground: "#3E2510"
+      glassBackground: "#2F1B0C08"
+      glassBorder: "#CD853F66"
+      glassOverlay: "#A0522D20"
+      glowAccent: "#A0522DB3"
+      glowPrimary: "#CD853FE6"
+      glowSecondary: "#8B4513CC"
+      interactiveActive: "#CD853F"
+      interactiveDisabled: "#654321"
+      interactiveFocus: "#654321"
+      interactiveHover: "#A0522D"
+      interactiveIdle: "#A0522DCC"
+      interactivePressed: "#8B4513"
+      knobPrimary: "#654321"
+      knobSecondary: "#A0522D"
+      neutralBorder: "#654321"
+      neutralDivider: "#4D2F14"
+      neutralHighlight: "#A0522DCC"
+      padActive: "#A0522D"
+      padInactive: "#4D2F14"
+      paleGreenAccent: "#CD853F80"
+      panelBackground: "#2F1B0C"
+      shadowDark: "#CD853F80"
+      shadowDeep: "#CD853FA0"
+      shadowLight: "#A0522D33"
+      shadowMedium: "#CD853F50"
+      sliderThumb: "#A0522D"
+      sliderTrack: "#4D2F14"
+      stateError: "#8B0000"
+      stateInfo: "#8B4513"
+      stateLink: "#A0522D"
+      stateSpecial: "#CD853F"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#4D2F14"
+      surface: "#3E2510"
+      surfaceDeep: "#654321"
+      surfaceElevated: "#2F1B0C"
+      surfacePressed: "#4D2F14"
+      surfacePrimary: "#3E2510"
+      surfaceRaised: "#4D2F14"
+      surfaceSecondary: "#4D2F14"
+      surfaceTertiary: "#4D2F14"
+      textAccent: "#CD853F"
+      textDisabled: "#8B4513"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F5DEB3"
+      textTertiary: "#DEB887"
+
+  # ===================================================
+  - name: "Burnished Metal"
+    description: "Polished copper with warm metallic glow"
+    author: "Mitchell Cohen"
+    feel: metallic
+    tags: ["burnished", "metal", "imported"]
+
+    colors:
+      accent: "#FF7F00" # Orange
+      accentSecondary: "#FF6347" # Tomato
+      accentTertiary: "#FF4500" # OrangeRed
+      backgroundPrimary: "#1A0F05" # Dark Orange
+      backgroundSecondary: "#2D1A0A"
+      backgroundTertiary: "#40250F"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFA500" # Orange
+      brandTertiary: "#FF8C00" # DarkOrange
+      brandQuaternary: "#FF7F00"
+      brandQuinary: "#FFEFD5" # PapayaWhip
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#FF7F00"
+      controlBackground: "#2D1A0A"
+      glassBackground: "#1A0F0508"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#FF7F0020"
+      glowAccent: "#FF7F00B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#FF6347CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#FF4500"
+      interactiveFocus: "#FF4500"
+      interactiveHover: "#FF7F00"
+      interactiveIdle: "#FF7F00CC"
+      interactivePressed: "#FF6347"
+      knobPrimary: "#FF4500"
+      knobSecondary: "#FF7F00"
+      neutralBorder: "#FF4500"
+      neutralDivider: "#40250F"
+      neutralHighlight: "#FF7F00CC"
+      padActive: "#FF7F00"
+      padInactive: "#40250F"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#1A0F05"
+      shadowDark: "#FFD70080"
+      shadowDeep: "#FFD700A0"
+      shadowLight: "#FF7F0033"
+      shadowMedium: "#FFD70050"
+      sliderThumb: "#FF7F00"
+      sliderTrack: "#40250F"
+      stateError: "#8B0000"
+      stateInfo: "#FF6347"
+      stateLink: "#FF7F00"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#40250F"
+      surface: "#2D1A0A"
+      surfaceDeep: "#FF4500"
+      surfaceElevated: "#1A0F05"
+      surfacePressed: "#40250F"
+      surfacePrimary: "#2D1A0A"
+      surfaceRaised: "#40250F"
+      surfaceSecondary: "#40250F"
+      surfaceTertiary: "#40250F"
+      textAccent: "#FFD700"
+      textDisabled: "#FF6347"
+      textHighlight: "#FFFACD"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFEFD5"
+      textTertiary: "#FFDAB9"

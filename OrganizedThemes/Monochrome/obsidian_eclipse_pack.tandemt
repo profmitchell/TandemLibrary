@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Obsidian Eclipse Pack"
+  author: "Mitchell Cohen"
+  description: "Deep obsidian blacks, eclipse shadows, and volcanic glass textures"
+  tags: ["obsidian", "eclipse", "black", "volcanic", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Volcanic Glass"
+    description: "Sharp obsidian with reflective black surfaces"
+    author: "Mitchell Cohen"
+    feel: sharp
+    tags: ["volcanic", "glass", "imported"]
+
+    colors:
+      accent: "#1C1C1C" # Dark Grey
+      accentSecondary: "#2A2A2A" # Darker Grey
+      accentTertiary: "#383838" # Medium Dark Grey
+      backgroundPrimary: "#0A0A0A" # Near Black
+      backgroundSecondary: "#141414"
+      backgroundTertiary: "#1E1E1E"
+      brandPrimary: "#696969" # DimGray
+      brandSecondary: "#808080" # Gray
+      brandTertiary: "#A9A9A9" # DarkGray
+      brandQuaternary: "#1C1C1C"
+      brandQuinary: "#F5F5F5" # WhiteSmoke
+      buttonPrimary: "#696969"
+      buttonSecondary: "#1C1C1C"
+      controlBackground: "#141414"
+      glassBackground: "#0A0A0A08"
+      glassBorder: "#69696966"
+      glassOverlay: "#1C1C1C20"
+      glowAccent: "#1C1C1CB3"
+      glowPrimary: "#696969E6"
+      glowSecondary: "#2A2A2ACC"
+      interactiveActive: "#696969"
+      interactiveDisabled: "#383838"
+      interactiveFocus: "#383838"
+      interactiveHover: "#1C1C1C"
+      interactiveIdle: "#1C1C1CCC"
+      interactivePressed: "#2A2A2A"
+      knobPrimary: "#383838"
+      knobSecondary: "#1C1C1C"
+      neutralBorder: "#383838"
+      neutralDivider: "#1E1E1E"
+      neutralHighlight: "#1C1C1CCC"
+      padActive: "#1C1C1C"
+      padInactive: "#1E1E1E"
+      paleGreenAccent: "#69696980"
+      panelBackground: "#0A0A0A"
+      shadowDark: "#69696980"
+      shadowDeep: "#696969A0"
+      shadowLight: "#1C1C1C33"
+      shadowMedium: "#69696950"
+      sliderThumb: "#1C1C1C"
+      sliderTrack: "#1E1E1E"
+      stateError: "#8B0000"
+      stateInfo: "#2A2A2A"
+      stateLink: "#1C1C1C"
+      stateSpecial: "#696969"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#1E1E1E"
+      surface: "#141414"
+      surfaceDeep: "#383838"
+      surfaceElevated: "#0A0A0A"
+      surfacePressed: "#1E1E1E"
+      surfacePrimary: "#141414"
+      surfaceRaised: "#1E1E1E"
+      surfaceSecondary: "#1E1E1E"
+      surfaceTertiary: "#1E1E1E"
+      textAccent: "#696969"
+      textDisabled: "#2A2A2A"
+      textHighlight: "#F5F5F5"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E0E0E0"
+      textTertiary: "#D0D0D0"
+
+  # ===================================================
+  - name: "Solar Eclipse"
+    description: "Eclipse corona with golden solar flares"
+    author: "Mitchell Cohen"
+    feel: celestial
+    tags: ["solar", "eclipse", "imported"]
+
+    colors:
+      accent: "#FFA500" # Orange
+      accentSecondary: "#FF8C00" # DarkOrange
+      accentTertiary: "#FF7F00" # Orange
+      backgroundPrimary: "#000000" # Black
+      backgroundSecondary: "#0F0F0F"
+      backgroundTertiary: "#1F1F1F"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFFF00" # Yellow
+      brandTertiary: "#FFFFE0" # LightYellow
+      brandQuaternary: "#FFA500"
+      brandQuinary: "#FFFACD" # LemonChiffon
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#FFA500"
+      controlBackground: "#0F0F0F"
+      glassBackground: "#00000008"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#FFA50020"
+      glowAccent: "#FFA500B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#FF8C00CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#FF7F00"
+      interactiveFocus: "#FF7F00"
+      interactiveHover: "#FFA500"
+      interactiveIdle: "#FFA500CC"
+      interactivePressed: "#FF8C00"
+      knobPrimary: "#FF7F00"
+      knobSecondary: "#FFA500"
+      neutralBorder: "#FF7F00"
+      neutralDivider: "#1F1F1F"
+      neutralHighlight: "#FFA500CC"
+      padActive: "#FFA500"
+      padInactive: "#1F1F1F"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#000000"
+      shadowDark: "#FFD70080"
+      shadowDeep: "#FFD700A0"
+      shadowLight: "#FFA50033"
+      shadowMedium: "#FFD70050"
+      sliderThumb: "#FFA500"
+      sliderTrack: "#1F1F1F"
+      stateError: "#8B0000"
+      stateInfo: "#FF8C00"
+      stateLink: "#FFA500"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFFF00"
+      subtleAccent: "#1F1F1F"
+      surface: "#0F0F0F"
+      surfaceDeep: "#FF7F00"
+      surfaceElevated: "#000000"
+      surfacePressed: "#1F1F1F"
+      surfacePrimary: "#0F0F0F"
+      surfaceRaised: "#1F1F1F"
+      surfaceSecondary: "#1F1F1F"
+      surfaceTertiary: "#1F1F1F"
+      textAccent: "#FFD700"
+      textDisabled: "#FF8C00"
+      textHighlight: "#FFFACD"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFFFE0"
+      textTertiary: "#FFEFD5"
+
+  # ===================================================
+  - name: "Midnight Void"
+    description: "Absolute darkness with subtle void textures"
+    author: "Mitchell Cohen"
+    feel: void
+    tags: ["midnight", "void", "imported"]
+
+    colors:
+      accent: "#000000" # Black
+      accentSecondary: "#0A0A0A" # Very Dark
+      accentTertiary: "#141414" # Dark
+      backgroundPrimary: "#000000" # Black
+      backgroundSecondary: "#050505"
+      backgroundTertiary: "#0A0A0A"
+      brandPrimary: "#4A4A4A" # Medium Dark Grey
+      brandSecondary: "#696969" # DimGray
+      brandTertiary: "#808080" # Gray
+      brandQuaternary: "#000000"
+      brandQuinary: "#F0F0F0" # Light Grey
+      buttonPrimary: "#4A4A4A"
+      buttonSecondary: "#000000"
+      controlBackground: "#050505"
+      glassBackground: "#00000008"
+      glassBorder: "#4A4A4A66"
+      glassOverlay: "#00000020"
+      glowAccent: "#000000B3"
+      glowPrimary: "#4A4A4AE6"
+      glowSecondary: "#0A0A0ACC"
+      interactiveActive: "#4A4A4A"
+      interactiveDisabled: "#141414"
+      interactiveFocus: "#141414"
+      interactiveHover: "#000000"
+      interactiveIdle: "#000000CC"
+      interactivePressed: "#0A0A0A"
+      knobPrimary: "#141414"
+      knobSecondary: "#000000"
+      neutralBorder: "#141414"
+      neutralDivider: "#0A0A0A"
+      neutralHighlight: "#000000CC"
+      padActive: "#000000"
+      padInactive: "#0A0A0A"
+      paleGreenAccent: "#4A4A4A80"
+      panelBackground: "#000000"
+      shadowDark: "#4A4A4A80"
+      shadowDeep: "#4A4A4AA0"
+      shadowLight: "#00000033"
+      shadowMedium: "#4A4A4A50"
+      sliderThumb: "#000000"
+      sliderTrack: "#0A0A0A"
+      stateError: "#8B0000"
+      stateInfo: "#0A0A0A"
+      stateLink: "#000000"
+      stateSpecial: "#4A4A4A"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#0A0A0A"
+      surface: "#050505"
+      surfaceDeep: "#141414"
+      surfaceElevated: "#000000"
+      surfacePressed: "#0A0A0A"
+      surfacePrimary: "#050505"
+      surfaceRaised: "#0A0A0A"
+      surfaceSecondary: "#0A0A0A"
+      surfaceTertiary: "#0A0A0A"
+      textAccent: "#4A4A4A"
+      textDisabled: "#0A0A0A"
+      textHighlight: "#F0F0F0"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E0E0E0"
+      textTertiary: "#D0D0D0"

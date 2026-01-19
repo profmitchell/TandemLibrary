@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Mythical Creatures Pack"
+  author: "Mitchell Cohen"
+  description: "Themes inspired by legendary beasts of myth and folklore"
+  tags: ["mythical", "fantasy", "creatures", "legendary", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Dragon's Fire"
+    description: "Fiery reds and obsidian scales of a mighty dragon"
+    author: "Mitchell Cohen"
+    feel: powerful
+    tags: ["dragon", "fire", "imported"]
+
+    colors:
+      accent: "#FF4500" # OrangeRed
+      accentSecondary: "#FF6347" # Tomato
+      accentTertiary: "#DC143C" # Crimson
+      backgroundPrimary: "#1C1C1C" # Almost Black
+      backgroundSecondary: "#2A2A2A"
+      backgroundTertiary: "#383838"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFA500" # Orange
+      brandTertiary: "#FF8C00" # DarkOrange
+      brandQuaternary: "#FF4500"
+      brandQuinary: "#FFDAB9" # PeachPuff
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#FF4500"
+      controlBackground: "#2A2A2A"
+      glassBackground: "#1C1C1C08"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#FF450020"
+      glowAccent: "#FF4500B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#FF6347CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#DC143C"
+      interactiveFocus: "#DC143C"
+      interactiveHover: "#FF4500"
+      interactiveIdle: "#FF4500CC"
+      interactivePressed: "#FF6347"
+      knobPrimary: "#DC143C"
+      knobSecondary: "#FF4500"
+      neutralBorder: "#DC143C"
+      neutralDivider: "#383838"
+      neutralHighlight: "#FF4500CC"
+      padActive: "#FF4500"
+      padInactive: "#383838"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#1C1C1C"
+      shadowDark: "#000000A0"
+      shadowDeep: "#000000C0"
+      shadowLight: "#FF450033"
+      shadowMedium: "#00000080"
+      sliderThumb: "#FF4500"
+      sliderTrack: "#383838"
+      stateError: "#B22222"
+      stateInfo: "#FF6347"
+      stateLink: "#FF4500"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#383838"
+      surface: "#2A2A2A"
+      surfaceDeep: "#DC143C"
+      surfaceElevated: "#1C1C1C"
+      surfacePressed: "#383838"
+      surfacePrimary: "#2A2A2A"
+      surfaceRaised: "#383838"
+      surfaceSecondary: "#383838"
+      surfaceTertiary: "#383838"
+      textAccent: "#FFA500"
+      textDisabled: "#FF6347"
+      textHighlight: "#FFF0E0"
+      textPrimary: "#F5F5F5"
+      textSecondary: "#E0E0E0"
+      textTertiary: "#C8C8C8"
+
+  # ===================================================
+  - name: "Griffin's Flight"
+    description: "Golden feathers and sky-blue majesty of a noble griffin"
+    author: "Mitchell Cohen"
+    feel: majestic
+    tags: ["griffin", "sky", "imported"]
+
+    colors:
+      accent: "#DAA520" # GoldenRod
+      accentSecondary: "#B8860B" # DarkGoldenRod
+      accentTertiary: "#8B4513" # SaddleBrown
+      backgroundPrimary: "#87CEEB" # SkyBlue
+      backgroundSecondary: "#ADD8E6" # LightBlue
+      backgroundTertiary: "#B0E0E6" # PowderBlue
+      brandPrimary: "#F0E68C" # Khaki
+      brandSecondary: "#EEE8AA" # PaleGoldenrod
+      brandTertiary: "#FAFAD2" # LightGoldenrodYellow
+      brandQuaternary: "#DAA520"
+      brandQuinary: "#FFFACD" # LemonChiffon
+      buttonPrimary: "#F0E68C"
+      buttonSecondary: "#DAA520"
+      controlBackground: "#ADD8E6"
+      glassBackground: "#87CEEB08"
+      glassBorder: "#F0E68C66"
+      glassOverlay: "#DAA52020"
+      glowAccent: "#DAA520B3"
+      glowPrimary: "#F0E68CE6"
+      glowSecondary: "#B8860BCC"
+      interactiveActive: "#F0E68C"
+      interactiveDisabled: "#8B4513"
+      interactiveFocus: "#8B4513"
+      interactiveHover: "#DAA520"
+      interactiveIdle: "#DAA520CC"
+      interactivePressed: "#B8860B"
+      knobPrimary: "#8B4513"
+      knobSecondary: "#DAA520"
+      neutralBorder: "#8B4513"
+      neutralDivider: "#B0E0E6"
+      neutralHighlight: "#DAA520CC"
+      padActive: "#DAA520"
+      padInactive: "#B0E0E6"
+      paleGreenAccent: "#F0E68C80"
+      panelBackground: "#87CEEB"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#DAA52033"
+      shadowMedium: "#00000020"
+      sliderThumb: "#DAA520"
+      sliderTrack: "#B0E0E6"
+      stateError: "#A52A2A"
+      stateInfo: "#B8860B"
+      stateLink: "#DAA520"
+      stateSpecial: "#F0E68C"
+      stateSuccess: "#556B2F"
+      stateWarning: "#BDB76B"
+      subtleAccent: "#B0E0E6"
+      surface: "#ADD8E6"
+      surfaceDeep: "#8B4513"
+      surfaceElevated: "#87CEEB"
+      surfacePressed: "#B0E0E6"
+      surfacePrimary: "#ADD8E6"
+      surfaceRaised: "#B0E0E6"
+      surfaceSecondary: "#B0E0E6"
+      surfaceTertiary: "#B0E0E6"
+      textAccent: "#B8860B"
+      textDisabled: "#B8860B"
+      textHighlight: "#FFFFF0"
+      textPrimary: "#2F4F4F" # DarkSlateGray
+      textSecondary: "#556B2F"
+      textTertiary: "#6B8E23"
+
+  # ===================================================
+  - name: "Kraken's Deep"
+    description: "Inky blues and bioluminescent greens of the abyssal deep"
+    author: "Mitchell Cohen"
+    feel: abyssal
+    tags: ["kraken", "deep", "imported"]
+
+    colors:
+      accent: "#20B2AA" # LightSeaGreen
+      accentSecondary: "#48D1CC" # MediumTurquoise
+      accentTertiary: "#40E0D0" # Turquoise
+      backgroundPrimary: "#000033" # Dark Blue
+      backgroundSecondary: "#00004D"
+      backgroundTertiary: "#000066"
+      brandPrimary: "#32CD32" # LimeGreen
+      brandSecondary: "#7FFF00" # Chartreuse
+      brandTertiary: "#ADFF2F" # GreenYellow
+      brandQuaternary: "#20B2AA"
+      brandQuinary: "#AFEEEE" # PaleTurquoise
+      buttonPrimary: "#32CD32"
+      buttonSecondary: "#20B2AA"
+      controlBackground: "#00004D"
+      glassBackground: "#00003308"
+      glassBorder: "#32CD3266"
+      glassOverlay: "#20B2AA20"
+      glowAccent: "#20B2AAB3"
+      glowPrimary: "#32CD32E6"
+      glowSecondary: "#48D1CCCC"
+      interactiveActive: "#32CD32"
+      interactiveDisabled: "#40E0D0"
+      interactiveFocus: "#40E0D0"
+      interactiveHover: "#20B2AA"
+      interactiveIdle: "#20B2AACC"
+      interactivePressed: "#48D1CC"
+      knobPrimary: "#40E0D0"
+      knobSecondary: "#20B2AA"
+      neutralBorder: "#40E0D0"
+      neutralDivider: "#000066"
+      neutralHighlight: "#20B2AACC"
+      padActive: "#20B2AA"
+      padInactive: "#000066"
+      paleGreenAccent: "#32CD3280"
+      panelBackground: "#000033"
+      shadowDark: "#FFFFFF80"
+      shadowDeep: "#FFFFFFA0"
+      shadowLight: "#20B2AA33"
+      shadowMedium: "#FFFFFF50"
+      sliderThumb: "#20B2AA"
+      sliderTrack: "#000066"
+      stateError: "#B22222"
+      stateInfo: "#48D1CC"
+      stateLink: "#20B2AA"
+      stateSpecial: "#32CD32"
+      stateSuccess: "#008000"
+      stateWarning: "#DAA520"
+      subtleAccent: "#000066"
+      surface: "#00004D"
+      surfaceDeep: "#40E0D0"
+      surfaceElevated: "#000033"
+      surfacePressed: "#000066"
+      surfacePrimary: "#00004D"
+      surfaceRaised: "#000066"
+      surfaceSecondary: "#000066"
+      surfaceTertiary: "#000066"
+      textAccent: "#7FFF00"
+      textDisabled: "#48D1CC"
+      textHighlight: "#F0FFFF"
+      textPrimary: "#E0FFFF"
+      textSecondary: "#B0E0E6"
+      textTertiary: "#93E9E9"

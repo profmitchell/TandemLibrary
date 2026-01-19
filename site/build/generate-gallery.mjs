@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import { detectColorCategory } from "./color-detector.mjs";
 
 const root = process.cwd();
 const repo =
@@ -89,6 +90,7 @@ const parseThemeDsl = (text) => {
   let inThemes = false;
   const metadata = {};
   let themeName = null;
+  let themeCount = 0;
 
   for (const line of lines) {
     if (!inMeta && /^\s*metadata:\s*$/.test(line)) {
@@ -112,10 +114,12 @@ const parseThemeDsl = (text) => {
       }
     }
 
-    if (inThemes && !themeName) {
-      const match = line.match(/^\s*-\s*name:\s*(.+)$/);
-      if (match) {
-        themeName = parseDslValue(match[1]);
+    if (inThemes) {
+      if (line.match(/^\s*-\s*name:\s*(.+)$/)) {
+        themeCount++;
+        if (!themeName) {
+          themeName = parseDslValue(line.match(/^\s*-\s*name:\s*(.+)$/)[1]);
+        }
       }
     }
   }
@@ -124,7 +128,7 @@ const parseThemeDsl = (text) => {
   const colors = colorMatches ? colorMatches.slice(0, 6) : [];
 
   if (!Object.keys(metadata).length && !themeName) return null;
-  return { metadata, themeName, colors };
+  return { metadata, themeName, colors, themeCount };
 };
 
 const normalizeTags = (value) => {
@@ -183,6 +187,9 @@ const buildItem = ({
     (type === "theme" ? "Tandem theme." : "Tandem canvas/config.");
   const tags = type === "theme" ? normalizeTags(metadata.tags) : [];
   const colors = dslData?.colors || [];
+  const themeCount = dslData?.themeCount || 1;
+  const isPack = themeCount > 1;
+  const colorCategory = detectColorCategory(colors);
   const previewUrl = findPreview(slug, previewDir, previewRel);
   const downloadUrl = `${rawBase}/${directoryRel}/${filename}`;
   const sourceUrl = `${blobBase}/${directoryRel}/${filename}`;
@@ -194,6 +201,8 @@ const buildItem = ({
     description,
     tags,
     colors,
+    colorCategory,
+    isPack,
     previewUrl,
     downloadUrl,
     sourceUrl,

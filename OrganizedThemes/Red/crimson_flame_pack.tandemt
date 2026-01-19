@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Crimson Flame Pack"
+  author: "Mitchell Cohen"
+  description: "Blazing crimson fires, molten lava reds, and ember orange glows"
+  tags: ["crimson", "flame", "fire", "molten", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Dragon Fire"
+    description: "Fierce dragon breath with intense crimson flames"
+    author: "Mitchell Cohen"
+    feel: fierce
+    tags: ["dragon", "fire", "imported"]
+
+    colors:
+      accent: "#DC143C" # Crimson
+      accentSecondary: "#B22222" # FireBrick
+      accentTertiary: "#8B0000" # DarkRed
+      backgroundPrimary: "#1A0000" # Very Dark Red
+      backgroundSecondary: "#330000"
+      backgroundTertiary: "#4D0000"
+      brandPrimary: "#FF6347" # Tomato
+      brandSecondary: "#FF4500" # OrangeRed
+      brandTertiary: "#FF2400" # Scarlet
+      brandQuaternary: "#DC143C"
+      brandQuinary: "#FFE4E1" # MistyRose
+      buttonPrimary: "#FF6347"
+      buttonSecondary: "#DC143C"
+      controlBackground: "#330000"
+      glassBackground: "#1A000008"
+      glassBorder: "#FF634766"
+      glassOverlay: "#DC143C20"
+      glowAccent: "#DC143CB3"
+      glowPrimary: "#FF6347E6"
+      glowSecondary: "#B22222CC"
+      interactiveActive: "#FF6347"
+      interactiveDisabled: "#8B0000"
+      interactiveFocus: "#8B0000"
+      interactiveHover: "#DC143C"
+      interactiveIdle: "#DC143CCC"
+      interactivePressed: "#B22222"
+      knobPrimary: "#8B0000"
+      knobSecondary: "#DC143C"
+      neutralBorder: "#8B0000"
+      neutralDivider: "#4D0000"
+      neutralHighlight: "#DC143CCC"
+      padActive: "#DC143C"
+      padInactive: "#4D0000"
+      paleGreenAccent: "#FF634780"
+      panelBackground: "#1A0000"
+      shadowDark: "#FF634780"
+      shadowDeep: "#FF6347A0"
+      shadowLight: "#DC143C33"
+      shadowMedium: "#FF634750"
+      sliderThumb: "#DC143C"
+      sliderTrack: "#4D0000"
+      stateError: "#800000"
+      stateInfo: "#B22222"
+      stateLink: "#DC143C"
+      stateSpecial: "#FF6347"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#4D0000"
+      surface: "#330000"
+      surfaceDeep: "#8B0000"
+      surfaceElevated: "#1A0000"
+      surfacePressed: "#4D0000"
+      surfacePrimary: "#330000"
+      surfaceRaised: "#4D0000"
+      surfaceSecondary: "#4D0000"
+      surfaceTertiary: "#4D0000"
+      textAccent: "#FF6347"
+      textDisabled: "#B22222"
+      textHighlight: "#FFE4E1"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFCCCB"
+      textTertiary: "#FFA0B4"
+
+  # ===================================================
+  - name: "Molten Core"
+    description: "Earth's molten core with liquid fire"
+    author: "Mitchell Cohen"
+    feel: molten
+    tags: ["molten", "core", "imported"]
+
+    colors:
+      accent: "#FF4500" # OrangeRed
+      accentSecondary: "#FF6347" # Tomato
+      accentTertiary: "#FF7F50" # Coral
+      backgroundPrimary: "#1A0F00" # Dark Orange
+      backgroundSecondary: "#331E00"
+      backgroundTertiary: "#4D2D00"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFA500" # Orange
+      brandTertiary: "#FF8C00" # DarkOrange
+      brandQuaternary: "#FF4500"
+      brandQuinary: "#FFEFD5" # PapayaWhip
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#FF4500"
+      controlBackground: "#331E00"
+      glassBackground: "#1A0F0008"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#FF450020"
+      glowAccent: "#FF4500B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#FF6347CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#FF7F50"
+      interactiveFocus: "#FF7F50"
+      interactiveHover: "#FF4500"
+      interactiveIdle: "#FF4500CC"
+      interactivePressed: "#FF6347"
+      knobPrimary: "#FF7F50"
+      knobSecondary: "#FF4500"
+      neutralBorder: "#FF7F50"
+      neutralDivider: "#4D2D00"
+      neutralHighlight: "#FF4500CC"
+      padActive: "#FF4500"
+      padInactive: "#4D2D00"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#1A0F00"
+      shadowDark: "#FFD70080"
+      shadowDeep: "#FFD700A0"
+      shadowLight: "#FF450033"
+      shadowMedium: "#FFD70050"
+      sliderThumb: "#FF4500"
+      sliderTrack: "#4D2D00"
+      stateError: "#8B0000"
+      stateInfo: "#FF6347"
+      stateLink: "#FF4500"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#4D2D00"
+      surface: "#331E00"
+      surfaceDeep: "#FF7F50"
+      surfaceElevated: "#1A0F00"
+      surfacePressed: "#4D2D00"
+      surfacePrimary: "#331E00"
+      surfaceRaised: "#4D2D00"
+      surfaceSecondary: "#4D2D00"
+      surfaceTertiary: "#4D2D00"
+      textAccent: "#FFD700"
+      textDisabled: "#FF6347"
+      textHighlight: "#FFFACD"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFEFD5"
+      textTertiary: "#FFDAB9"
+
+  # ===================================================
+  - name: "Phoenix Rising"
+    description: "Mythical phoenix with golden fire plumage"
+    author: "Mitchell Cohen"
+    feel: mythical
+    tags: ["phoenix", "rising", "imported"]
+
+    colors:
+      accent: "#FF6600" # Bright Orange
+      accentSecondary: "#FF7F00" # Orange
+      accentTertiary: "#FF9500" # Light Orange
+      backgroundPrimary: "#FFF8DC" # Cornsilk
+      backgroundSecondary: "#FFFACD" # LemonChiffon
+      backgroundTertiary: "#FFEFD5" # PapayaWhip
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#DAA520" # GoldenRod
+      brandTertiary: "#B8860B" # DarkGoldenRod
+      brandQuaternary: "#FF6600"
+      brandQuinary: "#FFFFF0" # Ivory
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#FF6600"
+      controlBackground: "#FFFACD"
+      glassBackground: "#FFF8DC08"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#FF660020"
+      glowAccent: "#FF6600B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#FF7F00CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#FF9500"
+      interactiveFocus: "#FF9500"
+      interactiveHover: "#FF6600"
+      interactiveIdle: "#FF6600CC"
+      interactivePressed: "#FF7F00"
+      knobPrimary: "#FF9500"
+      knobSecondary: "#FF6600"
+      neutralBorder: "#FF9500"
+      neutralDivider: "#FFEFD5"
+      neutralHighlight: "#FF6600CC"
+      padActive: "#FF6600"
+      padInactive: "#FFEFD5"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#FFF8DC"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#FF660033"
+      shadowMedium: "#00000015"
+      sliderThumb: "#FF6600"
+      sliderTrack: "#FFEFD5"
+      stateError: "#DC143C"
+      stateInfo: "#FF7F00"
+      stateLink: "#FF6600"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#FFEFD5"
+      surface: "#FFFACD"
+      surfaceDeep: "#FF9500"
+      surfaceElevated: "#FFF8DC"
+      surfacePressed: "#FFEFD5"
+      surfacePrimary: "#FFFACD"
+      surfaceRaised: "#FFEFD5"
+      surfaceSecondary: "#FFEFD5"
+      surfaceTertiary: "#FFEFD5"
+      textAccent: "#B8860B"
+      textDisabled: "#FF7F00"
+      textHighlight: "#FFFFF0"
+      textPrimary: "#8B4513"
+      textSecondary: "#A0522D"
+      textTertiary: "#CD853F"

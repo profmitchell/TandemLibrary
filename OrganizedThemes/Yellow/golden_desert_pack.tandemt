@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Golden Desert Pack"
+  author: "Mitchell Cohen"
+  description: "Sun-baked golden sands, desert sunrise oranges, and oasis greens"
+  tags: ["golden", "desert", "sand", "sunrise", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Sahara Sands"
+    description: "Endless golden dunes under blazing sun"
+    author: "Mitchell Cohen"
+    feel: expansive
+    tags: ["sahara", "sands", "imported"]
+
+    colors:
+      accent: "#F4A460" # SandyBrown
+      accentSecondary: "#DEB887" # BurlyWood
+      accentTertiary: "#D2B48C" # Tan
+      backgroundPrimary: "#FFF8DC" # Cornsilk
+      backgroundSecondary: "#FFFACD" # LemonChiffon
+      backgroundTertiary: "#FFEFD5" # PapayaWhip
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFA500" # Orange
+      brandTertiary: "#FF8C00" # DarkOrange
+      brandQuaternary: "#F4A460"
+      brandQuinary: "#FFFFF0" # Ivory
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#F4A460"
+      controlBackground: "#FFFACD"
+      glassBackground: "#FFF8DC08"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#F4A46020"
+      glowAccent: "#F4A460B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#DEB887CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#D2B48C"
+      interactiveFocus: "#D2B48C"
+      interactiveHover: "#F4A460"
+      interactiveIdle: "#F4A460CC"
+      interactivePressed: "#DEB887"
+      knobPrimary: "#D2B48C"
+      knobSecondary: "#F4A460"
+      neutralBorder: "#D2B48C"
+      neutralDivider: "#FFEFD5"
+      neutralHighlight: "#F4A460CC"
+      padActive: "#F4A460"
+      padInactive: "#FFEFD5"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#FFF8DC"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#F4A46033"
+      shadowMedium: "#00000015"
+      sliderThumb: "#F4A460"
+      sliderTrack: "#FFEFD5"
+      stateError: "#DC143C"
+      stateInfo: "#DEB887"
+      stateLink: "#F4A460"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FF8C00"
+      subtleAccent: "#FFEFD5"
+      surface: "#FFFACD"
+      surfaceDeep: "#D2B48C"
+      surfaceElevated: "#FFF8DC"
+      surfacePressed: "#FFEFD5"
+      surfacePrimary: "#FFFACD"
+      surfaceRaised: "#FFEFD5"
+      surfaceSecondary: "#FFEFD5"
+      surfaceTertiary: "#FFEFD5"
+      textAccent: "#B8860B"
+      textDisabled: "#DEB887"
+      textHighlight: "#FFFFF0"
+      textPrimary: "#8B4513"
+      textSecondary: "#A0522D"
+      textTertiary: "#CD853F"
+
+  # ===================================================
+  - name: "Sunset Mirage"
+    description: "Blazing desert sunset with shimmering heat waves"
+    author: "Mitchell Cohen"
+    feel: intense
+    tags: ["sunset", "mirage", "imported"]
+
+    colors:
+      accent: "#FF4500" # OrangeRed
+      accentSecondary: "#FF6347" # Tomato
+      accentTertiary: "#FF7F50" # Coral
+      backgroundPrimary: "#1A0F05" # Dark Orange
+      backgroundSecondary: "#2D1A0A"
+      backgroundTertiary: "#40250F"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFA500" # Orange
+      brandTertiary: "#FF8C00" # DarkOrange
+      brandQuaternary: "#FF4500"
+      brandQuinary: "#FFEFD5" # PapayaWhip
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#FF4500"
+      controlBackground: "#2D1A0A"
+      glassBackground: "#1A0F0508"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#FF450020"
+      glowAccent: "#FF4500B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#FF6347CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#FF7F50"
+      interactiveFocus: "#FF7F50"
+      interactiveHover: "#FF4500"
+      interactiveIdle: "#FF4500CC"
+      interactivePressed: "#FF6347"
+      knobPrimary: "#FF7F50"
+      knobSecondary: "#FF4500"
+      neutralBorder: "#FF7F50"
+      neutralDivider: "#40250F"
+      neutralHighlight: "#FF4500CC"
+      padActive: "#FF4500"
+      padInactive: "#40250F"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#1A0F05"
+      shadowDark: "#FFD70080"
+      shadowDeep: "#FFD700A0"
+      shadowLight: "#FF450033"
+      shadowMedium: "#FFD70050"
+      sliderThumb: "#FF4500"
+      sliderTrack: "#40250F"
+      stateError: "#8B0000"
+      stateInfo: "#FF6347"
+      stateLink: "#FF4500"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#40250F"
+      surface: "#2D1A0A"
+      surfaceDeep: "#FF7F50"
+      surfaceElevated: "#1A0F05"
+      surfacePressed: "#40250F"
+      surfacePrimary: "#2D1A0A"
+      surfaceRaised: "#40250F"
+      surfaceSecondary: "#40250F"
+      surfaceTertiary: "#40250F"
+      textAccent: "#FFD700"
+      textDisabled: "#FF6347"
+      textHighlight: "#FFFACD"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFEFD5"
+      textTertiary: "#FFDAB9"
+
+  # ===================================================
+  - name: "Oasis Springs"
+    description: "Hidden oasis with emerald waters and palm fronds"
+    author: "Mitchell Cohen"
+    feel: refreshing
+    tags: ["oasis", "springs", "imported"]
+
+    colors:
+      accent: "#20B2AA" # LightSeaGreen
+      accentSecondary: "#2E8B57" # SeaGreen
+      accentTertiary: "#3CB371" # MediumSeaGreen
+      backgroundPrimary: "#F5FFFA" # MintCream
+      backgroundSecondary: "#F0FFF0" # Honeydew
+      backgroundTertiary: "#E8F5E8" # Light Green
+      brandPrimary: "#90EE90" # LightGreen
+      brandSecondary: "#98FB98" # PaleGreen
+      brandTertiary: "#7CFC00" # LawnGreen
+      brandQuaternary: "#20B2AA"
+      brandQuinary: "#FFFFF0" # Ivory
+      buttonPrimary: "#90EE90"
+      buttonSecondary: "#20B2AA"
+      controlBackground: "#F0FFF0"
+      glassBackground: "#F5FFFA08"
+      glassBorder: "#90EE9066"
+      glassOverlay: "#20B2AA20"
+      glowAccent: "#20B2AAB3"
+      glowPrimary: "#90EE90E6"
+      glowSecondary: "#2E8B57CC"
+      interactiveActive: "#90EE90"
+      interactiveDisabled: "#3CB371"
+      interactiveFocus: "#3CB371"
+      interactiveHover: "#20B2AA"
+      interactiveIdle: "#20B2AACC"
+      interactivePressed: "#2E8B57"
+      knobPrimary: "#3CB371"
+      knobSecondary: "#20B2AA"
+      neutralBorder: "#3CB371"
+      neutralDivider: "#E8F5E8"
+      neutralHighlight: "#20B2AACC"
+      padActive: "#20B2AA"
+      padInactive: "#E8F5E8"
+      paleGreenAccent: "#90EE9080"
+      panelBackground: "#F5FFFA"
+      shadowDark: "#00000015"
+      shadowDeep: "#00000025"
+      shadowLight: "#20B2AA33"
+      shadowMedium: "#00000010"
+      sliderThumb: "#20B2AA"
+      sliderTrack: "#E8F5E8"
+      stateError: "#DC143C"
+      stateInfo: "#2E8B57"
+      stateLink: "#20B2AA"
+      stateSpecial: "#90EE90"
+      stateSuccess: "#32CD32"
+      stateWarning: "#FFD700"
+      subtleAccent: "#E8F5E8"
+      surface: "#F0FFF0"
+      surfaceDeep: "#3CB371"
+      surfaceElevated: "#F5FFFA"
+      surfacePressed: "#E8F5E8"
+      surfacePrimary: "#F0FFF0"
+      surfaceRaised: "#E8F5E8"
+      surfaceSecondary: "#E8F5E8"
+      surfaceTertiary: "#E8F5E8"
+      textAccent: "#228B22"
+      textDisabled: "#2E8B57"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#006400"
+      textSecondary: "#228B22"
+      textTertiary: "#2E8B57"

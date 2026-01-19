@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Slate Storm Pack"
+  author: "Mitchell Cohen"
+  description: "Cool slate greys, storm cloud blues, and silver lightning accents"
+  tags: ["slate", "storm", "grey", "lightning", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Granite Ridge"
+    description: "Solid granite with weathered stone textures"
+    author: "Mitchell Cohen"
+    feel: solid
+    tags: ["granite", "ridge", "imported"]
+
+    colors:
+      accent: "#708090" # SlateGray
+      accentSecondary: "#778899" # LightSlateGray
+      accentTertiary: "#696969" # DimGray
+      backgroundPrimary: "#2F4F4F" # DarkSlateGray
+      backgroundSecondary: "#36454F" # Charcoal
+      backgroundTertiary: "#3C5A5C"
+      brandPrimary: "#B0C4DE" # LightSteelBlue
+      brandSecondary: "#87CEEB" # SkyBlue
+      brandTertiary: "#87CEFA" # LightSkyBlue
+      brandQuaternary: "#708090"
+      brandQuinary: "#F5F5F5" # WhiteSmoke
+      buttonPrimary: "#B0C4DE"
+      buttonSecondary: "#708090"
+      controlBackground: "#36454F"
+      glassBackground: "#2F4F4F08"
+      glassBorder: "#B0C4DE66"
+      glassOverlay: "#70809020"
+      glowAccent: "#708090B3"
+      glowPrimary: "#B0C4DEE6"
+      glowSecondary: "#778899CC"
+      interactiveActive: "#B0C4DE"
+      interactiveDisabled: "#696969"
+      interactiveFocus: "#696969"
+      interactiveHover: "#708090"
+      interactiveIdle: "#708090CC"
+      interactivePressed: "#778899"
+      knobPrimary: "#696969"
+      knobSecondary: "#708090"
+      neutralBorder: "#696969"
+      neutralDivider: "#3C5A5C"
+      neutralHighlight: "#708090CC"
+      padActive: "#708090"
+      padInactive: "#3C5A5C"
+      paleGreenAccent: "#B0C4DE80"
+      panelBackground: "#2F4F4F"
+      shadowDark: "#B0C4DE80"
+      shadowDeep: "#B0C4DEA0"
+      shadowLight: "#70809033"
+      shadowMedium: "#B0C4DE50"
+      sliderThumb: "#708090"
+      sliderTrack: "#3C5A5C"
+      stateError: "#B22222"
+      stateInfo: "#778899"
+      stateLink: "#708090"
+      stateSpecial: "#B0C4DE"
+      stateSuccess: "#2E8B57"
+      stateWarning: "#DAA520"
+      subtleAccent: "#3C5A5C"
+      surface: "#36454F"
+      surfaceDeep: "#696969"
+      surfaceElevated: "#2F4F4F"
+      surfacePressed: "#3C5A5C"
+      surfacePrimary: "#36454F"
+      surfaceRaised: "#3C5A5C"
+      surfaceSecondary: "#3C5A5C"
+      surfaceTertiary: "#3C5A5C"
+      textAccent: "#B0C4DE"
+      textDisabled: "#778899"
+      textHighlight: "#F0F8FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E0E0E0"
+      textTertiary: "#D3D3D3"
+
+  # ===================================================
+  - name: "Thunder Cloud"
+    description: "Dark storm clouds with electric blue lightning"
+    author: "Mitchell Cohen"
+    feel: electric
+    tags: ["thunder", "cloud", "imported"]
+
+    colors:
+      accent: "#4169E1" # RoyalBlue
+      accentSecondary: "#6495ED" # CornflowerBlue
+      accentTertiary: "#7B68EE" # MediumSlateBlue
+      backgroundPrimary: "#191970" # MidnightBlue
+      backgroundSecondary: "#1E1E3F"
+      backgroundTertiary: "#232358"
+      brandPrimary: "#00BFFF" # DeepSkyBlue
+      brandSecondary: "#1E90FF" # DodgerBlue
+      brandTertiary: "#0080FF" # Azure
+      brandQuaternary: "#4169E1"
+      brandQuinary: "#E6F3FF" # Light Blue
+      buttonPrimary: "#00BFFF"
+      buttonSecondary: "#4169E1"
+      controlBackground: "#1E1E3F"
+      glassBackground: "#19197008"
+      glassBorder: "#00BFFF66"
+      glassOverlay: "#4169E120"
+      glowAccent: "#4169E1B3"
+      glowPrimary: "#00BFFFE6"
+      glowSecondary: "#6495EDCC"
+      interactiveActive: "#00BFFF"
+      interactiveDisabled: "#7B68EE"
+      interactiveFocus: "#7B68EE"
+      interactiveHover: "#4169E1"
+      interactiveIdle: "#4169E1CC"
+      interactivePressed: "#6495ED"
+      knobPrimary: "#7B68EE"
+      knobSecondary: "#4169E1"
+      neutralBorder: "#7B68EE"
+      neutralDivider: "#232358"
+      neutralHighlight: "#4169E1CC"
+      padActive: "#4169E1"
+      padInactive: "#232358"
+      paleGreenAccent: "#00BFFF80"
+      panelBackground: "#191970"
+      shadowDark: "#00BFFF80"
+      shadowDeep: "#00BFFFA0"
+      shadowLight: "#4169E133"
+      shadowMedium: "#00BFFF50"
+      sliderThumb: "#4169E1"
+      sliderTrack: "#232358"
+      stateError: "#8B0000"
+      stateInfo: "#6495ED"
+      stateLink: "#4169E1"
+      stateSpecial: "#00BFFF"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#232358"
+      surface: "#1E1E3F"
+      surfaceDeep: "#7B68EE"
+      surfaceElevated: "#191970"
+      surfacePressed: "#232358"
+      surfacePrimary: "#1E1E3F"
+      surfaceRaised: "#232358"
+      surfaceSecondary: "#232358"
+      surfaceTertiary: "#232358"
+      textAccent: "#00BFFF"
+      textDisabled: "#6495ED"
+      textHighlight: "#F0F8FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E6F3FF"
+      textTertiary: "#B0E0E6"
+
+  # ===================================================
+  - name: "Silver Frost"
+    description: "Icy silver frost with crystalline highlights"
+    author: "Mitchell Cohen"
+    feel: crystalline
+    tags: ["silver", "frost", "imported"]
+
+    colors:
+      accent: "#C0C0C0" # Silver
+      accentSecondary: "#D3D3D3" # LightGray
+      accentTertiary: "#DCDCDC" # Gainsboro
+      backgroundPrimary: "#F8F8FF" # GhostWhite
+      backgroundSecondary: "#F5F5F5" # WhiteSmoke
+      backgroundTertiary: "#EEEEEE" # Light Grey
+      brandPrimary: "#E0E0E0" # Light Grey
+      brandSecondary: "#D8D8D8" # Light Silver
+      brandTertiary: "#B8B8B8" # Silver Grey
+      brandQuaternary: "#C0C0C0"
+      brandQuinary: "#FFFFFF" # White
+      buttonPrimary: "#E0E0E0"
+      buttonSecondary: "#C0C0C0"
+      controlBackground: "#F5F5F5"
+      glassBackground: "#F8F8FF08"
+      glassBorder: "#E0E0E066"
+      glassOverlay: "#C0C0C020"
+      glowAccent: "#C0C0C0B3"
+      glowPrimary: "#E0E0E0E6"
+      glowSecondary: "#D3D3D3CC"
+      interactiveActive: "#E0E0E0"
+      interactiveDisabled: "#DCDCDC"
+      interactiveFocus: "#DCDCDC"
+      interactiveHover: "#C0C0C0"
+      interactiveIdle: "#C0C0C0CC"
+      interactivePressed: "#D3D3D3"
+      knobPrimary: "#DCDCDC"
+      knobSecondary: "#C0C0C0"
+      neutralBorder: "#DCDCDC"
+      neutralDivider: "#EEEEEE"
+      neutralHighlight: "#C0C0C0CC"
+      padActive: "#C0C0C0"
+      padInactive: "#EEEEEE"
+      paleGreenAccent: "#E0E0E080"
+      panelBackground: "#F8F8FF"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#C0C0C033"
+      shadowMedium: "#00000015"
+      sliderThumb: "#C0C0C0"
+      sliderTrack: "#EEEEEE"
+      stateError: "#DC143C"
+      stateInfo: "#D3D3D3"
+      stateLink: "#C0C0C0"
+      stateSpecial: "#E0E0E0"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#EEEEEE"
+      surface: "#F5F5F5"
+      surfaceDeep: "#DCDCDC"
+      surfaceElevated: "#F8F8FF"
+      surfacePressed: "#EEEEEE"
+      surfacePrimary: "#F5F5F5"
+      surfaceRaised: "#EEEEEE"
+      surfaceSecondary: "#EEEEEE"
+      surfaceTertiary: "#EEEEEE"
+      textAccent: "#696969"
+      textDisabled: "#A9A9A9"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#556B2F"
+      textTertiary: "#708090"

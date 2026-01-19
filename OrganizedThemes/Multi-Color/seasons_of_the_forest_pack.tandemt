@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Seasons of the Forest Pack"
+  author: "Mitchell Cohen"
+  description: "Themes inspired by the changing colors of the forest through the seasons"
+  tags: ["seasons", "forest", "nature", "colorful", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Spring Growth"
+    description: "Fresh greens and soft pastels of a forest in spring"
+    author: "Mitchell Cohen"
+    feel: fresh
+    tags: ["spring", "green", "imported"]
+
+    colors:
+      accent: "#90EE90" # LightGreen
+      accentSecondary: "#98FB98" # PaleGreen
+      accentTertiary: "#8FBC8F" # DarkSeaGreen
+      backgroundPrimary: "#F0FFF0" # Honeydew
+      backgroundSecondary: "#E0EEE0"
+      backgroundTertiary: "#D0E0D0"
+      brandPrimary: "#FFB6C1" # LightPink
+      brandSecondary: "#FFC0CB" # Pink
+      brandTertiary: "#FF69B4" # HotPink
+      brandQuaternary: "#90EE90"
+      brandQuinary: "#F0FFF0"
+      buttonPrimary: "#FFB6C1"
+      buttonSecondary: "#90EE90"
+      controlBackground: "#E0EEE0"
+      glassBackground: "#F0FFF008"
+      glassBorder: "#FFB6C166"
+      glassOverlay: "#90EE9020"
+      glowAccent: "#90EE90B3"
+      glowPrimary: "#FFB6C1E6"
+      glowSecondary: "#98FB98CC"
+      interactiveActive: "#FFB6C1"
+      interactiveDisabled: "#8FBC8F"
+      interactiveFocus: "#8FBC8F"
+      interactiveHover: "#90EE90"
+      interactiveIdle: "#90EE90CC"
+      interactivePressed: "#98FB98"
+      knobPrimary: "#8FBC8F"
+      knobSecondary: "#90EE90"
+      neutralBorder: "#8FBC8F"
+      neutralDivider: "#D0E0D0"
+      neutralHighlight: "#90EE90CC"
+      padActive: "#90EE90"
+      padInactive: "#D0E0D0"
+      paleGreenAccent: "#FFB6C180"
+      panelBackground: "#F0FFF0"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#90EE9033"
+      shadowMedium: "#00000010"
+      sliderThumb: "#90EE90"
+      sliderTrack: "#D0E0D0"
+      stateError: "#CD5C5C"
+      stateInfo: "#98FB98"
+      stateLink: "#90EE90"
+      stateSpecial: "#FFB6C1"
+      stateSuccess: "#3CB371"
+      stateWarning: "#F0E68C"
+      subtleAccent: "#D0E0D0"
+      surface: "#E0EEE0"
+      surfaceDeep: "#8FBC8F"
+      surfaceElevated: "#F0FFF0"
+      surfacePressed: "#D0E0D0"
+      surfacePrimary: "#E0EEE0"
+      surfaceRaised: "#D0E0D0"
+      surfaceSecondary: "#D0E0D0"
+      surfaceTertiary: "#D0E0D0"
+      textAccent: "#2E8B57"
+      textDisabled: "#98FB98"
+      textHighlight: "#F5FFFA"
+      textPrimary: "#556B2F"
+      textSecondary: "#6B8E23"
+      textTertiary: "#808000"
+
+  # ===================================================
+  - name: "Summer Canopy"
+    description: "Lush, deep greens of a forest in full summer"
+    author: "Mitchell Cohen"
+    feel: lush
+    tags: ["summer", "green", "imported"]
+
+    colors:
+      accent: "#228B22" # ForestGreen
+      accentSecondary: "#006400" # DarkGreen
+      accentTertiary: "#556B2F" # DarkOliveGreen
+      backgroundPrimary: "#0D1F0D"
+      backgroundSecondary: "#1B3A1B"
+      backgroundTertiary: "#2E5530"
+      brandPrimary: "#ADFF2F" # GreenYellow
+      brandSecondary: "#7FFF00" # Chartreuse
+      brandTertiary: "#32CD32" # LimeGreen
+      brandQuaternary: "#228B22"
+      brandQuinary: "#9ACD32" # YellowGreen
+      buttonPrimary: "#ADFF2F"
+      buttonSecondary: "#228B22"
+      controlBackground: "#1B3A1B"
+      glassBackground: "#0D1F0D08"
+      glassBorder: "#ADFF2F66"
+      glassOverlay: "#228B2220"
+      glowAccent: "#228B22B3"
+      glowPrimary: "#ADFF2FE6"
+      glowSecondary: "#006400CC"
+      interactiveActive: "#ADFF2F"
+      interactiveDisabled: "#556B2F"
+      interactiveFocus: "#556B2F"
+      interactiveHover: "#228B22"
+      interactiveIdle: "#228B22CC"
+      interactivePressed: "#006400"
+      knobPrimary: "#556B2F"
+      knobSecondary: "#228B22"
+      neutralBorder: "#556B2F"
+      neutralDivider: "#2E5530"
+      neutralHighlight: "#228B22CC"
+      padActive: "#228B22"
+      padInactive: "#2E5530"
+      paleGreenAccent: "#ADFF2F80"
+      panelBackground: "#0D1F0D"
+      shadowDark: "#00000080"
+      shadowDeep: "#000000A0"
+      shadowLight: "#228B2233"
+      shadowMedium: "#00000050"
+      sliderThumb: "#228B22"
+      sliderTrack: "#2E5530"
+      stateError: "#8B0000"
+      stateInfo: "#006400"
+      stateLink: "#228B22"
+      stateSpecial: "#ADFF2F"
+      stateSuccess: "#388E3C"
+      stateWarning: "#DAA520"
+      subtleAccent: "#2E5530"
+      surface: "#1B3A1B"
+      surfaceDeep: "#556B2F"
+      surfaceElevated: "#0D1F0D"
+      surfacePressed: "#2E5530"
+      surfacePrimary: "#1B3A1B"
+      surfaceRaised: "#2E5530"
+      surfaceSecondary: "#2E5530"
+      surfaceTertiary: "#2E5530"
+      textAccent: "#7FFF00"
+      textDisabled: "#006400"
+      textHighlight: "#F0FFF0"
+      textPrimary: "#E8F5E9"
+      textSecondary: "#C8E6C9"
+      textTertiary: "#A5D6A7"
+
+  # ===================================================
+  - name: "Autumn Blaze"
+    description: "Fiery oranges, reds, and golds of an autumn forest"
+    author: "Mitchell Cohen"
+    feel: fiery
+    tags: ["autumn", "red", "imported"]
+
+    colors:
+      accent: "#FF4500" # OrangeRed
+      accentSecondary: "#FF6347" # Tomato
+      accentTertiary: "#FF7F50" # Coral
+      backgroundPrimary: "#2F1B0C"
+      backgroundSecondary: "#5C3D2E"
+      backgroundTertiary: "#8B4513"
+      brandPrimary: "#DAA520" # GoldenRod
+      brandSecondary: "#B8860B" # DarkGoldenRod
+      brandTertiary: "#D2691E" # Chocolate
+      brandQuaternary: "#FF4500"
+      brandQuinary: "#FFDAB9" # PeachPuff
+      buttonPrimary: "#DAA520"
+      buttonSecondary: "#FF4500"
+      controlBackground: "#5C3D2E"
+      glassBackground: "#2F1B0C08"
+      glassBorder: "#DAA52066"
+      glassOverlay: "#FF450020"
+      glowAccent: "#FF4500B3"
+      glowPrimary: "#DAA520E6"
+      glowSecondary: "#FF6347CC"
+      interactiveActive: "#DAA520"
+      interactiveDisabled: "#FF7F50"
+      interactiveFocus: "#FF7F50"
+      interactiveHover: "#FF4500"
+      interactiveIdle: "#FF4500CC"
+      interactivePressed: "#FF6347"
+      knobPrimary: "#FF7F50"
+      knobSecondary: "#FF4500"
+      neutralBorder: "#FF7F50"
+      neutralDivider: "#8B4513"
+      neutralHighlight: "#FF4500CC"
+      padActive: "#FF4500"
+      padInactive: "#8B4513"
+      paleGreenAccent: "#DAA52080"
+      panelBackground: "#2F1B0C"
+      shadowDark: "#00000080"
+      shadowDeep: "#000000A0"
+      shadowLight: "#FF450033"
+      shadowMedium: "#00000050"
+      sliderThumb: "#FF4500"
+      sliderTrack: "#8B4513"
+      stateError: "#8B0000"
+      stateInfo: "#FF6347"
+      stateLink: "#FF4500"
+      stateSpecial: "#DAA520"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#8B4513"
+      surface: "#5C3D2E"
+      surfaceDeep: "#FF7F50"
+      surfaceElevated: "#2F1B0C"
+      surfacePressed: "#8B4513"
+      surfacePrimary: "#5C3D2E"
+      surfaceRaised: "#8B4513"
+      surfaceSecondary: "#8B4513"
+      surfaceTertiary: "#8B4513"
+      textAccent: "#B8860B"
+      textDisabled: "#FF6347"
+      textHighlight: "#FFF5EE"
+      textPrimary: "#FFF8DC"
+      textSecondary: "#FFEBCD"
+      textTertiary: "#FFE4B5"

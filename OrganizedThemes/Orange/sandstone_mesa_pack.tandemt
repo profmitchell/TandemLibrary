@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Sandstone Mesa Pack"
+  author: "Mitchell Cohen"
+  description: "Layered sandstone formations, mesa red rocks, and desert canyon colors"
+  tags: ["sandstone", "mesa", "desert", "canyon", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Red Rock Formation"
+    description: "Dramatic red rock formations carved by wind and time"
+    author: "Mitchell Cohen"
+    feel: dramatic
+    tags: ["red", "rock", "imported"]
+
+    colors:
+      accent: "#A0522D" # Sienna
+      accentSecondary: "#CD853F" # Peru
+      accentTertiary: "#D2B48C" # Tan
+      backgroundPrimary: "#2F1B0C" # Dark Brown
+      backgroundSecondary: "#3E2F1C"
+      backgroundTertiary: "#4D3F2C"
+      brandPrimary: "#F4A460" # SandyBrown
+      brandSecondary: "#DEB887" # BurlyWood
+      brandTertiary: "#D2B48C" # Tan
+      brandQuaternary: "#A0522D"
+      brandQuinary: "#FFF8DC" # Cornsilk
+      buttonPrimary: "#F4A460"
+      buttonSecondary: "#A0522D"
+      controlBackground: "#3E2F1C"
+      glassBackground: "#2F1B0C08"
+      glassBorder: "#F4A46066"
+      glassOverlay: "#A0522D20"
+      glowAccent: "#A0522DB3"
+      glowPrimary: "#F4A460E6"
+      glowSecondary: "#CD853FCC"
+      interactiveActive: "#F4A460"
+      interactiveDisabled: "#D2B48C"
+      interactiveFocus: "#D2B48C"
+      interactiveHover: "#A0522D"
+      interactiveIdle: "#A0522DCC"
+      interactivePressed: "#CD853F"
+      knobPrimary: "#D2B48C"
+      knobSecondary: "#A0522D"
+      neutralBorder: "#D2B48C"
+      neutralDivider: "#4D3F2C"
+      neutralHighlight: "#A0522DCC"
+      padActive: "#A0522D"
+      padInactive: "#4D3F2C"
+      paleGreenAccent: "#F4A46080"
+      panelBackground: "#2F1B0C"
+      shadowDark: "#F4A46080"
+      shadowDeep: "#F4A460A0"
+      shadowLight: "#A0522D33"
+      shadowMedium: "#F4A46050"
+      sliderThumb: "#A0522D"
+      sliderTrack: "#4D3F2C"
+      stateError: "#8B0000"
+      stateInfo: "#CD853F"
+      stateLink: "#A0522D"
+      stateSpecial: "#F4A460"
+      stateSuccess: "#228B22"
+      stateWarning: "#FF8C00"
+      subtleAccent: "#4D3F2C"
+      surface: "#3E2F1C"
+      surfaceDeep: "#D2B48C"
+      surfaceElevated: "#2F1B0C"
+      surfacePressed: "#4D3F2C"
+      surfacePrimary: "#3E2F1C"
+      surfaceRaised: "#4D3F2C"
+      surfaceSecondary: "#4D3F2C"
+      surfaceTertiary: "#4D3F2C"
+      textAccent: "#F4A460"
+      textDisabled: "#CD853F"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFEFD5"
+      textTertiary: "#FFDAB9"
+
+  # ===================================================
+  - name: "Desert Layers"
+    description: "Stratified desert rock layers revealing geological time"
+    author: "Mitchell Cohen"
+    feel: geological
+    tags: ["desert", "layers", "imported"]
+
+    colors:
+      accent: "#DEB887" # BurlyWood
+      accentSecondary: "#D2B48C" # Tan
+      accentTertiary: "#BC8F8F" # RosyBrown
+      backgroundPrimary: "#FFF8DC" # Cornsilk
+      backgroundSecondary: "#FFFACD" # LemonChiffon
+      backgroundTertiary: "#FFEFD5" # PapayaWhip
+      brandPrimary: "#CD853F" # Peru
+      brandSecondary: "#F4A460" # SandyBrown
+      brandTertiary: "#DAA520" # GoldenRod
+      brandQuaternary: "#DEB887"
+      brandQuinary: "#FFFFF0" # Ivory
+      buttonPrimary: "#CD853F"
+      buttonSecondary: "#DEB887"
+      controlBackground: "#FFFACD"
+      glassBackground: "#FFF8DC08"
+      glassBorder: "#CD853F66"
+      glassOverlay: "#DEB88720"
+      glowAccent: "#DEB887B3"
+      glowPrimary: "#CD853FE6"
+      glowSecondary: "#D2B48CCC"
+      interactiveActive: "#CD853F"
+      interactiveDisabled: "#BC8F8F"
+      interactiveFocus: "#BC8F8F"
+      interactiveHover: "#DEB887"
+      interactiveIdle: "#DEB887CC"
+      interactivePressed: "#D2B48C"
+      knobPrimary: "#BC8F8F"
+      knobSecondary: "#DEB887"
+      neutralBorder: "#BC8F8F"
+      neutralDivider: "#FFEFD5"
+      neutralHighlight: "#DEB887CC"
+      padActive: "#DEB887"
+      padInactive: "#FFEFD5"
+      paleGreenAccent: "#CD853F80"
+      panelBackground: "#FFF8DC"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#DEB88733"
+      shadowMedium: "#00000015"
+      sliderThumb: "#DEB887"
+      sliderTrack: "#FFEFD5"
+      stateError: "#DC143C"
+      stateInfo: "#D2B48C"
+      stateLink: "#DEB887"
+      stateSpecial: "#CD853F"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#FFEFD5"
+      surface: "#FFFACD"
+      surfaceDeep: "#BC8F8F"
+      surfaceElevated: "#FFF8DC"
+      surfacePressed: "#FFEFD5"
+      surfacePrimary: "#FFFACD"
+      surfaceRaised: "#FFEFD5"
+      surfaceSecondary: "#FFEFD5"
+      surfaceTertiary: "#FFEFD5"
+      textAccent: "#8B4513"
+      textDisabled: "#D2B48C"
+      textHighlight: "#FFFFF0"
+      textPrimary: "#654321"
+      textSecondary: "#8B4513"
+      textTertiary: "#A0522D"
+
+  # ===================================================
+  - name: "Canyon Shadows"
+    description: "Deep canyon shadows with golden rim lighting"
+    author: "Mitchell Cohen"
+    feel: deep
+    tags: ["canyon", "shadows", "imported"]
+
+    colors:
+      accent: "#8B4513" # SaddleBrown
+      accentSecondary: "#A0522D" # Sienna
+      accentTertiary: "#CD853F" # Peru
+      backgroundPrimary: "#1F0F05" # Very Dark Brown
+      backgroundSecondary: "#3E1E0A"
+      backgroundTertiary: "#5D2D0F"
+      brandPrimary: "#DAA520" # GoldenRod
+      brandSecondary: "#FFD700" # Gold
+      brandTertiary: "#FFA500" # Orange
+      brandQuaternary: "#8B4513"
+      brandQuinary: "#FFF8DC" # Cornsilk
+      buttonPrimary: "#DAA520"
+      buttonSecondary: "#8B4513"
+      controlBackground: "#3E1E0A"
+      glassBackground: "#1F0F0508"
+      glassBorder: "#DAA52066"
+      glassOverlay: "#8B451320"
+      glowAccent: "#8B4513B3"
+      glowPrimary: "#DAA520E6"
+      glowSecondary: "#A0522DCC"
+      interactiveActive: "#DAA520"
+      interactiveDisabled: "#CD853F"
+      interactiveFocus: "#CD853F"
+      interactiveHover: "#8B4513"
+      interactiveIdle: "#8B4513CC"
+      interactivePressed: "#A0522D"
+      knobPrimary: "#CD853F"
+      knobSecondary: "#8B4513"
+      neutralBorder: "#CD853F"
+      neutralDivider: "#5D2D0F"
+      neutralHighlight: "#8B4513CC"
+      padActive: "#8B4513"
+      padInactive: "#5D2D0F"
+      paleGreenAccent: "#DAA52080"
+      panelBackground: "#1F0F05"
+      shadowDark: "#DAA52080"
+      shadowDeep: "#DAA520A0"
+      shadowLight: "#8B451333"
+      shadowMedium: "#DAA52050"
+      sliderThumb: "#8B4513"
+      sliderTrack: "#5D2D0F"
+      stateError: "#8B0000"
+      stateInfo: "#A0522D"
+      stateLink: "#8B4513"
+      stateSpecial: "#DAA520"
+      stateSuccess: "#228B22"
+      stateWarning: "#FFA500"
+      subtleAccent: "#5D2D0F"
+      surface: "#3E1E0A"
+      surfaceDeep: "#CD853F"
+      surfaceElevated: "#1F0F05"
+      surfacePressed: "#5D2D0F"
+      surfacePrimary: "#3E1E0A"
+      surfaceRaised: "#5D2D0F"
+      surfaceSecondary: "#5D2D0F"
+      surfaceTertiary: "#5D2D0F"
+      textAccent: "#DAA520"
+      textDisabled: "#A0522D"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFEFD5"
+      textTertiary: "#FFDAB9"

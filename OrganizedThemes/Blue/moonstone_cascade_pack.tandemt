@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Moonstone Cascade Pack"
+  author: "Mitchell Cohen"
+  description: "Ethereal moonstone whites, cascading water blues, and silver mist"
+  tags: ["moonstone", "cascade", "ethereal", "silver", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Lunar Shimmer"
+    description: "Ethereal moonstone with gentle silver shimmer"
+    author: "Mitchell Cohen"
+    feel: ethereal
+    tags: ["lunar", "shimmer", "imported"]
+
+    colors:
+      accent: "#C0C0C0" # Silver
+      accentSecondary: "#D3D3D3" # LightGray
+      accentTertiary: "#DCDCDC" # Gainsboro
+      backgroundPrimary: "#F8F8FF" # GhostWhite
+      backgroundSecondary: "#F0F8FF" # AliceBlue
+      backgroundTertiary: "#E6E6FA" # Lavender
+      brandPrimary: "#E0E0E0" # Light Grey
+      brandSecondary: "#EEEEEE" # Very Light Grey
+      brandTertiary: "#F5F5F5" # WhiteSmoke
+      brandQuaternary: "#C0C0C0"
+      brandQuinary: "#FFFFFF" # White
+      buttonPrimary: "#E0E0E0"
+      buttonSecondary: "#C0C0C0"
+      controlBackground: "#F0F8FF"
+      glassBackground: "#F8F8FF08"
+      glassBorder: "#E0E0E066"
+      glassOverlay: "#C0C0C020"
+      glowAccent: "#C0C0C0B3"
+      glowPrimary: "#E0E0E0E6"
+      glowSecondary: "#D3D3D3CC"
+      interactiveActive: "#E0E0E0"
+      interactiveDisabled: "#DCDCDC"
+      interactiveFocus: "#DCDCDC"
+      interactiveHover: "#C0C0C0"
+      interactiveIdle: "#C0C0C0CC"
+      interactivePressed: "#D3D3D3"
+      knobPrimary: "#DCDCDC"
+      knobSecondary: "#C0C0C0"
+      neutralBorder: "#DCDCDC"
+      neutralDivider: "#E6E6FA"
+      neutralHighlight: "#C0C0C0CC"
+      padActive: "#C0C0C0"
+      padInactive: "#E6E6FA"
+      paleGreenAccent: "#E0E0E080"
+      panelBackground: "#F8F8FF"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#C0C0C033"
+      shadowMedium: "#00000015"
+      sliderThumb: "#C0C0C0"
+      sliderTrack: "#E6E6FA"
+      stateError: "#DC143C"
+      stateInfo: "#D3D3D3"
+      stateLink: "#C0C0C0"
+      stateSpecial: "#E0E0E0"
+      stateSuccess: "#98FB98"
+      stateWarning: "#FFD700"
+      subtleAccent: "#E6E6FA"
+      surface: "#F0F8FF"
+      surfaceDeep: "#DCDCDC"
+      surfaceElevated: "#F8F8FF"
+      surfacePressed: "#E6E6FA"
+      surfacePrimary: "#F0F8FF"
+      surfaceRaised: "#E6E6FA"
+      surfaceSecondary: "#E6E6FA"
+      surfaceTertiary: "#E6E6FA"
+      textAccent: "#708090"
+      textDisabled: "#B0B0B0"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#696969"
+      textTertiary: "#808080"
+
+  # ===================================================
+  - name: "Crystal Falls"
+    description: "Cascading crystal waterfall with prismatic spray"
+    author: "Mitchell Cohen"
+    feel: flowing
+    tags: ["crystal", "falls", "imported"]
+
+    colors:
+      accent: "#40E0D0" # Turquoise
+      accentSecondary: "#48D1CC" # MediumTurquoise
+      accentTertiary: "#20B2AA" # LightSeaGreen
+      backgroundPrimary: "#F0FFFF" # Azure
+      backgroundSecondary: "#E0FFFF" # LightCyan
+      backgroundTertiary: "#AFEEEE" # PaleTurquoise
+      brandPrimary: "#87CEEB" # SkyBlue
+      brandSecondary: "#87CEFA" # LightSkyBlue
+      brandTertiary: "#B0E0E6" # PowderBlue
+      brandQuaternary: "#40E0D0"
+      brandQuinary: "#F5FFFA" # MintCream
+      buttonPrimary: "#87CEEB"
+      buttonSecondary: "#40E0D0"
+      controlBackground: "#E0FFFF"
+      glassBackground: "#F0FFFF08"
+      glassBorder: "#87CEEB66"
+      glassOverlay: "#40E0D020"
+      glowAccent: "#40E0D0B3"
+      glowPrimary: "#87CEEBE6"
+      glowSecondary: "#48D1CCCC"
+      interactiveActive: "#87CEEB"
+      interactiveDisabled: "#20B2AA"
+      interactiveFocus: "#20B2AA"
+      interactiveHover: "#40E0D0"
+      interactiveIdle: "#40E0D0CC"
+      interactivePressed: "#48D1CC"
+      knobPrimary: "#20B2AA"
+      knobSecondary: "#40E0D0"
+      neutralBorder: "#20B2AA"
+      neutralDivider: "#AFEEEE"
+      neutralHighlight: "#40E0D0CC"
+      padActive: "#40E0D0"
+      padInactive: "#AFEEEE"
+      paleGreenAccent: "#87CEEB80"
+      panelBackground: "#F0FFFF"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#40E0D033"
+      shadowMedium: "#00000015"
+      sliderThumb: "#40E0D0"
+      sliderTrack: "#AFEEEE"
+      stateError: "#DC143C"
+      stateInfo: "#48D1CC"
+      stateLink: "#40E0D0"
+      stateSpecial: "#87CEEB"
+      stateSuccess: "#20B2AA"
+      stateWarning: "#FFD700"
+      subtleAccent: "#AFEEEE"
+      surface: "#E0FFFF"
+      surfaceDeep: "#20B2AA"
+      surfaceElevated: "#F0FFFF"
+      surfacePressed: "#AFEEEE"
+      surfacePrimary: "#E0FFFF"
+      surfaceRaised: "#AFEEEE"
+      surfaceSecondary: "#AFEEEE"
+      surfaceTertiary: "#AFEEEE"
+      textAccent: "#008B8B"
+      textDisabled: "#48D1CC"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#008B8B"
+      textTertiary: "#20B2AA"
+
+  # ===================================================
+  - name: "Mist Valley"
+    description: "Mysterious silver mist through mountain valleys"
+    author: "Mitchell Cohen"
+    feel: mysterious
+    tags: ["mist", "valley", "imported"]
+
+    colors:
+      accent: "#778899" # LightSlateGray
+      accentSecondary: "#708090" # SlateGray
+      accentTertiary: "#696969" # DimGray
+      backgroundPrimary: "#2F4F4F" # DarkSlateGray
+      backgroundSecondary: "#36454F" # Charcoal
+      backgroundTertiary: "#3C5A5C" # Dark Grey Blue
+      brandPrimary: "#B0C4DE" # LightSteelBlue
+      brandSecondary: "#87CEEB" # SkyBlue
+      brandTertiary: "#ADD8E6" # LightBlue
+      brandQuaternary: "#778899"
+      brandQuinary: "#F5F5F5" # WhiteSmoke
+      buttonPrimary: "#B0C4DE"
+      buttonSecondary: "#778899"
+      controlBackground: "#36454F"
+      glassBackground: "#2F4F4F08"
+      glassBorder: "#B0C4DE66"
+      glassOverlay: "#77889920"
+      glowAccent: "#778899B3"
+      glowPrimary: "#B0C4DEE6"
+      glowSecondary: "#708090CC"
+      interactiveActive: "#B0C4DE"
+      interactiveDisabled: "#696969"
+      interactiveFocus: "#696969"
+      interactiveHover: "#778899"
+      interactiveIdle: "#778899CC"
+      interactivePressed: "#708090"
+      knobPrimary: "#696969"
+      knobSecondary: "#778899"
+      neutralBorder: "#696969"
+      neutralDivider: "#3C5A5C"
+      neutralHighlight: "#778899CC"
+      padActive: "#778899"
+      padInactive: "#3C5A5C"
+      paleGreenAccent: "#B0C4DE80"
+      panelBackground: "#2F4F4F"
+      shadowDark: "#B0C4DE80"
+      shadowDeep: "#B0C4DEA0"
+      shadowLight: "#77889933"
+      shadowMedium: "#B0C4DE50"
+      sliderThumb: "#778899"
+      sliderTrack: "#3C5A5C"
+      stateError: "#B22222"
+      stateInfo: "#708090"
+      stateLink: "#778899"
+      stateSpecial: "#B0C4DE"
+      stateSuccess: "#2E8B57"
+      stateWarning: "#DAA520"
+      subtleAccent: "#3C5A5C"
+      surface: "#36454F"
+      surfaceDeep: "#696969"
+      surfaceElevated: "#2F4F4F"
+      surfacePressed: "#3C5A5C"
+      surfacePrimary: "#36454F"
+      surfaceRaised: "#3C5A5C"
+      surfaceSecondary: "#3C5A5C"
+      surfaceTertiary: "#3C5A5C"
+      textAccent: "#B0C4DE"
+      textDisabled: "#708090"
+      textHighlight: "#F0F8FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E0E0E0"
+      textTertiary: "#D3D3D3"

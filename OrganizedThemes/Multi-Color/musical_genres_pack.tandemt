@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Musical Genres Pack"
+  author: "Mitchell Cohen"
+  description: "Themes inspired by the colors and moods of different musical genres"
+  tags: ["music", "genre", "rhythm", "harmony", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Jazz Noir"
+    description: "Smoky browns and amber lights of a late-night jazz club"
+    author: "Mitchell Cohen"
+    feel: sophisticated
+    tags: ["jazz", "brown", "imported"]
+
+    colors:
+      accent: "#D2691E" # Chocolate
+      accentSecondary: "#CD853F" # Peru
+      accentTertiary: "#A0522D" # Sienna
+      backgroundPrimary: "#2F1B14" # Dark Brown
+      backgroundSecondary: "#3E2723"
+      backgroundTertiary: "#5D4037"
+      brandPrimary: "#FF8C00" # DarkOrange
+      brandSecondary: "#FFA500" # Orange
+      brandTertiary: "#FFD700" # Gold
+      brandQuaternary: "#D2691E"
+      brandQuinary: "#FFDAB9" # PeachPuff
+      buttonPrimary: "#FF8C00"
+      buttonSecondary: "#D2691E"
+      controlBackground: "#3E2723"
+      glassBackground: "#2F1B1408"
+      glassBorder: "#FF8C0066"
+      glassOverlay: "#D2691E20"
+      glowAccent: "#D2691EB3"
+      glowPrimary: "#FF8C00E6"
+      glowSecondary: "#CD853FCC"
+      interactiveActive: "#FF8C00"
+      interactiveDisabled: "#A0522D"
+      interactiveFocus: "#A0522D"
+      interactiveHover: "#D2691E"
+      interactiveIdle: "#D2691ECC"
+      interactivePressed: "#CD853F"
+      knobPrimary: "#A0522D"
+      knobSecondary: "#D2691E"
+      neutralBorder: "#A0522D"
+      neutralDivider: "#5D4037"
+      neutralHighlight: "#D2691ECC"
+      padActive: "#D2691E"
+      padInactive: "#5D4037"
+      paleGreenAccent: "#FF8C0080"
+      panelBackground: "#2F1B14"
+      shadowDark: "#FF8C0080"
+      shadowDeep: "#FF8C00A0"
+      shadowLight: "#D2691E33"
+      shadowMedium: "#FF8C0050"
+      sliderThumb: "#D2691E"
+      sliderTrack: "#5D4037"
+      stateError: "#8B0000"
+      stateInfo: "#CD853F"
+      stateLink: "#D2691E"
+      stateSpecial: "#FF8C00"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#5D4037"
+      surface: "#3E2723"
+      surfaceDeep: "#A0522D"
+      surfaceElevated: "#2F1B14"
+      surfacePressed: "#5D4037"
+      surfacePrimary: "#3E2723"
+      surfaceRaised: "#5D4037"
+      surfaceSecondary: "#5D4037"
+      surfaceTertiary: "#5D4037"
+      textAccent: "#FF8C00"
+      textDisabled: "#CD853F"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#FFDAB9"
+      textTertiary: "#F5DEB3"
+
+  # ===================================================
+  - name: "Electronic Beat"
+    description: "Neon cyans and electric magentas of electronic dance music"
+    author: "Mitchell Cohen"
+    feel: energetic
+    tags: ["electronic", "cyan", "imported"]
+
+    colors:
+      accent: "#00FFFF" # Cyan
+      accentSecondary: "#00E5E5"
+      accentTertiary: "#00CCCC"
+      backgroundPrimary: "#0A0A1A" # Dark Purple
+      backgroundSecondary: "#1A0A2E"
+      backgroundTertiary: "#2A0A42"
+      brandPrimary: "#FF00FF" # Magenta
+      brandSecondary: "#E600E6"
+      brandTertiary: "#CC00CC"
+      brandQuaternary: "#00FFFF"
+      brandQuinary: "#E0FFFF" # LightCyan
+      buttonPrimary: "#FF00FF"
+      buttonSecondary: "#00FFFF"
+      controlBackground: "#1A0A2E"
+      glassBackground: "#0A0A1A08"
+      glassBorder: "#FF00FF66"
+      glassOverlay: "#00FFFF20"
+      glowAccent: "#00FFFFB3"
+      glowPrimary: "#FF00FFE6"
+      glowSecondary: "#00E5E5CC"
+      interactiveActive: "#FF00FF"
+      interactiveDisabled: "#00CCCC"
+      interactiveFocus: "#00CCCC"
+      interactiveHover: "#00FFFF"
+      interactiveIdle: "#00FFFFCC"
+      interactivePressed: "#00E5E5"
+      knobPrimary: "#00CCCC"
+      knobSecondary: "#00FFFF"
+      neutralBorder: "#00CCCC"
+      neutralDivider: "#2A0A42"
+      neutralHighlight: "#00FFFFCC"
+      padActive: "#00FFFF"
+      padInactive: "#2A0A42"
+      paleGreenAccent: "#FF00FF80"
+      panelBackground: "#0A0A1A"
+      shadowDark: "#FF00FF80"
+      shadowDeep: "#FF00FFA0"
+      shadowLight: "#00FFFF33"
+      shadowMedium: "#FF00FF50"
+      sliderThumb: "#00FFFF"
+      sliderTrack: "#2A0A42"
+      stateError: "#FF0040"
+      stateInfo: "#00E5E5"
+      stateLink: "#00FFFF"
+      stateSpecial: "#FF00FF"
+      stateSuccess: "#00FF80"
+      stateWarning: "#FFFF00"
+      subtleAccent: "#2A0A42"
+      surface: "#1A0A2E"
+      surfaceDeep: "#00CCCC"
+      surfaceElevated: "#0A0A1A"
+      surfacePressed: "#2A0A42"
+      surfacePrimary: "#1A0A2E"
+      surfaceRaised: "#2A0A42"
+      surfaceSecondary: "#2A0A42"
+      surfaceTertiary: "#2A0A42"
+      textAccent: "#00FFFF"
+      textDisabled: "#00E5E5"
+      textHighlight: "#F0FFFF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E0FFFF"
+      textTertiary: "#B0E0E6"
+
+  # ===================================================
+  - name: "Country Roads"
+    description: "Warm oranges and earthy browns of country music"
+    author: "Mitchell Cohen"
+    feel: warm
+    tags: ["country", "orange", "imported"]
+
+    colors:
+      accent: "#FF8C00" # DarkOrange
+      accentSecondary: "#FF7F50" # Coral
+      accentTertiary: "#FFA500" # Orange
+      backgroundPrimary: "#F5F5DC" # Beige
+      backgroundSecondary: "#F0E68C" # Khaki
+      backgroundTertiary: "#DEB887" # BurlyWood
+      brandPrimary: "#8B4513" # SaddleBrown
+      brandSecondary: "#A0522D" # Sienna
+      brandTertiary: "#CD853F" # Peru
+      brandQuaternary: "#FF8C00"
+      brandQuinary: "#FFEFD5" # PapayaWhip
+      buttonPrimary: "#8B4513"
+      buttonSecondary: "#FF8C00"
+      controlBackground: "#F0E68C"
+      glassBackground: "#F5F5DC08"
+      glassBorder: "#8B451366"
+      glassOverlay: "#FF8C0020"
+      glowAccent: "#FF8C00B3"
+      glowPrimary: "#8B4513E6"
+      glowSecondary: "#FF7F50CC"
+      interactiveActive: "#8B4513"
+      interactiveDisabled: "#FFA500"
+      interactiveFocus: "#FFA500"
+      interactiveHover: "#FF8C00"
+      interactiveIdle: "#FF8C00CC"
+      interactivePressed: "#FF7F50"
+      knobPrimary: "#FFA500"
+      knobSecondary: "#FF8C00"
+      neutralBorder: "#FFA500"
+      neutralDivider: "#DEB887"
+      neutralHighlight: "#FF8C00CC"
+      padActive: "#FF8C00"
+      padInactive: "#DEB887"
+      paleGreenAccent: "#8B451380"
+      panelBackground: "#F5F5DC"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#FF8C0033"
+      shadowMedium: "#00000020"
+      sliderThumb: "#FF8C00"
+      sliderTrack: "#DEB887"
+      stateError: "#DC143C"
+      stateInfo: "#FF7F50"
+      stateLink: "#FF8C00"
+      stateSpecial: "#8B4513"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#DEB887"
+      surface: "#F0E68C"
+      surfaceDeep: "#FFA500"
+      surfaceElevated: "#F5F5DC"
+      surfacePressed: "#DEB887"
+      surfacePrimary: "#F0E68C"
+      surfaceRaised: "#DEB887"
+      surfaceSecondary: "#DEB887"
+      surfaceTertiary: "#DEB887"
+      textAccent: "#8B4513"
+      textDisabled: "#FF7F50"
+      textHighlight: "#FFFAF0"
+      textPrimary: "#654321"
+      textSecondary: "#8B4513"
+      textTertiary: "#A0522D"

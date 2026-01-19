@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Ancient Empires Pack"
+  author: "Mitchell Cohen"
+  description: "Themes inspired by the grandeur of ancient civilizations"
+  tags: ["ancient", "empire", "historical", "grand", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Egyptian Sands"
+    description: "Golden sands, Nile blues, and hieroglyphic tones"
+    author: "Mitchell Cohen"
+    feel: timeless
+    tags: ["egyptian", "sands", "imported"]
+
+    colors:
+      accent: "#FFC107" # Gold
+      accentSecondary: "#FFD54F"
+      accentTertiary: "#FFE082"
+      backgroundPrimary: "#FDF5E6" # Old Lace
+      backgroundSecondary: "#FAF0E6" # Linen
+      backgroundTertiary: "#F5DEB3" # Wheat
+      brandPrimary: "#00008B" # DarkBlue
+      brandSecondary: "#1E90FF" # DodgerBlue
+      brandTertiary: "#87CEEB" # SkyBlue
+      brandQuaternary: "#FFC107"
+      brandQuinary: "#FFFACD" # LemonChiffon
+      buttonPrimary: "#00008B"
+      buttonSecondary: "#FFC107"
+      controlBackground: "#FAF0E6"
+      glassBackground: "#FDF5E608"
+      glassBorder: "#00008B66"
+      glassOverlay: "#FFC10720"
+      glowAccent: "#FFC107B3"
+      glowPrimary: "#00008BE6"
+      glowSecondary: "#FFD54FCC"
+      interactiveActive: "#00008B"
+      interactiveDisabled: "#FFE082"
+      interactiveFocus: "#FFE082"
+      interactiveHover: "#FFC107"
+      interactiveIdle: "#FFC107CC"
+      interactivePressed: "#FFD54F"
+      knobPrimary: "#FFE082"
+      knobSecondary: "#FFC107"
+      neutralBorder: "#FFE082"
+      neutralDivider: "#F5DEB3"
+      neutralHighlight: "#FFC107CC"
+      padActive: "#FFC107"
+      padInactive: "#F5DEB3"
+      paleGreenAccent: "#00008B80"
+      panelBackground: "#FDF5E6"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#FFC10733"
+      shadowMedium: "#00000020"
+      sliderThumb: "#FFC107"
+      sliderTrack: "#F5DEB3"
+      stateError: "#8B0000"
+      stateInfo: "#FFD54F"
+      stateLink: "#FFC107"
+      stateSpecial: "#00008B"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#F5DEB3"
+      surface: "#FAF0E6"
+      surfaceDeep: "#FFE082"
+      surfaceElevated: "#FDF5E6"
+      surfacePressed: "#F5DEB3"
+      surfacePrimary: "#FAF0E6"
+      surfaceRaised: "#F5DEB3"
+      surfaceSecondary: "#F5DEB3"
+      surfaceTertiary: "#F5DEB3"
+      textAccent: "#1E90FF"
+      textDisabled: "#FFD54F"
+      textHighlight: "#FFFFF0"
+      textPrimary: "#8B4513"
+      textSecondary: "#A0522D"
+      textTertiary: "#CD853F"
+
+  # ===================================================
+  - name: "Roman Marble"
+    description: "Imperial purples, white marble, and golden laurels"
+    author: "Mitchell Cohen"
+    feel: imperial
+    tags: ["roman", "marble", "imported"]
+
+    colors:
+      accent: "#800080" # Purple
+      accentSecondary: "#9932CC" # DarkOrchid
+      accentTertiary: "#BA55D3" # MediumOrchid
+      backgroundPrimary: "#FFFFFF"
+      backgroundSecondary: "#F5F5F5"
+      backgroundTertiary: "#E8E8E8"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#DAA520" # GoldenRod
+      brandTertiary: "#B8860B" # DarkGoldenRod
+      brandQuaternary: "#800080"
+      brandQuinary: "#E6E6FA" # Lavender
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#800080"
+      controlBackground: "#F5F5F5"
+      glassBackground: "#FFFFFF08"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#80008020"
+      glowAccent: "#800080B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#9932CCCC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#BA55D3"
+      interactiveFocus: "#BA55D3"
+      interactiveHover: "#800080"
+      interactiveIdle: "#800080CC"
+      interactivePressed: "#9932CC"
+      knobPrimary: "#BA55D3"
+      knobSecondary: "#800080"
+      neutralBorder: "#BA55D3"
+      neutralDivider: "#E8E8E8"
+      neutralHighlight: "#800080CC"
+      padActive: "#800080"
+      padInactive: "#E8E8E8"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#FFFFFF"
+      shadowDark: "#00000040"
+      shadowDeep: "#00000060"
+      shadowLight: "#80008033"
+      shadowMedium: "#00000030"
+      sliderThumb: "#800080"
+      sliderTrack: "#E8E8E8"
+      stateError: "#B22222"
+      stateInfo: "#9932CC"
+      stateLink: "#800080"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#E8E8E8"
+      surface: "#F5F5F5"
+      surfaceDeep: "#BA55D3"
+      surfaceElevated: "#FFFFFF"
+      surfacePressed: "#E8E8E8"
+      surfacePrimary: "#F5F5F5"
+      surfaceRaised: "#E8E8E8"
+      surfaceSecondary: "#E8E8E8"
+      surfaceTertiary: "#E8E8E8"
+      textAccent: "#9932CC"
+      textDisabled: "#9932CC"
+      textHighlight: "#F8F8FF"
+      textPrimary: "#363636"
+      textSecondary: "#484848"
+      textTertiary: "#606060"
+
+  # ===================================================
+  - name: "Aztec Jade"
+    description: "Vibrant jade greens, turquoise, and sunstone golds"
+    author: "Mitchell Cohen"
+    feel: vibrant
+    tags: ["aztec", "jade", "imported"]
+
+    colors:
+      accent: "#00A86B" # Jade
+      accentSecondary: "#40E0D0" # Turquoise
+      accentTertiary: "#48D1CC" # MediumTurquoise
+      backgroundPrimary: "#F0EAD6" # Eggshell
+      backgroundSecondary: "#D2B48C" # Tan
+      backgroundTertiary: "#BC8F8F" # RosyBrown
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#FFC107"
+      brandTertiary: "#FFA500"
+      brandQuaternary: "#00A86B"
+      brandQuinary: "#AFEEEE" # PaleTurquoise
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#00A86B"
+      controlBackground: "#D2B48C"
+      glassBackground: "#F0EAD608"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#00A86B20"
+      glowAccent: "#00A86BB3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#40E0D0CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#48D1CC"
+      interactiveFocus: "#48D1CC"
+      interactiveHover: "#00A86B"
+      interactiveIdle: "#00A86BCC"
+      interactivePressed: "#40E0D0"
+      knobPrimary: "#48D1CC"
+      knobSecondary: "#00A86B"
+      neutralBorder: "#48D1CC"
+      neutralDivider: "#BC8F8F"
+      neutralHighlight: "#00A86BCC"
+      padActive: "#00A86B"
+      padInactive: "#BC8F8F"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#F0EAD6"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#00A86B33"
+      shadowMedium: "#00000020"
+      sliderThumb: "#00A86B"
+      sliderTrack: "#BC8F8F"
+      stateError: "#B22222"
+      stateInfo: "#40E0D0"
+      stateLink: "#00A86B"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#2E8B57"
+      stateWarning: "#DAA520"
+      subtleAccent: "#BC8F8F"
+      surface: "#D2B48C"
+      surfaceDeep: "#48D1CC"
+      surfaceElevated: "#F0EAD6"
+      surfacePressed: "#BC8F8F"
+      surfacePrimary: "#D2B48C"
+      surfaceRaised: "#BC8F8F"
+      surfaceSecondary: "#BC8F8F"
+      surfaceTertiary: "#BC8F8F"
+      textAccent: "#40E0D0"
+      textDisabled: "#40E0D0"
+      textHighlight: "#F5FFFA"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#556B2F"
+      textTertiary: "#8B4513"

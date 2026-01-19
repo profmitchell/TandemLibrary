@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-01-19T14:21:28.485Z",
-  "repo": "profmitchell/TandemLibrary",
+  "generatedAt": "2026-01-19T14:47:30.383Z",
+  "repo": "YOUR_GITHUB_USERNAME/TandemLibrary",
   "branch": "main",
   "themes": [
     {
@@ -20,6 +20,8 @@
         "#181B1B",
         "#232929"
       ],
+      "colorCategory": "neutral",
+      "isPack": false,
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/dark-grey-1.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/dark-grey-1.tandemt",
@@ -42,6 +44,8 @@
         "#17191C",
         "#22262B"
       ],
+      "colorCategory": "neutral",
+      "isPack": false,
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/dark-grey-2.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/dark-grey-2.tandemt",
@@ -66,6 +70,8 @@
         "#2F2F00",
         "#4A4A00"
       ],
+      "colorCategory": "orange",
+      "isPack": false,
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/golden-citrus-pack.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/golden-citrus-pack.tandemt",
@@ -88,6 +94,8 @@
         "#F2F3F3",
         "#E4E7E7"
       ],
+      "colorCategory": "neutral",
+      "isPack": false,
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/grey-1.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/grey-1.tandemt",
@@ -110,6 +118,8 @@
         "#F0F1F4",
         "#E1E3EA"
       ],
+      "colorCategory": "blue",
+      "isPack": false,
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/light-grey-2.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/light-grey-2.tandemt",
@@ -133,6 +143,8 @@
         "#FFF0F3",
         "#FFE8ED"
       ],
+      "colorCategory": "pink",
+      "isPack": false,
       "previewUrl": null,
       "downloadUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/TandemLibrary/main/themes/sakura-petals-pack.tandemt",
       "sourceUrl": "https://github.com/YOUR_GITHUB_USERNAME/TandemLibrary/blob/main/themes/sakura-petals-pack.tandemt",

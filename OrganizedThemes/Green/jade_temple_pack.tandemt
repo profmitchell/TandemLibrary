@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Jade Temple Pack"
+  author: "Mitchell Cohen"
+  description: "Sacred jade greens, temple gold accents, and zen stone textures"
+  tags: ["jade", "temple", "zen", "sacred", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Imperial Jade"
+    description: "Rich imperial jade with golden dragon accents"
+    author: "Mitchell Cohen"
+    feel: regal
+    tags: ["imperial", "jade", "imported"]
+
+    colors:
+      accent: "#00A86B" # Jade
+      accentSecondary: "#2E8B57" # SeaGreen
+      accentTertiary: "#3CB371" # MediumSeaGreen
+      backgroundPrimary: "#0F2B0F" # Dark Green
+      backgroundSecondary: "#1A3D1A"
+      backgroundTertiary: "#254F25"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#DAA520" # GoldenRod
+      brandTertiary: "#B8860B" # DarkGoldenRod
+      brandQuaternary: "#00A86B"
+      brandQuinary: "#F0FFF0" # Honeydew
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#00A86B"
+      controlBackground: "#1A3D1A"
+      glassBackground: "#0F2B0F08"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#00A86B20"
+      glowAccent: "#00A86BB3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#2E8B57CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#3CB371"
+      interactiveFocus: "#3CB371"
+      interactiveHover: "#00A86B"
+      interactiveIdle: "#00A86BCC"
+      interactivePressed: "#2E8B57"
+      knobPrimary: "#3CB371"
+      knobSecondary: "#00A86B"
+      neutralBorder: "#3CB371"
+      neutralDivider: "#254F25"
+      neutralHighlight: "#00A86BCC"
+      padActive: "#00A86B"
+      padInactive: "#254F25"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#0F2B0F"
+      shadowDark: "#FFD70080"
+      shadowDeep: "#FFD700A0"
+      shadowLight: "#00A86B33"
+      shadowMedium: "#FFD70050"
+      sliderThumb: "#00A86B"
+      sliderTrack: "#254F25"
+      stateError: "#8B0000"
+      stateInfo: "#2E8B57"
+      stateLink: "#00A86B"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#254F25"
+      surface: "#1A3D1A"
+      surfaceDeep: "#3CB371"
+      surfaceElevated: "#0F2B0F"
+      surfacePressed: "#254F25"
+      surfacePrimary: "#1A3D1A"
+      surfaceRaised: "#254F25"
+      surfaceSecondary: "#254F25"
+      surfaceTertiary: "#254F25"
+      textAccent: "#FFD700"
+      textDisabled: "#2E8B57"
+      textHighlight: "#F5FFF5"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F0FFF0"
+      textTertiary: "#E8F5E8"
+
+  # ===================================================
+  - name: "Zen Garden"
+    description: "Peaceful zen garden with raked sand patterns"
+    author: "Mitchell Cohen"
+    feel: peaceful
+    tags: ["zen", "garden", "imported"]
+
+    colors:
+      accent: "#8FBC8F" # DarkSeaGreen
+      accentSecondary: "#9ACD32" # YellowGreen
+      accentTertiary: "#ADFF2F" # GreenYellow
+      backgroundPrimary: "#F5FFFA" # MintCream
+      backgroundSecondary: "#F0FFF0" # Honeydew
+      backgroundTertiary: "#E8F5E8" # Light Green
+      brandPrimary: "#D2B48C" # Tan
+      brandSecondary: "#DEB887" # BurlyWood
+      brandTertiary: "#F4A460" # SandyBrown
+      brandQuaternary: "#8FBC8F"
+      brandQuinary: "#FFFFFF" # White
+      buttonPrimary: "#D2B48C"
+      buttonSecondary: "#8FBC8F"
+      controlBackground: "#F0FFF0"
+      glassBackground: "#F5FFFA08"
+      glassBorder: "#D2B48C66"
+      glassOverlay: "#8FBC8F20"
+      glowAccent: "#8FBC8FB3"
+      glowPrimary: "#D2B48CE6"
+      glowSecondary: "#9ACD32CC"
+      interactiveActive: "#D2B48C"
+      interactiveDisabled: "#ADFF2F"
+      interactiveFocus: "#ADFF2F"
+      interactiveHover: "#8FBC8F"
+      interactiveIdle: "#8FBC8FCC"
+      interactivePressed: "#9ACD32"
+      knobPrimary: "#ADFF2F"
+      knobSecondary: "#8FBC8F"
+      neutralBorder: "#ADFF2F"
+      neutralDivider: "#E8F5E8"
+      neutralHighlight: "#8FBC8FCC"
+      padActive: "#8FBC8F"
+      padInactive: "#E8F5E8"
+      paleGreenAccent: "#D2B48C80"
+      panelBackground: "#F5FFFA"
+      shadowDark: "#00000015"
+      shadowDeep: "#00000025"
+      shadowLight: "#8FBC8F33"
+      shadowMedium: "#00000010"
+      sliderThumb: "#8FBC8F"
+      sliderTrack: "#E8F5E8"
+      stateError: "#DC143C"
+      stateInfo: "#9ACD32"
+      stateLink: "#8FBC8F"
+      stateSpecial: "#D2B48C"
+      stateSuccess: "#32CD32"
+      stateWarning: "#FFD700"
+      subtleAccent: "#E8F5E8"
+      surface: "#F0FFF0"
+      surfaceDeep: "#ADFF2F"
+      surfaceElevated: "#F5FFFA"
+      surfacePressed: "#E8F5E8"
+      surfacePrimary: "#F0FFF0"
+      surfaceRaised: "#E8F5E8"
+      surfaceSecondary: "#E8F5E8"
+      surfaceTertiary: "#E8F5E8"
+      textAccent: "#8B4513"
+      textDisabled: "#9ACD32"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#556B2F"
+      textTertiary: "#6B8E23"
+
+  # ===================================================
+  - name: "Stone Pagoda"
+    description: "Ancient stone pagoda with weathered textures"
+    author: "Mitchell Cohen"
+    feel: ancient
+    tags: ["stone", "pagoda", "imported"]
+
+    colors:
+      accent: "#696969" # DimGray
+      accentSecondary: "#778899" # LightSlateGray
+      accentTertiary: "#808080" # Gray
+      backgroundPrimary: "#F5F5DC" # Beige
+      backgroundSecondary: "#FAEBD7" # AntiqueWhite
+      backgroundTertiary: "#F0E68C" # Khaki
+      brandPrimary: "#8FBC8F" # DarkSeaGreen
+      brandSecondary: "#9ACD32" # YellowGreen
+      brandTertiary: "#90EE90" # LightGreen
+      brandQuaternary: "#696969"
+      brandQuinary: "#FFF8DC" # Cornsilk
+      buttonPrimary: "#8FBC8F"
+      buttonSecondary: "#696969"
+      controlBackground: "#FAEBD7"
+      glassBackground: "#F5F5DC08"
+      glassBorder: "#8FBC8F66"
+      glassOverlay: "#69696920"
+      glowAccent: "#696969B3"
+      glowPrimary: "#8FBC8FE6"
+      glowSecondary: "#778899CC"
+      interactiveActive: "#8FBC8F"
+      interactiveDisabled: "#808080"
+      interactiveFocus: "#808080"
+      interactiveHover: "#696969"
+      interactiveIdle: "#696969CC"
+      interactivePressed: "#778899"
+      knobPrimary: "#808080"
+      knobSecondary: "#696969"
+      neutralBorder: "#808080"
+      neutralDivider: "#F0E68C"
+      neutralHighlight: "#696969CC"
+      padActive: "#696969"
+      padInactive: "#F0E68C"
+      paleGreenAccent: "#8FBC8F80"
+      panelBackground: "#F5F5DC"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#69696933"
+      shadowMedium: "#00000020"
+      sliderThumb: "#696969"
+      sliderTrack: "#F0E68C"
+      stateError: "#B22222"
+      stateInfo: "#778899"
+      stateLink: "#696969"
+      stateSpecial: "#8FBC8F"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#F0E68C"
+      surface: "#FAEBD7"
+      surfaceDeep: "#808080"
+      surfaceElevated: "#F5F5DC"
+      surfacePressed: "#F0E68C"
+      surfacePrimary: "#FAEBD7"
+      surfaceRaised: "#F0E68C"
+      surfaceSecondary: "#F0E68C"
+      surfaceTertiary: "#F0E68C"
+      textAccent: "#2E8B57"
+      textDisabled: "#778899"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#556B2F"
+      textTertiary: "#6B8E23"

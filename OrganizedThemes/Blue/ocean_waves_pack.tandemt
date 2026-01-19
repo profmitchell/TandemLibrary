@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Ocean Waves Pack"
+  author: "Mitchell Cohen"
+  description: "Fluid themes inspired by the rhythm and colors of ocean waves"
+  tags: ["ocean", "waves", "fluid", "serene", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Gentle Tide"
+    description: "Soft blues and whites of a calm ocean tide"
+    author: "Mitchell Cohen"
+    feel: serene
+    tags: ["tide", "calm", "imported"]
+
+    colors:
+      accent: "#87CEEB" # SkyBlue
+      accentSecondary: "#87CEFA" # LightSkyBlue
+      accentTertiary: "#ADD8E6" # LightBlue
+      backgroundPrimary: "#F0F8FF" # AliceBlue
+      backgroundSecondary: "#E6F3FF"
+      backgroundTertiary: "#CCE7FF"
+      brandPrimary: "#4682B4" # SteelBlue
+      brandSecondary: "#5F9EA0" # CadetBlue
+      brandTertiary: "#6495ED" # CornflowerBlue
+      brandQuaternary: "#87CEEB"
+      brandQuinary: "#F0FFFF" # Azure
+      buttonPrimary: "#4682B4"
+      buttonSecondary: "#87CEEB"
+      controlBackground: "#E6F3FF"
+      glassBackground: "#F0F8FF08"
+      glassBorder: "#4682B466"
+      glassOverlay: "#87CEEB20"
+      glowAccent: "#87CEEBB3"
+      glowPrimary: "#4682B4E6"
+      glowSecondary: "#87CEFACC"
+      interactiveActive: "#4682B4"
+      interactiveDisabled: "#ADD8E6"
+      interactiveFocus: "#ADD8E6"
+      interactiveHover: "#87CEEB"
+      interactiveIdle: "#87CEEBCC"
+      interactivePressed: "#87CEFA"
+      knobPrimary: "#ADD8E6"
+      knobSecondary: "#87CEEB"
+      neutralBorder: "#ADD8E6"
+      neutralDivider: "#CCE7FF"
+      neutralHighlight: "#87CEEBCC"
+      padActive: "#87CEEB"
+      padInactive: "#CCE7FF"
+      paleGreenAccent: "#4682B480"
+      panelBackground: "#F0F8FF"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#87CEEB33"
+      shadowMedium: "#00000020"
+      sliderThumb: "#87CEEB"
+      sliderTrack: "#CCE7FF"
+      stateError: "#DC143C"
+      stateInfo: "#87CEFA"
+      stateLink: "#87CEEB"
+      stateSpecial: "#4682B4"
+      stateSuccess: "#20B2AA"
+      stateWarning: "#DAA520"
+      subtleAccent: "#CCE7FF"
+      surface: "#E6F3FF"
+      surfaceDeep: "#ADD8E6"
+      surfaceElevated: "#F0F8FF"
+      surfacePressed: "#CCE7FF"
+      surfacePrimary: "#E6F3FF"
+      surfaceRaised: "#CCE7FF"
+      surfaceSecondary: "#CCE7FF"
+      surfaceTertiary: "#CCE7FF"
+      textAccent: "#4682B4"
+      textDisabled: "#87CEFA"
+      textHighlight: "#F5FAFF"
+      textPrimary: "#191970" # MidnightBlue
+      textSecondary: "#2F4F4F"
+      textTertiary: "#4682B4"
+
+  # ===================================================
+  - name: "Storm Surge"
+    description: "Dark blues and grays of a powerful ocean storm"
+    author: "Mitchell Cohen"
+    feel: powerful
+    tags: ["storm", "dark", "imported"]
+
+    colors:
+      accent: "#2F4F4F" # DarkSlateGray
+      accentSecondary: "#36454F" # Charcoal
+      accentTertiary: "#4682B4" # SteelBlue
+      backgroundPrimary: "#0F1419" # Dark Blue Gray
+      backgroundSecondary: "#1C2833"
+      backgroundTertiary: "#2C3E50"
+      brandPrimary: "#5DADE2" # Light Blue
+      brandSecondary: "#3498DB" # Dodger Blue
+      brandTertiary: "#2980B9" # Belize Hole
+      brandQuaternary: "#2F4F4F"
+      brandQuinary: "#85C1E9" # Baby Blue
+      buttonPrimary: "#5DADE2"
+      buttonSecondary: "#2F4F4F"
+      controlBackground: "#1C2833"
+      glassBackground: "#0F141908"
+      glassBorder: "#5DADE266"
+      glassOverlay: "#2F4F4F20"
+      glowAccent: "#2F4F4FB3"
+      glowPrimary: "#5DADE2E6"
+      glowSecondary: "#36454FCC"
+      interactiveActive: "#5DADE2"
+      interactiveDisabled: "#4682B4"
+      interactiveFocus: "#4682B4"
+      interactiveHover: "#2F4F4F"
+      interactiveIdle: "#2F4F4FCC"
+      interactivePressed: "#36454F"
+      knobPrimary: "#4682B4"
+      knobSecondary: "#2F4F4F"
+      neutralBorder: "#4682B4"
+      neutralDivider: "#2C3E50"
+      neutralHighlight: "#2F4F4FCC"
+      padActive: "#2F4F4F"
+      padInactive: "#2C3E50"
+      paleGreenAccent: "#5DADE280"
+      panelBackground: "#0F1419"
+      shadowDark: "#00000080"
+      shadowDeep: "#000000A0"
+      shadowLight: "#2F4F4F33"
+      shadowMedium: "#00000050"
+      sliderThumb: "#2F4F4F"
+      sliderTrack: "#2C3E50"
+      stateError: "#E74C3C"
+      stateInfo: "#36454F"
+      stateLink: "#2F4F4F"
+      stateSpecial: "#5DADE2"
+      stateSuccess: "#27AE60"
+      stateWarning: "#F39C12"
+      subtleAccent: "#2C3E50"
+      surface: "#1C2833"
+      surfaceDeep: "#4682B4"
+      surfaceElevated: "#0F1419"
+      surfacePressed: "#2C3E50"
+      surfacePrimary: "#1C2833"
+      surfaceRaised: "#2C3E50"
+      surfaceSecondary: "#2C3E50"
+      surfaceTertiary: "#2C3E50"
+      textAccent: "#5DADE2"
+      textDisabled: "#36454F"
+      textHighlight: "#EBF5FB"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#D5DBDB"
+      textTertiary: "#AEB6BF"
+
+  # ===================================================
+  - name: "Coral Reef"
+    description: "Vibrant oranges and teals of a tropical coral reef"
+    author: "Mitchell Cohen"
+    feel: vibrant
+    tags: ["coral", "tropical", "imported"]
+
+    colors:
+      accent: "#FF7F50" # Coral
+      accentSecondary: "#FF6347" # Tomato
+      accentTertiary: "#FF4500" # OrangeRed
+      backgroundPrimary: "#E0FFFF" # LightCyan
+      backgroundSecondary: "#AFEEEE" # PaleTurquoise
+      backgroundTertiary: "#7FFFD4" # Aquamarine
+      brandPrimary: "#00CED1" # DarkTurquoise
+      brandSecondary: "#48D1CC" # MediumTurquoise
+      brandTertiary: "#40E0D0" # Turquoise
+      brandQuaternary: "#FF7F50"
+      brandQuinary: "#FFE4E1" # MistyRose
+      buttonPrimary: "#00CED1"
+      buttonSecondary: "#FF7F50"
+      controlBackground: "#AFEEEE"
+      glassBackground: "#E0FFFF08"
+      glassBorder: "#00CED166"
+      glassOverlay: "#FF7F5020"
+      glowAccent: "#FF7F50B3"
+      glowPrimary: "#00CED1E6"
+      glowSecondary: "#FF6347CC"
+      interactiveActive: "#00CED1"
+      interactiveDisabled: "#FF4500"
+      interactiveFocus: "#FF4500"
+      interactiveHover: "#FF7F50"
+      interactiveIdle: "#FF7F50CC"
+      interactivePressed: "#FF6347"
+      knobPrimary: "#FF4500"
+      knobSecondary: "#FF7F50"
+      neutralBorder: "#FF4500"
+      neutralDivider: "#7FFFD4"
+      neutralHighlight: "#FF7F50CC"
+      padActive: "#FF7F50"
+      padInactive: "#7FFFD4"
+      paleGreenAccent: "#00CED180"
+      panelBackground: "#E0FFFF"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#FF7F5033"
+      shadowMedium: "#00000020"
+      sliderThumb: "#FF7F50"
+      sliderTrack: "#7FFFD4"
+      stateError: "#DC143C"
+      stateInfo: "#FF6347"
+      stateLink: "#FF7F50"
+      stateSpecial: "#00CED1"
+      stateSuccess: "#20B2AA"
+      stateWarning: "#DAA520"
+      subtleAccent: "#7FFFD4"
+      surface: "#AFEEEE"
+      surfaceDeep: "#FF4500"
+      surfaceElevated: "#E0FFFF"
+      surfacePressed: "#7FFFD4"
+      surfacePrimary: "#AFEEEE"
+      surfaceRaised: "#7FFFD4"
+      surfaceSecondary: "#7FFFD4"
+      surfaceTertiary: "#7FFFD4"
+      textAccent: "#00CED1"
+      textDisabled: "#FF6347"
+      textHighlight: "#F0FFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#008B8B"
+      textTertiary: "#20B2AA"

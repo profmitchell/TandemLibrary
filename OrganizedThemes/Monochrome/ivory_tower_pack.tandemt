@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Ivory Tower Pack"
+  author: "Mitchell Cohen"
+  description: "Pure ivory whites, tower stone greys, and classical marble tones"
+  tags: ["ivory", "tower", "marble", "classical", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Pure Ivory"
+    description: "Pristine ivory with warm undertones"
+    author: "Mitchell Cohen"
+    feel: pristine
+    tags: ["pure", "ivory", "imported"]
+
+    colors:
+      accent: "#FFFFF0" # Ivory
+      accentSecondary: "#FFF8DC" # Cornsilk
+      accentTertiary: "#FAEBD7" # AntiqueWhite
+      backgroundPrimary: "#FFFFFE" # Almost White
+      backgroundSecondary: "#FAFAFA" # Off White
+      backgroundTertiary: "#F5F5F5" # WhiteSmoke
+      brandPrimary: "#F0E68C" # Khaki
+      brandSecondary: "#EEE8AA" # PaleGoldenrod
+      brandTertiary: "#DDD8B8" # Light Tan
+      brandQuaternary: "#FFFFF0"
+      brandQuinary: "#FFFFFF" # White
+      buttonPrimary: "#F0E68C"
+      buttonSecondary: "#FFFFF0"
+      controlBackground: "#FAFAFA"
+      glassBackground: "#FFFFFE08"
+      glassBorder: "#F0E68C66"
+      glassOverlay: "#FFFFF020"
+      glowAccent: "#FFFFF0B3"
+      glowPrimary: "#F0E68CE6"
+      glowSecondary: "#FFF8DCCC"
+      interactiveActive: "#F0E68C"
+      interactiveDisabled: "#FAEBD7"
+      interactiveFocus: "#FAEBD7"
+      interactiveHover: "#FFFFF0"
+      interactiveIdle: "#FFFFF0CC"
+      interactivePressed: "#FFF8DC"
+      knobPrimary: "#FAEBD7"
+      knobSecondary: "#FFFFF0"
+      neutralBorder: "#FAEBD7"
+      neutralDivider: "#F5F5F5"
+      neutralHighlight: "#FFFFF0CC"
+      padActive: "#FFFFF0"
+      padInactive: "#F5F5F5"
+      paleGreenAccent: "#F0E68C80"
+      panelBackground: "#FFFFFE"
+      shadowDark: "#00000015"
+      shadowDeep: "#00000020"
+      shadowLight: "#FFFFF033"
+      shadowMedium: "#00000010"
+      sliderThumb: "#FFFFF0"
+      sliderTrack: "#F5F5F5"
+      stateError: "#DC143C"
+      stateInfo: "#FFF8DC"
+      stateLink: "#FFFFF0"
+      stateSpecial: "#F0E68C"
+      stateSuccess: "#98FB98"
+      stateWarning: "#FFD700"
+      subtleAccent: "#F5F5F5"
+      surface: "#FAFAFA"
+      surfaceDeep: "#FAEBD7"
+      surfaceElevated: "#FFFFFE"
+      surfacePressed: "#F5F5F5"
+      surfacePrimary: "#FAFAFA"
+      surfaceRaised: "#F5F5F5"
+      surfaceSecondary: "#F5F5F5"
+      surfaceTertiary: "#F5F5F5"
+      textAccent: "#B8860B"
+      textDisabled: "#DDD8B8"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#696969"
+      textTertiary: "#808080"
+
+  # ===================================================
+  - name: "Stone Fortress"
+    description: "Ancient stone walls with weathered textures"
+    author: "Mitchell Cohen"
+    feel: ancient
+    tags: ["stone", "fortress", "imported"]
+
+    colors:
+      accent: "#A9A9A9" # DarkGray
+      accentSecondary: "#808080" # Gray
+      accentTertiary: "#696969" # DimGray
+      backgroundPrimary: "#F5F5DC" # Beige
+      backgroundSecondary: "#F0E68C" # Khaki
+      backgroundTertiary: "#EEE8AA" # PaleGoldenrod
+      brandPrimary: "#D2B48C" # Tan
+      brandSecondary: "#DEB887" # BurlyWood
+      brandTertiary: "#BC8F8F" # RosyBrown
+      brandQuaternary: "#A9A9A9"
+      brandQuinary: "#F5F5F5" # WhiteSmoke
+      buttonPrimary: "#D2B48C"
+      buttonSecondary: "#A9A9A9"
+      controlBackground: "#F0E68C"
+      glassBackground: "#F5F5DC08"
+      glassBorder: "#D2B48C66"
+      glassOverlay: "#A9A9A920"
+      glowAccent: "#A9A9A9B3"
+      glowPrimary: "#D2B48CE6"
+      glowSecondary: "#808080CC"
+      interactiveActive: "#D2B48C"
+      interactiveDisabled: "#696969"
+      interactiveFocus: "#696969"
+      interactiveHover: "#A9A9A9"
+      interactiveIdle: "#A9A9A9CC"
+      interactivePressed: "#808080"
+      knobPrimary: "#696969"
+      knobSecondary: "#A9A9A9"
+      neutralBorder: "#696969"
+      neutralDivider: "#EEE8AA"
+      neutralHighlight: "#A9A9A9CC"
+      padActive: "#A9A9A9"
+      padInactive: "#EEE8AA"
+      paleGreenAccent: "#D2B48C80"
+      panelBackground: "#F5F5DC"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#A9A9A933"
+      shadowMedium: "#00000020"
+      sliderThumb: "#A9A9A9"
+      sliderTrack: "#EEE8AA"
+      stateError: "#B22222"
+      stateInfo: "#808080"
+      stateLink: "#A9A9A9"
+      stateSpecial: "#D2B48C"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#EEE8AA"
+      surface: "#F0E68C"
+      surfaceDeep: "#696969"
+      surfaceElevated: "#F5F5DC"
+      surfacePressed: "#EEE8AA"
+      surfacePrimary: "#F0E68C"
+      surfaceRaised: "#EEE8AA"
+      surfaceSecondary: "#EEE8AA"
+      surfaceTertiary: "#EEE8AA"
+      textAccent: "#8B4513"
+      textDisabled: "#808080"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#556B2F"
+      textTertiary: "#6B8E23"
+
+  # ===================================================
+  - name: "Marble Column"
+    description: "Classical white marble with grey veining"
+    author: "Mitchell Cohen"
+    feel: classical
+    tags: ["marble", "column", "imported"]
+
+    colors:
+      accent: "#F8F8FF" # GhostWhite
+      accentSecondary: "#F0F0F0" # Light Grey
+      accentTertiary: "#E8E8E8" # Very Light Grey
+      backgroundPrimary: "#FFFFFF" # White
+      backgroundSecondary: "#FAFAFA" # Off White
+      backgroundTertiary: "#F5F5F5" # WhiteSmoke
+      brandPrimary: "#DCDCDC" # Gainsboro
+      brandSecondary: "#D3D3D3" # LightGray
+      brandTertiary: "#C0C0C0" # Silver
+      brandQuaternary: "#F8F8FF"
+      brandQuinary: "#FFFFFE" # Almost White
+      buttonPrimary: "#DCDCDC"
+      buttonSecondary: "#F8F8FF"
+      controlBackground: "#FAFAFA"
+      glassBackground: "#FFFFFF08"
+      glassBorder: "#DCDCDC66"
+      glassOverlay: "#F8F8FF20"
+      glowAccent: "#F8F8FFB3"
+      glowPrimary: "#DCDCDCE6"
+      glowSecondary: "#F0F0F0CC"
+      interactiveActive: "#DCDCDC"
+      interactiveDisabled: "#E8E8E8"
+      interactiveFocus: "#E8E8E8"
+      interactiveHover: "#F8F8FF"
+      interactiveIdle: "#F8F8FFCC"
+      interactivePressed: "#F0F0F0"
+      knobPrimary: "#E8E8E8"
+      knobSecondary: "#F8F8FF"
+      neutralBorder: "#E8E8E8"
+      neutralDivider: "#F5F5F5"
+      neutralHighlight: "#F8F8FFCC"
+      padActive: "#F8F8FF"
+      padInactive: "#F5F5F5"
+      paleGreenAccent: "#DCDCDC80"
+      panelBackground: "#FFFFFF"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#F8F8FF33"
+      shadowMedium: "#00000015"
+      sliderThumb: "#F8F8FF"
+      sliderTrack: "#F5F5F5"
+      stateError: "#DC143C"
+      stateInfo: "#F0F0F0"
+      stateLink: "#F8F8FF"
+      stateSpecial: "#DCDCDC"
+      stateSuccess: "#98FB98"
+      stateWarning: "#FFD700"
+      subtleAccent: "#F5F5F5"
+      surface: "#FAFAFA"
+      surfaceDeep: "#E8E8E8"
+      surfaceElevated: "#FFFFFF"
+      surfacePressed: "#F5F5F5"
+      surfacePrimary: "#FAFAFA"
+      surfaceRaised: "#F5F5F5"
+      surfaceSecondary: "#F5F5F5"
+      surfaceTertiary: "#F5F5F5"
+      textAccent: "#708090"
+      textDisabled: "#C0C0C0"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#696969"
+      textTertiary: "#808080"

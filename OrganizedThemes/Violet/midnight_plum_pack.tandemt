@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Midnight Plum Pack"
+  author: "Mitchell Cohen"
+  description: "Deep plum purples, midnight blues, and rich aubergine tones"
+  tags: ["midnight", "plum", "purple", "aubergine", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Royal Plum"
+    description: "Deep plum with regal purple highlights"
+    author: "Mitchell Cohen"
+    feel: regal
+    tags: ["royal", "plum", "imported"]
+
+    colors:
+      accent: "#663399" # RebeccaPurple
+      accentSecondary: "#8A2BE2" # BlueViolet
+      accentTertiary: "#9932CC" # DarkOrchid
+      backgroundPrimary: "#1A0D1A" # Dark Plum
+      backgroundSecondary: "#2D1A2D"
+      backgroundTertiary: "#402740"
+      brandPrimary: "#BA55D3" # MediumOrchid
+      brandSecondary: "#DDA0DD" # Plum
+      brandTertiary: "#EE82EE" # Violet
+      brandQuaternary: "#663399"
+      brandQuinary: "#F0E1FF" # Light Lavender
+      buttonPrimary: "#BA55D3"
+      buttonSecondary: "#663399"
+      controlBackground: "#2D1A2D"
+      glassBackground: "#1A0D1A08"
+      glassBorder: "#BA55D366"
+      glassOverlay: "#66339920"
+      glowAccent: "#663399B3"
+      glowPrimary: "#BA55D3E6"
+      glowSecondary: "#8A2BE2CC"
+      interactiveActive: "#BA55D3"
+      interactiveDisabled: "#9932CC"
+      interactiveFocus: "#9932CC"
+      interactiveHover: "#663399"
+      interactiveIdle: "#663399CC"
+      interactivePressed: "#8A2BE2"
+      knobPrimary: "#9932CC"
+      knobSecondary: "#663399"
+      neutralBorder: "#9932CC"
+      neutralDivider: "#402740"
+      neutralHighlight: "#663399CC"
+      padActive: "#663399"
+      padInactive: "#402740"
+      paleGreenAccent: "#BA55D380"
+      panelBackground: "#1A0D1A"
+      shadowDark: "#BA55D380"
+      shadowDeep: "#BA55D3A0"
+      shadowLight: "#66339933"
+      shadowMedium: "#BA55D350"
+      sliderThumb: "#663399"
+      sliderTrack: "#402740"
+      stateError: "#8B0000"
+      stateInfo: "#8A2BE2"
+      stateLink: "#663399"
+      stateSpecial: "#BA55D3"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#402740"
+      surface: "#2D1A2D"
+      surfaceDeep: "#9932CC"
+      surfaceElevated: "#1A0D1A"
+      surfacePressed: "#402740"
+      surfacePrimary: "#2D1A2D"
+      surfaceRaised: "#402740"
+      surfaceSecondary: "#402740"
+      surfaceTertiary: "#402740"
+      textAccent: "#BA55D3"
+      textDisabled: "#8A2BE2"
+      textHighlight: "#F5E6FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F0E1FF"
+      textTertiary: "#E6D5FF"
+
+  # ===================================================
+  - name: "Aubergine Night"
+    description: "Rich aubergine with deep midnight undertones"
+    author: "Mitchell Cohen"
+    feel: sophisticated
+    tags: ["aubergine", "night", "imported"]
+
+    colors:
+      accent: "#4B0082" # Indigo
+      accentSecondary: "#6A0DAD" # Blue Violet
+      accentTertiary: "#800080" # Purple
+      backgroundPrimary: "#191970" # MidnightBlue
+      backgroundSecondary: "#2F2F70"
+      backgroundTertiary: "#454590"
+      brandPrimary: "#9370DB" # MediumPurple
+      brandSecondary: "#7B68EE" # MediumSlateBlue
+      brandTertiary: "#6A5ACD" # SlateBlue
+      brandQuaternary: "#4B0082"
+      brandQuinary: "#E6E6FA" # Lavender
+      buttonPrimary: "#9370DB"
+      buttonSecondary: "#4B0082"
+      controlBackground: "#2F2F70"
+      glassBackground: "#19197008"
+      glassBorder: "#9370DB66"
+      glassOverlay: "#4B008220"
+      glowAccent: "#4B0082B3"
+      glowPrimary: "#9370DBE6"
+      glowSecondary: "#6A0DADCC"
+      interactiveActive: "#9370DB"
+      interactiveDisabled: "#800080"
+      interactiveFocus: "#800080"
+      interactiveHover: "#4B0082"
+      interactiveIdle: "#4B0082CC"
+      interactivePressed: "#6A0DAD"
+      knobPrimary: "#800080"
+      knobSecondary: "#4B0082"
+      neutralBorder: "#800080"
+      neutralDivider: "#454590"
+      neutralHighlight: "#4B0082CC"
+      padActive: "#4B0082"
+      padInactive: "#454590"
+      paleGreenAccent: "#9370DB80"
+      panelBackground: "#191970"
+      shadowDark: "#9370DB80"
+      shadowDeep: "#9370DBA0"
+      shadowLight: "#4B008233"
+      shadowMedium: "#9370DB50"
+      sliderThumb: "#4B0082"
+      sliderTrack: "#454590"
+      stateError: "#8B0000"
+      stateInfo: "#6A0DAD"
+      stateLink: "#4B0082"
+      stateSpecial: "#9370DB"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#454590"
+      surface: "#2F2F70"
+      surfaceDeep: "#800080"
+      surfaceElevated: "#191970"
+      surfacePressed: "#454590"
+      surfacePrimary: "#2F2F70"
+      surfaceRaised: "#454590"
+      surfaceSecondary: "#454590"
+      surfaceTertiary: "#454590"
+      textAccent: "#9370DB"
+      textDisabled: "#6A0DAD"
+      textHighlight: "#F0F0FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E6E6FA"
+      textTertiary: "#D8BFD8"
+
+  # ===================================================
+  - name: "Velvet Shadow"
+    description: "Luxurious dark velvet with mysterious purple shadows"
+    author: "Mitchell Cohen"
+    feel: mysterious
+    tags: ["velvet", "shadow", "imported"]
+
+    colors:
+      accent: "#2E0854" # Dark Purple
+      accentSecondary: "#3D0A72" # Darker Purple
+      accentTertiary: "#4C0C90" # Medium Purple
+      backgroundPrimary: "#0A0515" # Very Dark Purple
+      backgroundSecondary: "#150A2A"
+      backgroundTertiary: "#200F3F"
+      brandPrimary: "#8B008B" # DarkMagenta
+      brandSecondary: "#9400D3" # DarkViolet
+      brandTertiary: "#9932CC" # DarkOrchid
+      brandQuaternary: "#2E0854"
+      brandQuinary: "#DDA0DD" # Plum
+      buttonPrimary: "#8B008B"
+      buttonSecondary: "#2E0854"
+      controlBackground: "#150A2A"
+      glassBackground: "#0A051508"
+      glassBorder: "#8B008B66"
+      glassOverlay: "#2E085420"
+      glowAccent: "#2E0854B3"
+      glowPrimary: "#8B008BE6"
+      glowSecondary: "#3D0A72CC"
+      interactiveActive: "#8B008B"
+      interactiveDisabled: "#4C0C90"
+      interactiveFocus: "#4C0C90"
+      interactiveHover: "#2E0854"
+      interactiveIdle: "#2E0854CC"
+      interactivePressed: "#3D0A72"
+      knobPrimary: "#4C0C90"
+      knobSecondary: "#2E0854"
+      neutralBorder: "#4C0C90"
+      neutralDivider: "#200F3F"
+      neutralHighlight: "#2E0854CC"
+      padActive: "#2E0854"
+      padInactive: "#200F3F"
+      paleGreenAccent: "#8B008B80"
+      panelBackground: "#0A0515"
+      shadowDark: "#8B008B80"
+      shadowDeep: "#8B008BA0"
+      shadowLight: "#2E085433"
+      shadowMedium: "#8B008B50"
+      sliderThumb: "#2E0854"
+      sliderTrack: "#200F3F"
+      stateError: "#8B0000"
+      stateInfo: "#3D0A72"
+      stateLink: "#2E0854"
+      stateSpecial: "#8B008B"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#200F3F"
+      surface: "#150A2A"
+      surfaceDeep: "#4C0C90"
+      surfaceElevated: "#0A0515"
+      surfacePressed: "#200F3F"
+      surfacePrimary: "#150A2A"
+      surfaceRaised: "#200F3F"
+      surfaceSecondary: "#200F3F"
+      surfaceTertiary: "#200F3F"
+      textAccent: "#8B008B"
+      textDisabled: "#3D0A72"
+      textHighlight: "#E6D5FF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#DDA0DD"
+      textTertiary: "#D8BFD8"

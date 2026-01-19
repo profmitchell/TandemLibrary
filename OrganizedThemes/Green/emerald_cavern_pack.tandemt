@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Emerald Cavern Pack"
+  author: "Mitchell Cohen"
+  description: "Deep emerald crystal caves, glowing gem formations, and underground springs"
+  tags: ["emerald", "cavern", "crystal", "underground", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Crystal Formation"
+    description: "Brilliant emerald crystals growing in cave walls"
+    author: "Mitchell Cohen"
+    feel: crystalline
+    tags: ["crystal", "formation", "imported"]
+
+    colors:
+      accent: "#50C878" # Emerald
+      accentSecondary: "#00FF7F" # SpringGreen
+      accentTertiary: "#32CD32" # LimeGreen
+      backgroundPrimary: "#013220" # Dark Forest Green
+      backgroundSecondary: "#024A30"
+      backgroundTertiary: "#036240"
+      brandPrimary: "#90EE90" # LightGreen
+      brandSecondary: "#98FB98" # PaleGreen
+      brandTertiary: "#ADFF2F" # GreenYellow
+      brandQuaternary: "#50C878"
+      brandQuinary: "#F0FFF0" # Honeydew
+      buttonPrimary: "#90EE90"
+      buttonSecondary: "#50C878"
+      controlBackground: "#024A30"
+      glassBackground: "#01322008"
+      glassBorder: "#90EE9066"
+      glassOverlay: "#50C87820"
+      glowAccent: "#50C878B3"
+      glowPrimary: "#90EE90E6"
+      glowSecondary: "#00FF7FCC"
+      interactiveActive: "#90EE90"
+      interactiveDisabled: "#32CD32"
+      interactiveFocus: "#32CD32"
+      interactiveHover: "#50C878"
+      interactiveIdle: "#50C878CC"
+      interactivePressed: "#00FF7F"
+      knobPrimary: "#32CD32"
+      knobSecondary: "#50C878"
+      neutralBorder: "#32CD32"
+      neutralDivider: "#036240"
+      neutralHighlight: "#50C878CC"
+      padActive: "#50C878"
+      padInactive: "#036240"
+      paleGreenAccent: "#90EE9080"
+      panelBackground: "#013220"
+      shadowDark: "#90EE9080"
+      shadowDeep: "#90EE90A0"
+      shadowLight: "#50C87833"
+      shadowMedium: "#90EE9050"
+      sliderThumb: "#50C878"
+      sliderTrack: "#036240"
+      stateError: "#8B0000"
+      stateInfo: "#00FF7F"
+      stateLink: "#50C878"
+      stateSpecial: "#90EE90"
+      stateSuccess: "#32CD32"
+      stateWarning: "#DAA520"
+      subtleAccent: "#036240"
+      surface: "#024A30"
+      surfaceDeep: "#32CD32"
+      surfaceElevated: "#013220"
+      surfacePressed: "#036240"
+      surfacePrimary: "#024A30"
+      surfaceRaised: "#036240"
+      surfaceSecondary: "#036240"
+      surfaceTertiary: "#036240"
+      textAccent: "#90EE90"
+      textDisabled: "#00FF7F"
+      textHighlight: "#F5FFF5"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F0FFF0"
+      textTertiary: "#E8F5E8"
+
+  # ===================================================
+  - name: "Underground Spring"
+    description: "Clear underground spring with emerald reflections"
+    author: "Mitchell Cohen"
+    feel: refreshing
+    tags: ["underground", "spring", "imported"]
+
+    colors:
+      accent: "#20B2AA" # LightSeaGreen
+      accentSecondary: "#40E0D0" # Turquoise
+      accentTertiary: "#48D1CC" # MediumTurquoise
+      backgroundPrimary: "#F0FFFF" # Azure
+      backgroundSecondary: "#E0FFFF" # LightCyan
+      backgroundTertiary: "#AFEEEE" # PaleTurquoise
+      brandPrimary: "#00CED1" # DarkTurquoise
+      brandSecondary: "#00FFFF" # Aqua
+      brandTertiary: "#7FFFD4" # Aquamarine
+      brandQuaternary: "#20B2AA"
+      brandQuinary: "#F5FFFA" # MintCream
+      buttonPrimary: "#00CED1"
+      buttonSecondary: "#20B2AA"
+      controlBackground: "#E0FFFF"
+      glassBackground: "#F0FFFF08"
+      glassBorder: "#00CED166"
+      glassOverlay: "#20B2AA20"
+      glowAccent: "#20B2AAB3"
+      glowPrimary: "#00CED1E6"
+      glowSecondary: "#40E0D0CC"
+      interactiveActive: "#00CED1"
+      interactiveDisabled: "#48D1CC"
+      interactiveFocus: "#48D1CC"
+      interactiveHover: "#20B2AA"
+      interactiveIdle: "#20B2AACC"
+      interactivePressed: "#40E0D0"
+      knobPrimary: "#48D1CC"
+      knobSecondary: "#20B2AA"
+      neutralBorder: "#48D1CC"
+      neutralDivider: "#AFEEEE"
+      neutralHighlight: "#20B2AACC"
+      padActive: "#20B2AA"
+      padInactive: "#AFEEEE"
+      paleGreenAccent: "#00CED180"
+      panelBackground: "#F0FFFF"
+      shadowDark: "#00000020"
+      shadowDeep: "#00000030"
+      shadowLight: "#20B2AA33"
+      shadowMedium: "#00000015"
+      sliderThumb: "#20B2AA"
+      sliderTrack: "#AFEEEE"
+      stateError: "#DC143C"
+      stateInfo: "#40E0D0"
+      stateLink: "#20B2AA"
+      stateSpecial: "#00CED1"
+      stateSuccess: "#32CD32"
+      stateWarning: "#FFD700"
+      subtleAccent: "#AFEEEE"
+      surface: "#E0FFFF"
+      surfaceDeep: "#48D1CC"
+      surfaceElevated: "#F0FFFF"
+      surfacePressed: "#AFEEEE"
+      surfacePrimary: "#E0FFFF"
+      surfaceRaised: "#AFEEEE"
+      surfaceSecondary: "#AFEEEE"
+      surfaceTertiary: "#AFEEEE"
+      textAccent: "#008B8B"
+      textDisabled: "#40E0D0"
+      textHighlight: "#FFFFFF"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#008B8B"
+      textTertiary: "#20B2AA"
+
+  # ===================================================
+  - name: "Cave Depths"
+    description: "Deep cave darkness with mysterious emerald glows"
+    author: "Mitchell Cohen"
+    feel: mysterious
+    tags: ["cave", "depths", "imported"]
+
+    colors:
+      accent: "#2E8B57" # SeaGreen
+      accentSecondary: "#3CB371" # MediumSeaGreen
+      accentTertiary: "#66CDAA" # MediumAquamarine
+      backgroundPrimary: "#0F1B0F" # Very Dark Green
+      backgroundSecondary: "#1F331F"
+      backgroundTertiary: "#2F4B2F"
+      brandPrimary: "#8FBC8F" # DarkSeaGreen
+      brandSecondary: "#9ACD32" # YellowGreen
+      brandTertiary: "#90EE90" # LightGreen
+      brandQuaternary: "#2E8B57"
+      brandQuinary: "#F5FFFA" # MintCream
+      buttonPrimary: "#8FBC8F"
+      buttonSecondary: "#2E8B57"
+      controlBackground: "#1F331F"
+      glassBackground: "#0F1B0F08"
+      glassBorder: "#8FBC8F66"
+      glassOverlay: "#2E8B5720"
+      glowAccent: "#2E8B57B3"
+      glowPrimary: "#8FBC8FE6"
+      glowSecondary: "#3CB371CC"
+      interactiveActive: "#8FBC8F"
+      interactiveDisabled: "#66CDAA"
+      interactiveFocus: "#66CDAA"
+      interactiveHover: "#2E8B57"
+      interactiveIdle: "#2E8B57CC"
+      interactivePressed: "#3CB371"
+      knobPrimary: "#66CDAA"
+      knobSecondary: "#2E8B57"
+      neutralBorder: "#66CDAA"
+      neutralDivider: "#2F4B2F"
+      neutralHighlight: "#2E8B57CC"
+      padActive: "#2E8B57"
+      padInactive: "#2F4B2F"
+      paleGreenAccent: "#8FBC8F80"
+      panelBackground: "#0F1B0F"
+      shadowDark: "#8FBC8F80"
+      shadowDeep: "#8FBC8FA0"
+      shadowLight: "#2E8B5733"
+      shadowMedium: "#8FBC8F50"
+      sliderThumb: "#2E8B57"
+      sliderTrack: "#2F4B2F"
+      stateError: "#8B0000"
+      stateInfo: "#3CB371"
+      stateLink: "#2E8B57"
+      stateSpecial: "#8FBC8F"
+      stateSuccess: "#32CD32"
+      stateWarning: "#DAA520"
+      subtleAccent: "#2F4B2F"
+      surface: "#1F331F"
+      surfaceDeep: "#66CDAA"
+      surfaceElevated: "#0F1B0F"
+      surfacePressed: "#2F4B2F"
+      surfacePrimary: "#1F331F"
+      surfaceRaised: "#2F4B2F"
+      surfaceSecondary: "#2F4B2F"
+      surfaceTertiary: "#2F4B2F"
+      textAccent: "#8FBC8F"
+      textDisabled: "#3CB371"
+      textHighlight: "#F0FFF0"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F5FFFA"
+      textTertiary: "#E8F5E8"

@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Bronze Patina Pack"
+  author: "Mitchell Cohen"
+  description: "Aged bronze metals, green patina oxidation, and antique copper tones"
+  tags: ["bronze", "patina", "antique", "copper", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Ancient Bronze"
+    description: "Ancient bronze artifacts with weathered surfaces"
+    author: "Mitchell Cohen"
+    feel: ancient
+    tags: ["ancient", "bronze", "imported"]
+
+    colors:
+      accent: "#CD7F32" # Bronze
+      accentSecondary: "#B8860B" # DarkGoldenRod
+      accentTertiary: "#A0522D" # Sienna
+      backgroundPrimary: "#2E1F0C" # Dark Brown
+      backgroundSecondary: "#3E2F1C"
+      backgroundTertiary: "#4E3F2C"
+      brandPrimary: "#DAA520" # GoldenRod
+      brandSecondary: "#DEB887" # BurlyWood
+      brandTertiary: "#D2B48C" # Tan
+      brandQuaternary: "#CD7F32"
+      brandQuinary: "#FFF8DC" # Cornsilk
+      buttonPrimary: "#DAA520"
+      buttonSecondary: "#CD7F32"
+      controlBackground: "#3E2F1C"
+      glassBackground: "#2E1F0C08"
+      glassBorder: "#DAA52066"
+      glassOverlay: "#CD7F3220"
+      glowAccent: "#CD7F32B3"
+      glowPrimary: "#DAA520E6"
+      glowSecondary: "#B8860BCC"
+      interactiveActive: "#DAA520"
+      interactiveDisabled: "#A0522D"
+      interactiveFocus: "#A0522D"
+      interactiveHover: "#CD7F32"
+      interactiveIdle: "#CD7F32CC"
+      interactivePressed: "#B8860B"
+      knobPrimary: "#A0522D"
+      knobSecondary: "#CD7F32"
+      neutralBorder: "#A0522D"
+      neutralDivider: "#4E3F2C"
+      neutralHighlight: "#CD7F32CC"
+      padActive: "#CD7F32"
+      padInactive: "#4E3F2C"
+      paleGreenAccent: "#DAA52080"
+      panelBackground: "#2E1F0C"
+      shadowDark: "#DAA52080"
+      shadowDeep: "#DAA520A0"
+      shadowLight: "#CD7F3233"
+      shadowMedium: "#DAA52050"
+      sliderThumb: "#CD7F32"
+      sliderTrack: "#4E3F2C"
+      stateError: "#8B0000"
+      stateInfo: "#B8860B"
+      stateLink: "#CD7F32"
+      stateSpecial: "#DAA520"
+      stateSuccess: "#228B22"
+      stateWarning: "#FF8C00"
+      subtleAccent: "#4E3F2C"
+      surface: "#3E2F1C"
+      surfaceDeep: "#A0522D"
+      surfaceElevated: "#2E1F0C"
+      surfacePressed: "#4E3F2C"
+      surfacePrimary: "#3E2F1C"
+      surfaceRaised: "#4E3F2C"
+      surfaceSecondary: "#4E3F2C"
+      surfaceTertiary: "#4E3F2C"
+      textAccent: "#DAA520"
+      textDisabled: "#B8860B"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#F5DEB3"
+      textTertiary: "#DEB887"
+
+  # ===================================================
+  - name: "Verdigris Bloom"
+    description: "Beautiful green verdigris patina blooming on copper"
+    author: "Mitchell Cohen"
+    feel: oxidized
+    tags: ["verdigris", "bloom", "imported"]
+
+    colors:
+      accent: "#40826D" # Verdigris Green
+      accentSecondary: "#2E8B57" # SeaGreen
+      accentTertiary: "#3CB371" # MediumSeaGreen
+      backgroundPrimary: "#1B2F1B" # Dark Green Brown
+      backgroundSecondary: "#2A4A2A"
+      backgroundTertiary: "#396539"
+      brandPrimary: "#B87333" # Copper
+      brandSecondary: "#CD7F32" # Bronze
+      brandTertiary: "#D2B48C" # Tan
+      brandQuaternary: "#40826D"
+      brandQuinary: "#F0FFF0" # Honeydew
+      buttonPrimary: "#B87333"
+      buttonSecondary: "#40826D"
+      controlBackground: "#2A4A2A"
+      glassBackground: "#1B2F1B08"
+      glassBorder: "#B8733366"
+      glassOverlay: "#40826D20"
+      glowAccent: "#40826DB3"
+      glowPrimary: "#B87333E6"
+      glowSecondary: "#2E8B57CC"
+      interactiveActive: "#B87333"
+      interactiveDisabled: "#3CB371"
+      interactiveFocus: "#3CB371"
+      interactiveHover: "#40826D"
+      interactiveIdle: "#40826DCC"
+      interactivePressed: "#2E8B57"
+      knobPrimary: "#3CB371"
+      knobSecondary: "#40826D"
+      neutralBorder: "#3CB371"
+      neutralDivider: "#396539"
+      neutralHighlight: "#40826DCC"
+      padActive: "#40826D"
+      padInactive: "#396539"
+      paleGreenAccent: "#B8733380"
+      panelBackground: "#1B2F1B"
+      shadowDark: "#B8733380"
+      shadowDeep: "#B87333A0"
+      shadowLight: "#40826D33"
+      shadowMedium: "#B8733350"
+      sliderThumb: "#40826D"
+      sliderTrack: "#396539"
+      stateError: "#8B0000"
+      stateInfo: "#2E8B57"
+      stateLink: "#40826D"
+      stateSpecial: "#B87333"
+      stateSuccess: "#32CD32"
+      stateWarning: "#DAA520"
+      subtleAccent: "#396539"
+      surface: "#2A4A2A"
+      surfaceDeep: "#3CB371"
+      surfaceElevated: "#1B2F1B"
+      surfacePressed: "#396539"
+      surfacePrimary: "#2A4A2A"
+      surfaceRaised: "#396539"
+      surfaceSecondary: "#396539"
+      surfaceTertiary: "#396539"
+      textAccent: "#B87333"
+      textDisabled: "#2E8B57"
+      textHighlight: "#F0FFF0"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#98FB98"
+      textTertiary: "#90EE90"
+
+  # ===================================================
+  - name: "Tarnished Silver"
+    description: "Antique silver with dark tarnish patterns"
+    author: "Mitchell Cohen"
+    feel: tarnished
+    tags: ["tarnished", "silver", "imported"]
+
+    colors:
+      accent: "#8C7853" # Dark Tan
+      accentSecondary: "#A0522D" # Sienna
+      accentTertiary: "#BC8F8F" # RosyBrown
+      backgroundPrimary: "#F5F5DC" # Beige
+      backgroundSecondary: "#FAEBD7" # AntiqueWhite
+      backgroundTertiary: "#F0E68C" # Khaki
+      brandPrimary: "#C0C0C0" # Silver
+      brandSecondary: "#D3D3D3" # LightGray
+      brandTertiary: "#DCDCDC" # Gainsboro
+      brandQuaternary: "#8C7853"
+      brandQuinary: "#FFF8DC" # Cornsilk
+      buttonPrimary: "#C0C0C0"
+      buttonSecondary: "#8C7853"
+      controlBackground: "#FAEBD7"
+      glassBackground: "#F5F5DC08"
+      glassBorder: "#C0C0C066"
+      glassOverlay: "#8C785320"
+      glowAccent: "#8C7853B3"
+      glowPrimary: "#C0C0C0E6"
+      glowSecondary: "#A0522DCC"
+      interactiveActive: "#C0C0C0"
+      interactiveDisabled: "#BC8F8F"
+      interactiveFocus: "#BC8F8F"
+      interactiveHover: "#8C7853"
+      interactiveIdle: "#8C7853CC"
+      interactivePressed: "#A0522D"
+      knobPrimary: "#BC8F8F"
+      knobSecondary: "#8C7853"
+      neutralBorder: "#BC8F8F"
+      neutralDivider: "#F0E68C"
+      neutralHighlight: "#8C7853CC"
+      padActive: "#8C7853"
+      padInactive: "#F0E68C"
+      paleGreenAccent: "#C0C0C080"
+      panelBackground: "#F5F5DC"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#8C785333"
+      shadowMedium: "#00000020"
+      sliderThumb: "#8C7853"
+      sliderTrack: "#F0E68C"
+      stateError: "#B22222"
+      stateInfo: "#A0522D"
+      stateLink: "#8C7853"
+      stateSpecial: "#C0C0C0"
+      stateSuccess: "#228B22"
+      stateWarning: "#DAA520"
+      subtleAccent: "#F0E68C"
+      surface: "#FAEBD7"
+      surfaceDeep: "#BC8F8F"
+      surfaceElevated: "#F5F5DC"
+      surfacePressed: "#F0E68C"
+      surfacePrimary: "#FAEBD7"
+      surfaceRaised: "#F0E68C"
+      surfaceSecondary: "#F0E68C"
+      surfaceTertiary: "#F0E68C"
+      textAccent: "#696969"
+      textDisabled: "#A0522D"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#2F4F4F"
+      textSecondary: "#556B2F"
+      textTertiary: "#6B8E23"

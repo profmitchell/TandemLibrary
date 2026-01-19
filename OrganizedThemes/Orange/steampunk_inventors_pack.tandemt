@@ -1,0 +1,222 @@
+format: tandem-theme-dsl
+version: 0.1
+
+metadata:
+  name: "Steampunk Inventors Pack"
+  author: "Mitchell Cohen"
+  description: "Victorian futurism with brass gears, copper pipes, and polished wood"
+  tags: ["steampunk", "victorian", "industrial", "retro", "professional"]
+
+themes:
+  # ===================================================
+  - name: "Clockwork Heart"
+    description: "Intricate brass gears and polished copper workings"
+    author: "Mitchell Cohen"
+    feel: intricate
+    tags: ["clockwork", "brass", "imported"]
+
+    colors:
+      accent: "#B87333" # Copper
+      accentSecondary: "#CD7F32" # Bronze
+      accentTertiary: "#A1662F"
+      backgroundPrimary: "#3D2B1F" # Dark Wood
+      backgroundSecondary: "#5C3D2E"
+      backgroundTertiary: "#6D4C3A"
+      brandPrimary: "#FFD700" # Gold
+      brandSecondary: "#DAA520"
+      brandTertiary: "#B8860B"
+      brandQuaternary: "#B87333"
+      brandQuinary: "#F0E68C" # Khaki
+      buttonPrimary: "#FFD700"
+      buttonSecondary: "#B87333"
+      controlBackground: "#5C3D2E"
+      glassBackground: "#3D2B1F08"
+      glassBorder: "#FFD70066"
+      glassOverlay: "#B8733320"
+      glowAccent: "#B87333B3"
+      glowPrimary: "#FFD700E6"
+      glowSecondary: "#CD7F32CC"
+      interactiveActive: "#FFD700"
+      interactiveDisabled: "#A1662F"
+      interactiveFocus: "#A1662F"
+      interactiveHover: "#B87333"
+      interactiveIdle: "#B87333CC"
+      interactivePressed: "#CD7F32"
+      knobPrimary: "#A1662F"
+      knobSecondary: "#B87333"
+      neutralBorder: "#A1662F"
+      neutralDivider: "#6D4C3A"
+      neutralHighlight: "#B87333CC"
+      padActive: "#B87333"
+      padInactive: "#6D4C3A"
+      paleGreenAccent: "#FFD70080"
+      panelBackground: "#3D2B1F"
+      shadowDark: "#00000080"
+      shadowDeep: "#000000A0"
+      shadowLight: "#B8733333"
+      shadowMedium: "#00000050"
+      sliderThumb: "#B87333"
+      sliderTrack: "#6D4C3A"
+      stateError: "#8B0000"
+      stateInfo: "#CD7F32"
+      stateLink: "#B87333"
+      stateSpecial: "#FFD700"
+      stateSuccess: "#006400"
+      stateWarning: "#DAA520"
+      subtleAccent: "#6D4C3A"
+      surface: "#5C3D2E"
+      surfaceDeep: "#A1662F"
+      surfaceElevated: "#3D2B1F"
+      surfacePressed: "#6D4C3A"
+      surfacePrimary: "#5C3D2E"
+      surfaceRaised: "#6D4C3A"
+      surfaceSecondary: "#6D4C3A"
+      surfaceTertiary: "#6D4C3A"
+      textAccent: "#DAA520"
+      textDisabled: "#CD7F32"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#F5F5DC" # Beige
+      textSecondary: "#EEE8AA"
+      textTertiary: "#D2B48C"
+
+  # ===================================================
+  - name: "Aetherium Lab"
+    description: "Glowing vacuum tubes and electric blue plasma"
+    author: "Mitchell Cohen"
+    feel: scientific
+    tags: ["aetherium", "lab", "imported"]
+
+    colors:
+      accent: "#00FFFF" # Aqua
+      accentSecondary: "#40E0D0" # Turquoise
+      accentTertiary: "#20B2AA" # LightSeaGreen
+      backgroundPrimary: "#1A1A2E" # Dark Slate Blue
+      backgroundSecondary: "#2A2A42"
+      backgroundTertiary: "#3A3A56"
+      brandPrimary: "#AFEEEE" # PaleTurquoise
+      brandSecondary: "#7FFFD4" # Aquamarine
+      brandTertiary: "#66CDAA" # MediumAquamarine
+      brandQuaternary: "#00FFFF"
+      brandQuinary: "#E0FFFF" # LightCyan
+      buttonPrimary: "#AFEEEE"
+      buttonSecondary: "#00FFFF"
+      controlBackground: "#2A2A42"
+      glassBackground: "#1A1A2E08"
+      glassBorder: "#AFEEEE66"
+      glassOverlay: "#00FFFF20"
+      glowAccent: "#00FFFFB3"
+      glowPrimary: "#AFEEEE E6"
+      glowSecondary: "#40E0D0CC"
+      interactiveActive: "#AFEEEE"
+      interactiveDisabled: "#20B2AA"
+      interactiveFocus: "#20B2AA"
+      interactiveHover: "#00FFFF"
+      interactiveIdle: "#00FFFFCC"
+      interactivePressed: "#40E0D0"
+      knobPrimary: "#20B2AA"
+      knobSecondary: "#00FFFF"
+      neutralBorder: "#20B2AA"
+      neutralDivider: "#3A3A56"
+      neutralHighlight: "#00FFFFCC"
+      padActive: "#00FFFF"
+      padInactive: "#3A3A56"
+      paleGreenAccent: "#AFEEEE80"
+      panelBackground: "#1A1A2E"
+      shadowDark: "#00000080"
+      shadowDeep: "#000000A0"
+      shadowLight: "#00FFFF33"
+      shadowMedium: "#00000050"
+      sliderThumb: "#00FFFF"
+      sliderTrack: "#3A3A56"
+      stateError: "#B22222"
+      stateInfo: "#40E0D0"
+      stateLink: "#00FFFF"
+      stateSpecial: "#AFEEEE"
+      stateSuccess: "#3CB371"
+      stateWarning: "#FFA500"
+      subtleAccent: "#3A3A56"
+      surface: "#2A2A42"
+      surfaceDeep: "#20B2AA"
+      surfaceElevated: "#1A1A2E"
+      surfacePressed: "#3A3A56"
+      surfacePrimary: "#2A2A42"
+      surfaceRaised: "#3A3A56"
+      surfaceSecondary: "#3A3A56"
+      surfaceTertiary: "#3A3A56"
+      textAccent: "#7FFFD4"
+      textDisabled: "#40E0D0"
+      textHighlight: "#F0FFFF"
+      textPrimary: "#FFFFFF"
+      textSecondary: "#E0FFFF"
+      textTertiary: "#B0E0E6"
+
+  # ===================================================
+  - name: "Aviator's Deck"
+    description: "Worn leather, aged brass, and sky-blue horizons"
+    author: "Mitchell Cohen"
+    feel: adventurous
+    tags: ["aviator", "leather", "imported"]
+
+    colors:
+      accent: "#8B4513" # SaddleBrown
+      accentSecondary: "#A0522D" # Sienna
+      accentTertiary: "#800000" # Maroon
+      backgroundPrimary: "#F5F5DC" # Beige
+      backgroundSecondary: "#F0E68C" # Khaki
+      backgroundTertiary: "#EEE8AA" # PaleGoldenrod
+      brandPrimary: "#4682B4" # SteelBlue
+      brandSecondary: "#5F9EA0" # CadetBlue
+      brandTertiary: "#6495ED" # CornflowerBlue
+      brandQuaternary: "#8B4513"
+      brandQuinary: "#D2B48C" # Tan
+      buttonPrimary: "#4682B4"
+      buttonSecondary: "#8B4513"
+      controlBackground: "#F0E68C"
+      glassBackground: "#F5F5DC08"
+      glassBorder: "#4682B466"
+      glassOverlay: "#8B451320"
+      glowAccent: "#8B4513B3"
+      glowPrimary: "#4682B4E6"
+      glowSecondary: "#A0522DCC"
+      interactiveActive: "#4682B4"
+      interactiveDisabled: "#800000"
+      interactiveFocus: "#800000"
+      interactiveHover: "#8B4513"
+      interactiveIdle: "#8B4513CC"
+      interactivePressed: "#A0522D"
+      knobPrimary: "#800000"
+      knobSecondary: "#8B4513"
+      neutralBorder: "#800000"
+      neutralDivider: "#EEE8AA"
+      neutralHighlight: "#8B4513CC"
+      padActive: "#8B4513"
+      padInactive: "#EEE8AA"
+      paleGreenAccent: "#4682B480"
+      panelBackground: "#F5F5DC"
+      shadowDark: "#00000030"
+      shadowDeep: "#00000040"
+      shadowLight: "#8B451333"
+      shadowMedium: "#00000020"
+      sliderThumb: "#8B4513"
+      sliderTrack: "#EEE8AA"
+      stateError: "#B22222"
+      stateInfo: "#A0522D"
+      stateLink: "#8B4513"
+      stateSpecial: "#4682B4"
+      stateSuccess: "#2E8B57"
+      stateWarning: "#DAA520"
+      subtleAccent: "#EEE8AA"
+      surface: "#F0E68C"
+      surfaceDeep: "#800000"
+      surfaceElevated: "#F5F5DC"
+      surfacePressed: "#EEE8AA"
+      surfacePrimary: "#F0E68C"
+      surfaceRaised: "#EEE8AA"
+      surfaceSecondary: "#EEE8AA"
+      surfaceTertiary: "#EEE8AA"
+      textAccent: "#A0522D"
+      textDisabled: "#A0522D"
+      textHighlight: "#FFF8DC"
+      textPrimary: "#36271A"
+      textSecondary: "#5C3D2E"
+      textTertiary: "#6D4C3A"
